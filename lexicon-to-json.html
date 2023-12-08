@@ -8,8 +8,13 @@
   <div id='JSONoutput'></div>
   <script>
   window.onload = function () {
-    //Feature: add capability to provide the lexicon URL in the address bar
-    let lexiconURL = "lexicon.xml";
+    let lexiconURL = "lexicon.xml"; // ?lexicon= overwrites this
+    const urlParams = new URLSearchParams(window.location.search);
+    lexiconURL = (urlParams.get("lexicon") || lexiconURL);
+    
+    console.log(lexiconURL);
+    
+    
     let outputNode = document.getElementById("JSONoutput");
     let output = null;
     
