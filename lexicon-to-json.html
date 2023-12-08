@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src='lexicon-to-json.js'></script>
+  </head>
+
+<body>
+  <div id='JSONoutput'></div>
+  <script>
+  window.onload = function () {
+    //Feature: add capability to provide the lexicon URL in the address bar
+    let lexiconURL = "lexicon.xml";
+    let outputNode = document.getElementById("JSONoutput");
+    let output = null;
+    
+    encodeLexicon(lexiconURL)
+      .then((data) => {
+        output = JSON.stringify(data);
+        })
+      .catch ((error) => {
+        output = error;
+        console.log(error);
+        })
+      .then (() => {
+        outputNode.innerHTML = output;
+        });
+    };
+  </script>
+</body>
+
+</html>
