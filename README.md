@@ -5,7 +5,7 @@ A little JS app to make Abbott-Smith searchable and usable with a focus on good 
 - [ ] Refactor the code to search via JS data structure rather than raw XML
 - [ ] Implement searching by Strongs #
 - [ ] Fix the ref tagger to tag _all_ references (using 'osisref' element in XML)
-- [ ] Replace BLB ref tagger with a simpler/cleaner approach. Maybe use [SBL GNT]([url](https://github.com/LogosBible/SBLGNT/tree/master/data/sblgnt/xml))? See also Bible API [1]([url](https://bible.helloao.org/docs/guide/making-requests.html)) and [2]([url](https://fetch.bible/access/client/))
+- [ ] Replace BLB ref tagger with a simpler/cleaner approach. Maybe use [SBL GNT](https://github.com/LogosBible/SBLGNT/tree/master/data/sblgnt/xml)? See also Bible API [1](https://bible.helloao.org/docs/guide/making-requests.html) and [2](https://fetch.bible/access/client/)
 - [ ] Make the "NT Usage #" link to a search for the lemma in STEPBible
 - [ ] Expand all abbreviations or at least make tooltips (with HTML abbr tag) 
 - [ ] Full offline functionality with service workers
