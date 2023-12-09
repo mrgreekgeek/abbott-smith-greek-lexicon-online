@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <script src='greek-helpers.js'></script>
     <script src='lexicon-to-json.js'></script>
   </head>
 
@@ -12,15 +13,12 @@
     const urlParams = new URLSearchParams(window.location.search);
     lexiconURL = (urlParams.get("lexicon") || lexiconURL);
     
-    console.log(lexiconURL);
-    
-    
     let outputNode = document.getElementById("JSONoutput");
     let output = null;
     
     encodeLexicon(lexiconURL)
       .then((data) => {
-        output = JSON.stringify(data);
+        output = JSON.stringify(data).replace(/,/g, ", ");
         })
       .catch ((error) => {
         output = error;
