@@ -27,12 +27,49 @@ function encodeLexicon(lexiconURL) {
             return entry.hasAttribute("lemma");
           });
 
-        return indexLexicon(lexiconEntries);
+        let lexiconIndex = makeLexiconIndex(lexiconEntries);
+        let formattedEntries = formatLexiconEntries(lexiconEntries);
+        
+        return {/*"lexiconIndex": lexiconIndex,*/ "lexiconEntries": formattedEntries};
         });
   }
 
 
-function indexLexicon(lexiconEntries) {
+function formatLexiconEntries(lexiconEntries) {
+  let fEntries = new Array();
+  let callbacks = [
+    //get occurences
+    (e, o) => {
+      o["occurences"] = "";
+      let noteElement = e.querySelector('note[type="occurrencesNT"]');
+      if (noteElement != null) {
+        o["occurences"] = noteElement.textContent;
+        }
+      return o;
+      },
+    ];
+  
+  for (var i in lexiconEntries) {
+    let entry = lexiconEntries[i];
+      let obj = new Object();
+    
+    for (var cI in callbacks) {
+      obj = callbacks[cI](entry, obj);
+      }
+    
+    fEntries.push(obj);
+    }
+  
+  return fEntries;
+  }
+
+
+/*
+This searches all the entries and returns an object of
+{search-key: index-in-entry-array}. Presently, it recognizes lowercase
+greek terms and the strongs number as search-keys.
+*/
+function makeLexiconIndex(lexiconEntries) {
   let curEntry = null,
     entries = new Array(),
     searchTerms = new Object(),
@@ -46,7 +83,7 @@ function indexLexicon(lexiconEntries) {
       
       greekWord = normalizeGreek(greekWord);
       
-      return [greekWord];//, latinWord];
+      return [greekWord];
       },
     //index by strongs number
     (entry) => {
