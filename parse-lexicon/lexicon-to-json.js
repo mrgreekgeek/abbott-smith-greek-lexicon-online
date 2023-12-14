@@ -1,5 +1,77 @@
 "use strict";
 
+
+/*
+This parses the lexicon entry xmlEntry into an object containing these
+properties.
+
+occurrences: The number of occurences.
+  (If an entry does not have this data, this will be null.)
+strongs: An array of Strongs numbers for this word. The first index is the
+  primary. They are supplied in the format that the lexicon supplies them
+  (currently "G27"). If no Strongs numbers exist for this word, the array
+  will be empty.
+word: The word in Greek.
+*/
+function LexiconEntry (xmlEntry) {
+  //create callbacks
+  let callbacks = {
+    //word
+    "word" : (entry) => {
+      let greekWord = entry.getAttribute('lemma').split('|')[0];
+      return normalizeGreek(greekWord);
+      },
+    //innerHTML
+    "innerHTML" : (entry) => {
+      return entry.innerHTML;
+    },
+    //occurrences
+    "occurrences" : (entry) => {
+      let occurrences = null;
+      let noteElement = entry.querySelector('note[type="occurrencesNT"]');
+      if (noteElement != null) {
+        occurrences = noteElement.textContent;
+        }
+      
+      return occurrences;
+      },
+    //senses
+    /*"senses" : (entry) => {
+      let nodes = entry.getElementsByTagName("sense");
+      let senses = [];
+
+      for (let s = 0; s < nodes.length; s++) {
+        senses.push(nodes.innerHTML);
+        }
+      
+      return senses;
+    },*/
+    //strongs number(s)
+    "strongs" : (entry) => {
+      let lemmaNumbers = null,
+        numbers = [entry.getAttribute('strong')]; //main strong number
+      
+      if (numbers[0] == null) {
+        numbers = [];
+        }
+      
+      lemmaNumbers = entry.getAttribute('lemma')
+        .split('|')
+        .splice(1);
+      
+      numbers = numbers.concat(lemmaNumbers);
+      
+      return numbers;
+      },
+  };
+
+  Object.keys(callbacks)
+    .forEach((k) => {
+      this[k] = callbacks[k](xmlEntry);
+    });
+}
+
+
 /*
 This fetches the lexicon found at lexiconURL, parses it, and returns
 an easy to sort representation of it. On failure, we throw an exception
@@ -27,93 +99,46 @@ function encodeLexicon(lexiconURL) {
             return entry.hasAttribute("lemma");
           });
 
-        let lexiconIndex = makeLexiconIndex(lexiconEntries);
-        let formattedEntries = formatLexiconEntries(lexiconEntries);
+
+        let formattedEntries = lexiconEntries.map((xmlElem) => {
+          let entry = new LexiconEntry(xmlElem);
+          //throw(JSON.stringify(entry));
+          return entry;
+          });
+        let lexiconIndex = makeLexiconIndex(formattedEntries);
         
-        return {/*"lexiconIndex": lexiconIndex,*/ "lexiconEntries": formattedEntries};
+        return {"searchTerms": lexiconIndex, "entries": formattedEntries};
         });
-  }
-
-
-function formatLexiconEntries(lexiconEntries) {
-  let fEntries = new Array();
-  let callbacks = [
-    //get occurences
-    (e, o) => {
-      o["occurences"] = "";
-      let noteElement = e.querySelector('note[type="occurrencesNT"]');
-      if (noteElement != null) {
-        o["occurences"] = noteElement.textContent;
-        }
-      return o;
-      },
-    ];
-  
-  for (var i in lexiconEntries) {
-    let entry = lexiconEntries[i];
-      let obj = new Object();
-    
-    for (var cI in callbacks) {
-      obj = callbacks[cI](entry, obj);
-      }
-    
-    fEntries.push(obj);
-    }
-  
-  return fEntries;
   }
 
 
 /*
 This searches all the entries and returns an object of
-{search-key: index-in-entry-array}. Presently, it recognizes lowercase
-greek terms and the strongs number as search-keys.
+{search-key: index-in-entry-array}. Presently, the lowercase greek word,
+lowercase latin variants, and lowercase strongs numbers are saved as keys.
 */
 function makeLexiconIndex(lexiconEntries) {
-  let curEntry = null,
-    entries = new Array(),
-    searchTerms = new Object(),
-    termsToIndex = null;
-  
-  //create callbacks
-  let callbacks = [
-    //index by greek spelling
-    (entry) => {
-      let greekWord = entry.getAttribute('lemma').split('|')[0];
-      
-      greekWord = normalizeGreek(greekWord);
-      
-      return [greekWord];
-      },
-    //index by strongs number
-    (entry) => {
-      let lemmaNumbers = null,
-        numbers = [entry.getAttribute('strong')]; //main strong number
-      
-      lemmaNumbers = entry.getAttribute('lemma')
-        .split('|')
-        .splice(1);
-      
-      numbers = numbers.concat(lemmaNumbers);
-      
-      return numbers;
-      },
-    ];
+  let searchTerms = new Object();
   
   // save the valid search terms from each entry
-  for (var i = 0; i < lexiconEntries.length; i++) {
-    curEntry = lexiconEntries[i];
-    entries.push(curEntry);
-    
-    for (var func in callbacks) {
-      termsToIndex = callbacks[func](curEntry);
-      
-      for (var term in termsToIndex) {
-        let cTerm = termsToIndex[term];
-        searchTerms[cTerm] = i;
-        }
-      }
-    }
+  lexiconEntries.forEach((entry, index) => {
+    let strongs = entry.strongs.map((number) => {
+      return number.toLowerCase();
+      }),
+      termsToIndex = [],
+      word = entry.word.toLowerCase();
+
+    termsToIndex.push(word);
+    termsToIndex = termsToIndex.concat(strongs);
+    getLatinVariants(word, (value) => {
+      termsToIndex.push(value)
+    });
+
+    termsToIndex.forEach((term) => {
+      searchTerms[term] = index;
+      });
+
+    });
   
   return searchTerms;
   }
