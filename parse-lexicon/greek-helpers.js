@@ -59,10 +59,7 @@ function getLatinVariants(greekTerm, logResult, _variant, _position) {
     }
   
   let greekChar = greekTerm[_position];
-  let latinChars = Array.prototype.concat(
-    [],
-    greekToLatinMap[greekChar] || greekChar
-    );
+  let latinChars = [].concat(greekToLatinMap[greekChar] || greekChar);
   
   latinChars.forEach((c) => {
     _variant[_position] = c;
