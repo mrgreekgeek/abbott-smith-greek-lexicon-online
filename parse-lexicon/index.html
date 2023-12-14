@@ -7,7 +7,7 @@
   </head>
 
 <body>
-  <div id='downloadStuff'>
+  <div id='downloadStuff' style="display: none">
     <p>You are only seeing a preview of the data. Please click <a id="downloadLink">Download</a> to save it to your computer.
     </p>
   </div>
@@ -22,6 +22,8 @@
     var anchor = document.getElementById("downloadLink");
     anchor.href = url;
     anchor.download = libraryName + ".js";
+
+    document.getElementById("downloadStuff").style.display = "block";
   }
 
   window.onload = function () {
