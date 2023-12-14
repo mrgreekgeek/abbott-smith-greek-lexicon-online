@@ -3,11 +3,11 @@
 <head>
 <title>Abbott-Smith, A Manual Greek Lexicon of the New Testament Online</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
 <link rel="stylesheet" href="simple.css">
 <script src='https://www.blueletterbible.org/assets-v3/scripts/blbToolTip/BLB_ScriptTagger-min.js' type='text/javascript'></script>
-<style>
-
-</style>
+<script src="parse-lexicon/AbbotSmithData.js"></script>
+<script src="parse-lexicon/AbbotSmithLexicon.js"></script>
 
 </head>
 <body>
@@ -21,7 +21,6 @@
     </svg>
     <input list="suggestions" type="text" autocomplete="off" id="searchTerm" placeholder="Enter your search term">
     <div id="suggestions"></div>
-   <!-- <input type="submit" value="Search"> -->
  </form></center>
  <div class="loader"></div>
  <div id="results"></div>
@@ -40,75 +39,34 @@ The <a href="http://archive.org/details/manualgreeklexic00abborich">original pri
 </footer>
 
 <script>
-    const loader = document.querySelector('.loader');
+    var lexicon = null;
 
-window.onload = function() {
-    loader.style.display = 'block'; // Show loading indicator
+    window.onload = function () {
+        lexicon = new AbbotSmithLexicon();
+        lexicon.attach(AbbotSmithData);
 
-    fetch('lexicon.xml')
-        .then(response => response.text())
-        .then(data => {
-            let parser = new DOMParser();
-            let xmlDoc = parser.parseFromString(data, "text/xml");
-            let lexiconEntries = xmlDoc.getElementsByTagName('entry');
+        document.querySelector('.loader').style.display = 'none'; // hide loading indicator
 
-            loader.style.display = 'none'; // Hide loading indicator
+        //autocomplete function
+        //autocomplete(lexiconEntries);
 
-            //autocomplete function
-            autocomplete(lexiconEntries);
-
-            document.getElementById('searchForm').addEventListener('submit', function(event) {
-                event.preventDefault();
-                search(lexiconEntries);
-            });
-
-            // Check if there's a 'search' parameter in the URL
-            const urlSearchTerm = getURLParameter('search');
-            if (urlSearchTerm) {
-                // If it exists, perform a search using its value
-                search(lexiconEntries, urlSearchTerm);
-            }
-
+        document.getElementById('searchForm').addEventListener('submit', function (event) {
+            event.preventDefault();
+            let searchTerm = this.getElementsByTagName("input")[0].value;
+            search(searchTerm);
         });
-};
 
-// Map Latin to Greek
-// We still need to figure out how to map e to η so that searches for "agape" find αγαπη
-// https://www.typegreek.com/alphabet.key/
-const latinToGreekMap = {
-    'a': 'α',
-    'b': 'β',
-    'g': 'γ',
-    'd': 'δ',
-    'e': 'ε',
-    'z': 'ζ',
-    'h': 'η',
-    'q': 'θ',
-    'i': 'ι',
-    'k': 'κ',
-    'l': 'λ',
-    'm': 'μ',
-    'n': 'ν',
-    'c': 'ξ',
-    'o': 'ο',
-    'p': 'π',
-    'r': 'ρ',
-    's': 'σ',
-    't': 'τ',
-    'u': 'υ',
-    'f': 'φ',
-    'x': 'χ',
-    'y': 'ψ',
-    'w': 'ω'
-};
-
-function convertLatinToGreek(latinString) {
-    return latinString.split('').map(char => latinToGreekMap[char.toLowerCase()] || char).join('');
-}
+        // Check if there's a 'search' parameter in the URL
+        const urlSearchTerm = getURLParameter('search');
+        if (urlSearchTerm) {
+            // If it exists, perform a search using its value
+            search(urlSearchTerm);
+        }
+    };
 
 let currentFocus = -1;
 
-function autocomplete(lexiconEntries) {
+/*function autocomplete(lexiconEntries) {
     let searchTerm = document.getElementById('searchTerm');
     let suggestions = document.getElementById('suggestions');
 
@@ -145,7 +103,7 @@ function autocomplete(lexiconEntries) {
     });
 
     searchTerm.addEventListener('keydown', function(e) {
-        var x = document.getElementById("suggestions");
+        /*var x = document.getElementById("suggestions");
         if (x) x = x.getElementsByTagName("div");
         if (e.keyCode == 40) {
             // If the arrow DOWN key is pressed, increase the currentFocus variable:
@@ -166,7 +124,7 @@ function autocomplete(lexiconEntries) {
             }
         }
     });
-}
+}*/
 
 function removeActive(x) {
     for (var i = 0; i < x.length; i++) {
@@ -182,66 +140,24 @@ function addActive(x) {
     x[currentFocus].classList.add("autocomplete-active");
 }
 
-function search(lexiconEntries, selectedOption) {
-    // Convert to array
-    const entriesArray = Array.from(lexiconEntries);
+function search(searchTerm) {
+    let entry = lexicon.search(searchTerm);
 
-    // On form submit 
-    const searchTerm = selectedOption || document.getElementById('searchTerm').value;
-
-    // Normalize and convert to lowercase the search term
-    const normalizedSearchTerm = searchTerm ? searchTerm.normalize('NFD').replace(/ /g, "").replace(/[\u0300-\u036f]/g, "").toLowerCase() : '';
-
-    // Map Latin to Greek
-    const searchTermInGreek = convertLatinToGreek(normalizedSearchTerm);
-
-    // If selectedOption is provided, fill the search input with it
-    if (selectedOption) {
-        document.getElementById('searchTerm').value = selectedOption;
+    if (entry == null) {
+        return;
     }
 
-    // Search lemmas
-    let results = entriesArray.filter(entry => {
-        // Normalize, convert to lowercase the lemma
-        const lemma = entry.getAttribute('lemma') ? entry.getAttribute('lemma').normalize('NFD').replace(/[\u0300-\u036f]/g, "").toLowerCase() : '';
+    document.getElementById('results').setAttribute('title', entry.strongs[0]);
 
-        // Split the lemma by the pipe character
-        const lemmas = lemma.split('|')[0];
-        // Check if any of the lemmas match the search term
-        return lemmas.includes(searchTermInGreek);
-    });
+    // Get NT Occurrences # 
+    let occNT = entry.occurrences;
+    document.getElementById('results').innerHTML = '<span class="occurrencesNT">' + (occNT || "unspecified number of") + ' occurrences in the Greek NT</span>';
 
-    // Display results
-    let output = '';
-    let strongs = '';
-    let occNT = '';
-    for (let i = 0; i < results.length; i++) {
-        // Normalize, convert to lowercase the lemma
-        const lemma = results[i].getAttribute('lemma') ? results[i].getAttribute('lemma').normalize('NFD').replace(/[\u0300-\u036f]/g, "").toLowerCase() : '';
+    document.getElementById('results').innerHTML += entry.innerHTML;
 
-        // Split the lemma by the pipe character and take the first part
-        const firstLemma = lemma.split('|')[0];
+    //<!-- BLB.Tagger.pageInit(); -->
 
-        // Get Strongs number
-        const strongs = results[i].getAttribute('strong');
-        document.getElementById('results').setAttribute('title', strongs);
-        
-        // Get NT Occurrences # 
-        let noteElement = results[i].querySelector('note[type="occurrencesNT"]');
-        let occNT = noteElement.textContent;
-        document.getElementById('results').innerHTML += '<span class="occurrencesNT">Found ' + occNT + 'x in the Greek NT</span>';
-        
-        // Check if the first lemma matches the search term
-        if (firstLemma == searchTermInGreek) {
-            output += results[i].innerHTML + '<br>';
-        }
-    }
-    
-    document.getElementById('results').innerHTML = output;
-
-    <!-- BLB.Tagger.pageInit(); -->
-
-    <!--addLinksToOsisrefs();-- >
+    //<!--addLinksToOsisrefs();-- >
 
     // Update the URL with the search term
     let newUrl = updateURLParameter('search', searchTerm);
