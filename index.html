@@ -182,6 +182,12 @@ The <a href="http://archive.org/details/manualgreeklexic00abborich">original pri
 
         document.title = searchTerm + " | Abbott-Smith, A Manual Greek Lexicon of the New Testament Online";
         domSearchInput.value = entry.word;
+
+        domStrongsLinks.innerHTML = "";
+        entry.strongs.forEach ((num) => {
+            let href = getStrongsURL(num).toString();
+            domStrongsLinks.innerHTML += "<span class='strongLink'><a href='" + href + "'>G" + num + "</a></span>"; 
+        });
     }
 
     function getURLParameter(name) {
@@ -256,7 +262,7 @@ BLB.Tagger.NoSearchClassNames = 'noTag doNotTag'; // CSS class list
     and returns a URL object for the link needed to search it on stepbible.org.
     strongsNumber can be supplied as int or string.
     */
-    function searchStrongs(strongsNumber) {
+    function getStrongsURL(strongsNumber) {
         strongsNumber = new String(strongsNumber);
 
         //stepbible.org requires a strongs number of format "G0023"

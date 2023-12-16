@@ -920,3 +920,23 @@ etym, re {
 @keyframes spin {
   to { transform: rotate(360deg); }
 }
+
+#strongs-links::before {
+  content: 'Search Strongs Numbers';
+  display: block;
+  margin: .25em;
+  text-align: center;
+}
+
+#strongs-links:empty::after {
+  content: '(no Strongs numbers are supplied for this entry)';
+  display: block;
+  font-size: 75%;
+  margin: .25em;
+  text-align: center;
+}
+
+.strongLink {
+  display: inline-block;
+  margin: .25em;
+}
