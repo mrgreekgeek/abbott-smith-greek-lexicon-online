@@ -19,7 +19,7 @@ function LexiconEntry (xmlEntry) {
     //word
     "word" : (entry) => {
       let greekWord = entry.getAttribute('lemma').split('|')[0];
-      return normalizeGreek(greekWord);
+      return normalizeGreek(greekWord, false, false);
       },
     //innerHTML
     "innerHTML" : (entry) => {
@@ -115,7 +115,8 @@ function encodeLexicon(lexiconURL) {
 /*
 This searches all the entries and returns an object of
 {search-key: index-in-entry-array}. Presently, the lowercase greek word,
-lowercase latin variants, and lowercase strongs numbers are saved as keys.
+lowercase latin variants, and strongs numbers are saved as keys.
+Note: The strongs numbers are not saved with the prefix G.
 */
 function makeLexiconIndex(lexiconEntries) {
   let searchTerms = new Object();
@@ -123,10 +124,10 @@ function makeLexiconIndex(lexiconEntries) {
   // save the valid search terms from each entry
   lexiconEntries.forEach((entry, index) => {
     let strongs = entry.strongs.map((number) => {
-      return number.toLowerCase();
+      return number.substr(1);
       }),
       termsToIndex = [],
-      word = entry.word.toLowerCase();
+      word = normalizeGreek(entry.word);
 
     termsToIndex.push(word);
     termsToIndex = termsToIndex.concat(strongs);

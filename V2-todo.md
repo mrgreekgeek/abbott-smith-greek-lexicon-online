@@ -6,6 +6,6 @@
 
 
 ##Features
-- [ ] Search by strongs without needing "G" prefix
+- [+] Search by strongs without needing "G" prefix
 - [ ] Make links to all Strong's numbers
 
