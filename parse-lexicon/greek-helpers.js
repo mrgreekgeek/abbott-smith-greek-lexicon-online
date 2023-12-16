@@ -72,6 +72,11 @@ function getLatinVariants(greekTerm, logResult, _variant, _position) {
 This standardizes the accent marks of a (possible) Greek word for proper
 comparisons of user input... (MrGreekGeek was using this.)
 */
-function normalizeGreek(greekWord) {
-  return greekWord.normalize('NFD').replace(/[\u0300-\u036f]/g, "").toLowerCase();
+function normalizeGreek(greekWord, removeDiacretics = true, lowercase = true) {
+  greekWord = greekWord.normalize('NFD');
+
+  if (removeDiacretics) greekWord = greekWord.replace(/[\u0300-\u036f]/g, "");
+  if (lowercase) greekWord = greekWord.toLowerCase();
+
+  return greekWord;
 }
