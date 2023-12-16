@@ -101,9 +101,13 @@ The <a href="http://archive.org/details/manualgreeklexic00abborich">original pri
                 });
                 suggestions.appendChild(div);
             });
+
+            if (suggestions.childElementCount > 0) {
+                suggestions.childNodes[0].scrollIntoView(false);
+            }
         });
 
-        domSearchInput.addEventListener('keydown', (e) => {
+        domSearchInput.addEventListener('keydown', function (e) {
             let suggestionWrapper = document.getElementById("suggestions"),
                 suggestions = null;
             
@@ -126,9 +130,12 @@ The <a href="http://archive.org/details/manualgreeklexic00abborich">original pri
                 e.preventDefault(); //prevent the form from being submitted,
                 if (currentFocus == -1) {
                     search(this.value);
-                } else if (suggestions) {
+                } else {
                     suggestions[currentFocus].click();
                 }
+
+                // This is ugly and mixes function responsibilities
+                suggestionWrapper.style.display = 'none';
 
                 return null;
             }
