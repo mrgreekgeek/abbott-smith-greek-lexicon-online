@@ -770,10 +770,6 @@ foreign[xml\:lang="heb"] {
   font-weight: 500;
 }
 
-#linkId {
-  display:none;
-}
-
 h1 {
   color: var(--h1);
   text-align: center;

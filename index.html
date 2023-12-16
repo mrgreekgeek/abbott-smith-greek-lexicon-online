@@ -24,8 +24,10 @@
     <div id="suggestions"></div>
  </form></center>
  <div class="loader"></div>
- <div id="results"></div>
- <span><a id="linkId">Search this word in the Greek NT</a></span>
+ <div id="result">
+    <div id="result-content"></div>
+    <div id="strongs-links"></div>
+ </div>
  <noscript>
    <div class="javascript-disabled">
 	   JavaScript is disabled in your browser. Please enable it to allow the search function to work properly.
@@ -40,8 +42,10 @@ The <a href="http://archive.org/details/manualgreeklexic00abborich">original pri
 </footer>
 
 <script>
-    var lexicon = null;
-    var searchInput = document.getElementById("searchTerm");
+    let lexicon = null,
+        domResultContent = document.getElementById("result-content"),
+        domSearchInput = document.getElementById("searchTerm"),
+        domStrongsLinks = document.getElementById("strongs-links");
 
     window.onload = function () {
         lexicon = new AbbotSmithLexicon();
@@ -54,24 +58,25 @@ The <a href="http://archive.org/details/manualgreeklexic00abborich">original pri
 
         document.getElementById('searchForm').addEventListener('submit', function (event) {
             event.preventDefault();
-            search(searchInput.value);
+            search(domSearchInput.value);
         });
 
         //search for any provided terms
         let urlSearchTerm = getURLParameter('search');
         if (urlSearchTerm) {
-            searchInput.value = urlSearchTerm;
+            domSearchInput.value = urlSearchTerm;
             search(urlSearchTerm);
         }
     };
 
-    let currentFocus = -1;
 
     function autocomplete(lexicon) {
-        let searchTerm = document.getElementById('searchTerm');
-        let suggestions = document.getElementById('suggestions');
+        let currentFocus = -1,
+            suggestions = document.getElementById('suggestions');
 
-        searchTerm.addEventListener('input', function () {
+        domSearchInput.addEventListener('input', function () {
+            currentFocus = -1; // so that first keydown shows 0th element
+            
             // Check if the input field is empty
             if (this.value) {
                 //show dropdown of suggestions
@@ -91,77 +96,85 @@ The <a href="http://archive.org/details/manualgreeklexic00abborich">original pri
                 div.textContent = result.word;
                 div.role = 'option'; // Indicate that the suggestion is an option
                 div.addEventListener('click', function () {
-                    search(this.textContent);
                     suggestions.style.display = 'none';
+                    search(this.textContent);
                 });
                 suggestions.appendChild(div);
             });
         });
 
-        searchTerm.addEventListener('keydown', function (e) {
-            var x = document.getElementById("suggestions");
-            if (x) x = x.getElementsByTagName("div");
+        domSearchInput.addEventListener('keydown', (e) => {
+            let suggestionWrapper = document.getElementById("suggestions"),
+                suggestions = null;
+            
+            if (suggestionWrapper) {
+                suggestions = suggestionWrapper.getElementsByTagName("div");
+            }
+
+            //don't edit currentFocus if there are no suggestions
+            if (suggestions.length == 0) {
+                return false;
+            }
+
             if (e.keyCode == 40) {
                 // If the arrow DOWN key is pressed, increase the currentFocus variable:
                 currentFocus++;
-                // and and make the current item more visible:
-                addActive(x);
             } else if (e.keyCode == 38) { //up
                 // If the arrow UP key is pressed, decrease the currentFocus variable:
                 currentFocus--;
-                // and and make the current item more visible:
-                addActive(x);
             } else if (e.keyCode == 13) {
-                // If the ENTER key is pressed, prevent the form from being submitted,
-                e.preventDefault();
-                if (currentFocus > -1) {
-                    // and simulate a click on the "active" item:
-                    if (x) x[currentFocus].click();
+                e.preventDefault(); //prevent the form from being submitted,
+                if (currentFocus == -1) {
+                    search(this.value);
+                } else if (suggestions) {
+                    suggestions[currentFocus].click();
                 }
+
+                return null;
             }
-        });
-    }
 
-    function removeActive(x) {
-        for (var i = 0; i < x.length; i++) {
-            x[i].classList.remove("autocomplete-active");
-        }
-    }
+            //wrap from last-to-first and first-to-last
+            if (currentFocus < 0) {
+                currentFocus = (suggestions.length - 1);
+            } else if (currentFocus >= suggestions.length) {
+                currentFocus = 0;
+            }
 
-    function addActive(x) {
-        if (!x) return false;
-        removeActive(x);
-        if (currentFocus >= x.length) currentFocus = 0;
-        if (currentFocus < 0) currentFocus = (x.length - 1);
-        x[currentFocus].classList.add("autocomplete-active");
+            // make the current item selected and visible:
+            
+            //remove old class
+            const className = "autocomplete-active";
+            let selected = suggestionWrapper.getElementsByClassName(className);
+            if (selected.length > 0) {
+                selected[0].classList.remove(className);
+            }
+
+            suggestions[currentFocus].classList.add(className);
+            suggestions[currentFocus].scrollIntoView(false);
+            });
     }
 
     function search(searchTerm) {
         let entry = lexicon.search(searchTerm);
 
         if (entry == null) {
+            domResultContent.innerHTML = "This search provided no results.";
+            domStrongsLinks.innerHTML = "";
             return;
         }
 
-        document.getElementById('results').setAttribute('title', entry.strongs[0]);
-
-        // Get NT Occurrences # 
-        document.getElementById('results').innerHTML = '<span class="occurrencesNT">' + (entry.occurrences || "unspecified number of") + ' occurrences in the Greek NT</span>';
-
-        document.getElementById('results').innerHTML += entry.innerHTML;
+        domResultContent.innerHTML = '<span class="occurrencesNT">' + (entry.occurrences || "unspecified number of") + ' occurrences in the Greek NT</span>';
+        domResultContent.innerHTML += entry.innerHTML;
 
         //<!-- BLB.Tagger.pageInit(); -->
-
         //<!--addLinksToOsisrefs();-- >
 
         // Update the URL with the search term
         let newUrl = updateURLParameter('search', searchTerm);
         history.pushState({}, '', newUrl);
 
-        // Update the title of the webpage
         document.title = searchTerm + " | Abbott-Smith, A Manual Greek Lexicon of the New Testament Online";
-
-        searchStrongs();
+        domSearchInput.value = entry.word;
     }
 
     function getURLParameter(name) {
@@ -231,14 +244,18 @@ BLB.Tagger.NoSearchClassNames = 'noTag doNotTag'; // CSS class list
 
 <script type='text/javascript'>
 
-    function searchStrongs() {
-        let strongsnumber = document.getElementById('results').title;
-        let strongsnumberpart = strongsnumber.substring(1);
-        let strongsnumberpad = String(strongsnumberpart).padStart(4, '0');
-        let strongsnumberpadded = strongsnumber[0] + strongsnumberpad;
-        let url = new URL("https://www.stepbible.org/?q=version=THGNT|strong=" + strongsnumberpadded + '&options=GVNHU');
-        document.getElementById('linkId').href = url.toString();
-        document.querySelector('#linkId').style.display = 'inline';
+    /*
+    This accepts a strongs number (the actual number -- no "g" prefix),
+    and returns a URL object for the link needed to search it on stepbible.org.
+    strongsNumber can be supplied as int or string.
+    */
+    function searchStrongs(strongsNumber) {
+        strongsNumber = new String(strongsNumber);
+
+        //stepbible.org requires a strongs number of format "G0023"
+        let stepBibleStrongs = "G" + strongsNumber.padStart(4, '0');
+
+        return new URL("https://www.stepbible.org/?q=version=THGNT|strong=" + stepBibleStrongs + '&options=GVNHU');
     }
 
 </script>
