@@ -8,9 +8,9 @@ properties.
 occurrences: The number of occurences.
   (If an entry does not have this data, this will be null.)
 strongs: An array of Strongs numbers for this word. The first index is the
-  primary. They are supplied in the format that the lexicon supplies them
-  (currently "G27"). If no Strongs numbers exist for this word, the array
-  will be empty.
+  primary. They are NOT supplied in the format that the lexicon supplies them
+  (eg. "G27"). Instead, we store the number only.
+  If no Strongs numbers exist for this word, the array will be empty.
 word: The word in Greek.
 */
 function LexiconEntry (xmlEntry) {
@@ -61,7 +61,9 @@ function LexiconEntry (xmlEntry) {
       
       numbers = numbers.concat(lemmaNumbers);
       
-      return numbers;
+      return numbers.map((num) => {
+        return num.substring(1);
+      });
       },
   };
 
@@ -123,9 +125,7 @@ function makeLexiconIndex(lexiconEntries) {
   
   // save the valid search terms from each entry
   lexiconEntries.forEach((entry, index) => {
-    let strongs = entry.strongs.map((number) => {
-      return number.substr(1);
-      }),
+    let strongs = entry.strongs,
       termsToIndex = [],
       word = normalizeGreek(entry.word);
 
