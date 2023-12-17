@@ -170,7 +170,8 @@ The <a href="http://archive.org/details/manualgreeklexic00abborich">original pri
             return;
         }
 
-        domResultContent.innerHTML = '<span class="occurrencesNT">' + (entry.occurrences || "unspecified number of") + ' occurrences in the Greek NT</span>';
+        let prefix = 
+        domResultContent.innerHTML = '<span class="occurrencesNT">' + ((entry.occurrences) ? "approximately " + entry.occurrences : "unspecified number of") + ' occurrences in the Greek NT</span>';
         domResultContent.innerHTML += entry.innerHTML;
 
         //<!-- BLB.Tagger.pageInit(); -->
