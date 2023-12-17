@@ -770,10 +770,6 @@ foreign[xml\:lang="heb"] {
   font-weight: 500;
 }
 
-#linkId {
-  display:none;
-}
-
 h1 {
   color: var(--h1);
   text-align: center;
@@ -910,7 +906,7 @@ etym, re {
 }
 
 .loader {
-  display: none;
+  display: block;
   width: 50px;
   height: 50px;
   border: 5px solid #ccc;
@@ -923,4 +919,24 @@ etym, re {
 
 @keyframes spin {
   to { transform: rotate(360deg); }
+}
+
+#strongs-links::before {
+  content: 'Search Strongs Numbers';
+  display: block;
+  margin: .25em;
+  text-align: center;
+}
+
+#strongs-links:empty::after {
+  content: '(no Strongs numbers are supplied for this entry)';
+  display: block;
+  font-size: 75%;
+  margin: .25em;
+  text-align: center;
+}
+
+.strongLink {
+  display: inline-block;
+  margin: .25em;
 }

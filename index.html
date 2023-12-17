@@ -3,11 +3,12 @@
 <head>
 <title>Abbott-Smith, A Manual Greek Lexicon of the New Testament Online</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="simple.css">
-<script src='https://www.blueletterbible.org/assets-v3/scripts/blbToolTip/BLB_ScriptTagger-min.js' type='text/javascript'></script>
-<style>
-
-</style>
+<meta charset="utf-8">
+<link rel="stylesheet" href="simple.css?v2">
+<!--script src='https://www.blueletterbible.org/assets-v3/scripts/blbToolTip/BLB_ScriptTagger-min.js' type='text/javascript'></script>-->
+<script src="parse-lexicon/greek-helpers.js"></script>
+<script src="parse-lexicon/AbbotSmithData.js"></script>
+<script src="parse-lexicon/AbbotSmithLexicon.js"></script>
 
 </head>
 <body>
@@ -21,11 +22,12 @@
     </svg>
     <input list="suggestions" type="text" autocomplete="off" id="searchTerm" placeholder="Enter your search term">
     <div id="suggestions"></div>
-   <!-- <input type="submit" value="Search"> -->
  </form></center>
  <div class="loader"></div>
- <div id="results"></div>
- <span><a id="linkId">Search this word in the Greek NT</a></span>
+ <div id="result">
+    <div id="result-content"></div>
+    <div id="strongs-links"></div>
+ </div>
  <noscript>
    <div class="javascript-disabled">
 	   JavaScript is disabled in your browser. Please enable it to allow the search function to work properly.
@@ -40,274 +42,210 @@ The <a href="http://archive.org/details/manualgreeklexic00abborich">original pri
 </footer>
 
 <script>
-    const loader = document.querySelector('.loader');
+    let lexicon = null,
+        domResultContent = document.getElementById("result-content"),
+        domSearchInput = document.getElementById("searchTerm"),
+        domStrongsLinks = document.getElementById("strongs-links");
 
-window.onload = function() {
-    loader.style.display = 'block'; // Show loading indicator
+    window.onload = function () {
+        lexicon = new AbbotSmithLexicon();
+        lexicon.attach(AbbotSmithData);
 
-    fetch('lexicon.xml')
-        .then(response => response.text())
-        .then(data => {
-            let parser = new DOMParser();
-            let xmlDoc = parser.parseFromString(data, "text/xml");
-            let lexiconEntries = xmlDoc.getElementsByTagName('entry');
+        document.querySelector('.loader').style.display = 'none';
 
-            loader.style.display = 'none'; // Hide loading indicator
+        //autocomplete function
+        autocomplete(lexicon);
 
-            //autocomplete function
-            autocomplete(lexiconEntries);
+        document.getElementById('searchForm').addEventListener('submit', function (event) {
+            event.preventDefault();
+            search(domSearchInput.value);
+        });
 
-            document.getElementById('searchForm').addEventListener('submit', function(event) {
-                event.preventDefault();
-                search(lexiconEntries);
-            });
+        //search for any provided terms
+        let urlSearchTerm = getURLParameter('search');
+        if (urlSearchTerm) {
+            domSearchInput.value = urlSearchTerm;
+            search(urlSearchTerm);
+        }
+    };
 
-            // Check if there's a 'search' parameter in the URL
-            const urlSearchTerm = getURLParameter('search');
-            if (urlSearchTerm) {
-                // If it exists, perform a search using its value
-                search(lexiconEntries, urlSearchTerm);
+
+    function autocomplete(lexicon) {
+        let currentFocus = -1,
+            suggestions = document.getElementById('suggestions');
+
+        domSearchInput.addEventListener('input', function () {
+            currentFocus = -1; // so that first keydown shows 0th element
+            
+            // Check if the input field is empty
+            if (this.value) {
+                //show dropdown of suggestions
+                suggestions.style.display = 'block';
+            } else {
+                suggestions.style.display = 'none';
+                return;
             }
 
+            suggestions.innerHTML = '';
+
+            let searchTerm = this.value;
+            let results = lexicon.getSimilar(searchTerm);
+
+            results.forEach((result) => {
+                let div = document.createElement('div');
+                div.textContent = result.word;
+                div.role = 'option'; // Indicate that the suggestion is an option
+                div.addEventListener('click', function () {
+                    suggestions.style.display = 'none';
+                    search(this.textContent);
+                });
+                suggestions.appendChild(div);
+            });
+
+            if (suggestions.childElementCount > 0) {
+                suggestions.childNodes[0].scrollIntoView(false);
+            }
         });
-};
 
-// Map Latin to Greek
-// We still need to figure out how to map e to η so that searches for "agape" find αγαπη
-// https://www.typegreek.com/alphabet.key/
-const latinToGreekMap = {
-    'a': 'α',
-    'b': 'β',
-    'g': 'γ',
-    'd': 'δ',
-    'e': 'ε',
-    'z': 'ζ',
-    'h': 'η',
-    'q': 'θ',
-    'i': 'ι',
-    'k': 'κ',
-    'l': 'λ',
-    'm': 'μ',
-    'n': 'ν',
-    'c': 'ξ',
-    'o': 'ο',
-    'p': 'π',
-    'r': 'ρ',
-    's': 'σ',
-    't': 'τ',
-    'u': 'υ',
-    'f': 'φ',
-    'x': 'χ',
-    'y': 'ψ',
-    'w': 'ω'
-};
+        domSearchInput.addEventListener('keydown', function (e) {
+            let suggestionWrapper = document.getElementById("suggestions"),
+                suggestions = null;
+            
+            if (suggestionWrapper) {
+                suggestions = suggestionWrapper.getElementsByTagName("div");
+            }
 
-function convertLatinToGreek(latinString) {
-    return latinString.split('').map(char => latinToGreekMap[char.toLowerCase()] || char).join('');
-}
+            //don't edit currentFocus if there are no suggestions
+            if (suggestions.length == 0) {
+                return false;
+            }
 
-let currentFocus = -1;
+            if (e.keyCode == 40) {
+                // If the arrow DOWN key is pressed, increase the currentFocus variable:
+                currentFocus++;
+            } else if (e.keyCode == 38) { //up
+                // If the arrow UP key is pressed, decrease the currentFocus variable:
+                currentFocus--;
+            } else if (e.keyCode == 13) {
+                e.preventDefault(); //prevent the form from being submitted,
+                if (currentFocus == -1) {
+                    search(this.value);
+                } else {
+                    suggestions[currentFocus].click();
+                }
 
-function autocomplete(lexiconEntries) {
-    let searchTerm = document.getElementById('searchTerm');
-    let suggestions = document.getElementById('suggestions');
+                // This is ugly and mixes function responsibilities
+                suggestionWrapper.style.display = 'none';
 
-    searchTerm.addEventListener('input', function() {
-        // Check if the input field is empty
-        if (this.value) {
-            //show dropdown of suggestions
-            suggestions.style.display = 'block';
-        } else {
-            suggestions.style.display = 'none';
+                return null;
+            }
+
+            //wrap from last-to-first and first-to-last
+            if (currentFocus < 0) {
+                currentFocus = (suggestions.length - 1);
+            } else if (currentFocus >= suggestions.length) {
+                currentFocus = 0;
+            }
+
+            // make the current item selected and visible:
+            
+            //remove old class
+            const className = "autocomplete-active";
+            let selected = suggestionWrapper.getElementsByClassName(className);
+            if (selected.length > 0) {
+                selected[0].classList.remove(className);
+            }
+
+            suggestions[currentFocus].classList.add(className);
+            suggestions[currentFocus].scrollIntoView(false);
+            });
+    }
+
+    function search(searchTerm) {
+        let entry = lexicon.search(searchTerm);
+
+        if (entry == null) {
+            domResultContent.innerHTML = "This search provided no results.";
+            domStrongsLinks.innerHTML = "";
             return;
         }
 
-        suggestions.innerHTML = '';
-        let searchTermInGreek = convertLatinToGreek(this.value);
-        for (let i = 0; i < lexiconEntries.length; i++) {
-            let lemma = lexiconEntries[i].getAttribute('lemma');
-            if (lemma) {
-                const firstLemma = lemma.split('|')[0];
-                const normalizedLemma = firstLemma.normalize('NFD').replace(/[\u0300-\u036f]/g, "").toLowerCase();
-                if (normalizedLemma.startsWith(searchTermInGreek)) {
-                    let div = document.createElement('div');
-                    //div.title = strongs;
-                    div.textContent = firstLemma;
-                    div.role = 'option'; // Indicate that the suggestion is an option
-                    div.addEventListener('click', function() {
-                        search(lexiconEntries, this.textContent);
-                        suggestions.style.display = 'none';
-                    });
-                    suggestions.appendChild(div);
-                }
+        let prefix = 
+        domResultContent.innerHTML = '<span class="occurrencesNT">' + ((entry.occurrences) ? "approximately " + entry.occurrences : "unspecified number of") + ' occurrences in the Greek NT</span>';
+        domResultContent.innerHTML += entry.innerHTML;
+
+        //<!-- BLB.Tagger.pageInit(); -->
+        //<!--addLinksToOsisrefs();-- >
+
+        // Update the URL with the search term
+        let newUrl = updateURLParameter('search', searchTerm);
+        history.pushState({}, '', newUrl);
+
+        document.title = searchTerm + " | Abbott-Smith, A Manual Greek Lexicon of the New Testament Online";
+        domSearchInput.value = entry.word;
+
+        domStrongsLinks.innerHTML = "";
+        entry.strongs.forEach ((num) => {
+            let href = getStrongsURL(num).toString();
+            domStrongsLinks.innerHTML += "<span class='strongLink'><a href='" + href + "'>G" + num + "</a></span>"; 
+        });
+    }
+
+    function getURLParameter(name) {
+        const urlParams = new URLSearchParams(window.location.search);
+        return urlParams.get(name);
+    }
+
+    function updateURLParameter(paramName, paramValue) {
+        let url = new URL(window.location.href);
+        let searchParams = url.searchParams;
+        searchParams.set(paramName, paramValue);
+        url.search = searchParams.toString();
+        return url.toString();
+    }
+
+    // toggle Dark Mode ---------------------------
+    function detectColorScheme() {
+        var theme = "light"; //default to light
+
+        if (localStorage.getItem("theme")) {
+            if (localStorage.getItem("theme") == "dark") {
+                var theme = "dark";
             }
-        }
-    });
-
-    searchTerm.addEventListener('keydown', function(e) {
-        var x = document.getElementById("suggestions");
-        if (x) x = x.getElementsByTagName("div");
-        if (e.keyCode == 40) {
-            // If the arrow DOWN key is pressed, increase the currentFocus variable:
-            currentFocus++;
-            // and and make the current item more visible:
-            addActive(x);
-        } else if (e.keyCode == 38) { //up
-            // If the arrow UP key is pressed, decrease the currentFocus variable:
-            currentFocus--;
-            // and and make the current item more visible:
-            addActive(x);
-        } else if (e.keyCode == 13) {
-            // If the ENTER key is pressed, prevent the form from being submitted,
-            e.preventDefault();
-            if (currentFocus > -1) {
-                // and simulate a click on the "active" item:
-                if (x) x[currentFocus].click();
-            }
-        }
-    });
-}
-
-function removeActive(x) {
-    for (var i = 0; i < x.length; i++) {
-        x[i].classList.remove("autocomplete-active");
-    }
-}
-
-function addActive(x) {
-    if (!x) return false;
-    removeActive(x);
-    if (currentFocus >= x.length) currentFocus = 0;
-    if (currentFocus < 0) currentFocus = (x.length - 1);
-    x[currentFocus].classList.add("autocomplete-active");
-}
-
-function search(lexiconEntries, selectedOption) {
-    // Convert to array
-    const entriesArray = Array.from(lexiconEntries);
-
-    // On form submit 
-    const searchTerm = selectedOption || document.getElementById('searchTerm').value;
-
-    // Normalize and convert to lowercase the search term
-    const normalizedSearchTerm = searchTerm ? searchTerm.normalize('NFD').replace(/ /g, "").replace(/[\u0300-\u036f]/g, "").toLowerCase() : '';
-
-    // Map Latin to Greek
-    const searchTermInGreek = convertLatinToGreek(normalizedSearchTerm);
-
-    // If selectedOption is provided, fill the search input with it
-    if (selectedOption) {
-        document.getElementById('searchTerm').value = selectedOption;
-    }
-
-    // Search lemmas
-    let results = entriesArray.filter(entry => {
-        // Normalize, convert to lowercase the lemma
-        const lemma = entry.getAttribute('lemma') ? entry.getAttribute('lemma').normalize('NFD').replace(/[\u0300-\u036f]/g, "").toLowerCase() : '';
-
-        // Split the lemma by the pipe character
-        const lemmas = lemma.split('|')[0];
-        // Check if any of the lemmas match the search term
-        return lemmas.includes(searchTermInGreek);
-    });
-
-    // Display results
-    let output = '';
-    let strongs = '';
-    let occNT = '';
-    for (let i = 0; i < results.length; i++) {
-        // Normalize, convert to lowercase the lemma
-        const lemma = results[i].getAttribute('lemma') ? results[i].getAttribute('lemma').normalize('NFD').replace(/[\u0300-\u036f]/g, "").toLowerCase() : '';
-
-        // Split the lemma by the pipe character and take the first part
-        const firstLemma = lemma.split('|')[0];
-
-        // Get Strongs number
-        const strongs = results[i].getAttribute('strong');
-        document.getElementById('results').setAttribute('title', strongs);
-        
-        // Get NT Occurrences # 
-        let noteElement = results[i].querySelector('note[type="occurrencesNT"]');
-        let occNT = noteElement.textContent;
-        document.getElementById('results').innerHTML += '<span class="occurrencesNT">Found ' + occNT + 'x in the Greek NT</span>';
-        
-        // Check if the first lemma matches the search term
-        if (firstLemma == searchTermInGreek) {
-            output += results[i].innerHTML + '<br>';
-        }
-    }
-    
-    document.getElementById('results').innerHTML = output;
-
-    <!-- BLB.Tagger.pageInit(); -->
-
-    <!--addLinksToOsisrefs();-- >
-
-    // Update the URL with the search term
-    let newUrl = updateURLParameter('search', searchTerm);
-    history.pushState({}, '', newUrl);
-
-    // Update the title of the webpage
-    document.title = searchTerm + " | Abbott-Smith, A Manual Greek Lexicon of the New Testament Online";
-
-    searchStrongs();
-}
-
-function getURLParameter(name) {
-    const urlParams = new URLSearchParams(window.location.search);
-    return urlParams.get(name);
-}
-
-function updateURLParameter(paramName, paramValue) {
-    let url = new URL(window.location.href);
-    let searchParams = url.searchParams;
-    searchParams.set(paramName, paramValue);
-    url.search = searchParams.toString();
-    return url.toString();
-}
-
-// toggle Dark Mode ---------------------------
-function detectColorScheme() {
-    var theme = "light"; //default to light
-
-    if (localStorage.getItem("theme")) {
-        if (localStorage.getItem("theme") == "dark") {
+        } else if (!window.matchMedia) {
+            return false;
+        } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
             var theme = "dark";
         }
-    } else if (!window.matchMedia) {
-        return false;
-    } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
-        var theme = "dark";
+
+        if (theme == "dark") {
+            document.documentElement.setAttribute("data-theme", "dark");
+        }
+    }
+    detectColorScheme();
+
+    const toggleSwitch = document.querySelector('#dark-switch');
+
+    function switchTheme() {
+        if (document.body.classList.contains("dark-mode")) {
+            localStorage.setItem('theme', 'light');
+            document.body.classList.remove("dark-mode");
+        } else {
+            localStorage.setItem('theme', 'dark');
+            document.body.classList.add("dark-mode");
+        }
     }
 
-    if (theme == "dark") {
-        document.documentElement.setAttribute("data-theme", "dark");
-    }
-}
-detectColorScheme();
+    toggleSwitch.addEventListener('click', switchTheme, false);
 
-const toggleSwitch = document.querySelector('#dark-switch');
-
-function switchTheme() {
-    if (document.body.classList.contains("dark-mode")) {
-        localStorage.setItem('theme', 'light');
-        document.body.classList.remove("dark-mode");
-    } else {
-        localStorage.setItem('theme', 'dark');
+    if (localStorage.getItem("theme") == "dark") {
+        toggleSwitch.classList.add("active");
         document.body.classList.add("dark-mode");
     }
-}
-
-toggleSwitch.addEventListener('click', switchTheme, false);
-
-if (localStorage.getItem("theme") == "dark") {
-    toggleSwitch.classList.add("active");
-    document.body.classList.add("dark-mode");
-}
 
 </script>
 
-<script type='text/javascript'>
+<!--<script type='text/javascript'>
 // Additional BLB settings
 BLB.Tagger.Translation = 'NASB95';
 BLB.Tagger.HyperLinks = 'all'; // 'all', 'none', 'hover'
@@ -316,31 +254,35 @@ BLB.Tagger.TargetNewWindow = true;
 BLB.Tagger.Style = 'par'; // 'line' or 'par'
 BLB.Tagger.NoSearchTagNames = ''; // HTML element list
 BLB.Tagger.NoSearchClassNames = 'noTag doNotTag'; // CSS class list
-</script>
+</script>-->
 
 <script type='text/javascript'>
 
-function searchStrongs() {
-    let strongsnumber = document.getElementById('results').title;
-    let strongsnumberpart = strongsnumber.substring(1);
-    let strongsnumberpad = String(strongsnumberpart).padStart(4, '0');
-    let strongsnumberpadded = strongsnumber[0] + strongsnumberpad;
-    let url = new URL("https://www.stepbible.org/?q=version=THGNT|strong=" + strongsnumberpadded + '&options=GVNHU');
-    document.getElementById('linkId').href = url.toString();
-    document.querySelector('#linkId').style.display = 'inline';
-}
+    /*
+    This accepts a strongs number (the actual number -- no "g" prefix),
+    and returns a URL object for the link needed to search it on stepbible.org.
+    strongsNumber can be supplied as int or string.
+    */
+    function getStrongsURL(strongsNumber) {
+        strongsNumber = new String(strongsNumber);
+
+        //stepbible.org requires a strongs number of format "G0023"
+        let stepBibleStrongs = "G" + strongsNumber.padStart(4, '0');
+
+        return new URL("https://www.stepbible.org/?q=version=THGNT|strong=" + stepBibleStrongs + '&options=GVNHU');
+    }
 
 </script>
 
 <script type='text/javascript'>
-if ('serviceWorker' in navigator) {
+/*if ('serviceWorker' in navigator) {
 	navigator.serviceWorker.register('sw.js', {scope: '.'});
 }
 window.addEventListener("load", function() {
 	if (navigator.serviceWorker.controller != null) {
 		navigator.serviceWorker.controller.postMessage({"command":"trimCache"});
 	}
-});
+});*/
 </script>
 
 </body>
