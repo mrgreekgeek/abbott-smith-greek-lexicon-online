@@ -8,7 +8,7 @@ books = [None, "Genesis", "Exodus" , "Leviticus" , "Numbers", "Deuteronomy", "Jo
 with open("SR.tsv") as tsv:
     r = csv.reader(tsv, delimiter = '\t')
 
-    data = {}
+    data = {"missing": {}}
     last_verse = 0
 
     for book in books:
@@ -32,7 +32,8 @@ with open("SR.tsv") as tsv:
                 for i in range(verse_num - last_verse):
                     data[book][chapter].append([])
                     if last_verse + 1 + i != verse_num:
-                        print("(%s)  This data source skips %s %s:%s" % (ref, book, chapter, last_verse + 1 + i))
+                        missing = "%s %s:%s" % (book, chapter, last_verse + 1 + i)
+                        data["missing"][missing] = True
 
             data[book][chapter][verse_num].append([word, strong])
             last_verse = verse_num
@@ -40,5 +41,5 @@ with open("SR.tsv") as tsv:
         except Exception as e:
             print("Skipped row %s because of %s" % (row, e))
 
-    with open("NT.json", "w") as json_file:
+    with open("NewTestament.json", "w") as json_file:
         json_file.write(json.dumps(data, sort_keys=True, indent=2))
