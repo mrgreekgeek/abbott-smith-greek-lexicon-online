@@ -37,12 +37,15 @@ book_list = {
 acc_folder_path = "accented"
 unacc_folder_path = "unaccented"
 merged_folder_path = "merged"
-comprehensive_output_file = os.path.join(merged_folder_path, "ByzantineText.json")
+output_file = os.path.join(merged_folder_path, "ByzantineText.json")
+
+accented_data = {}
+unaccented_data = {}
+merged_data = {}
 
 # Loop through the accented files
 for acc_book in book_list.keys():
     acc_file_path = os.path.join(acc_folder_path, acc_book + ".csv")
-    acc_file_path_json = os.path.join(acc_folder_path, acc_book + ".json")
 
     # Read the file
     with open(acc_file_path, "r", encoding="utf-8") as acc_file:
@@ -57,8 +60,7 @@ for acc_book in book_list.keys():
             key = rows['chapter'] + '-' + rows['verse']
             data[key] = {'words': words}
 
-    with open(acc_file_path_json, 'w', encoding='utf-8') as acc_jsonf:
-        acc_jsonf.write(json.dumps(data, ensure_ascii=False, indent=2))
+    accented_data[acc_book] = data
 
 # Loop through the unaccented files
 for unacc_book in book_list.keys():
@@ -86,36 +88,27 @@ for unacc_book in book_list.keys():
             if len(words) != len(numbers) != len(codes):
                 print("%s[%s]: Number of words != Number of Strongs != Number of codes" % (unacc_file_path, key))
 
-    with open(unacc_file_path_json, 'w', encoding='utf-8') as unacc_jsonf:
-        unacc_jsonf.write(json.dumps(data, ensure_ascii=False, indent=2))
+    unaccented_data[unacc_book] = data
 
 # Merge the JSON files
-all_data = {}
 for book in book_list.keys():
-    ufile_path = os.path.join(unacc_folder_path, book + ".json")
-    afile_path = os.path.join(acc_folder_path, book + ".json")
+    ufile_path = os.path.join(unacc_folder_path, book + ".csv")
+    afile_path = os.path.join(acc_folder_path, book + ".csv")
     mfile_path = os.path.join(merged_folder_path, book + ".json")
 
-    with open(ufile_path, 'r', encoding='utf-8') as f1:
-        data1 = json.load(f1)
-
-    with open(afile_path, 'r', encoding='utf-8') as f2:
-        data2 = json.load(f2)
+    u_data = unaccented_data[book]
+    a_data = accented_data[book]
 
     # Merge the dictionaries
-    for key in data1:
-        if key in data2:
+    for key in u_data:
+        if key in a_data:
             standardized_name = book_list[book]
-            data1[key].update(data2[key])
-            all_data[standardized_name] = data1
-            if len(data1[key]["words"]) != len(data2[key]["words"]):
-                print("With key %s, %s and %s have a different number of words" % (key, ufile_path, afile_path))
+            u_data[key].update(a_data[key])
+            merged_data[standardized_name] = u_data
+            if len(u_data[key]["words"]) != len(a_data[key]["words"]):
+                print("%s and %s have a different number of words for %s" % (ufile_path, afile_path, key))
         else:
-            print("Key %s is in %s but not in %s" % (key, ufile_path, afile_path))
+            print("%s (chapter-verse) is in %s but not in %s" % (key, ufile_path, afile_path))
 
-    # Write the merged dictionary to a new JSON file
-    with open(mfile_path, 'w', encoding='utf-8') as f_out:
-        json.dump(data1, f_out, ensure_ascii=False, indent=2)
-
-with open(comprehensive_output_file, 'w', encoding='utf-8') as f_out:
-    json.dump(all_data, f_out, ensure_ascii=False, indent=2)
+with open(output_file, 'w', encoding='utf-8') as f_out:
+    json.dump(merged_data, f_out, ensure_ascii=False, indent=2)
