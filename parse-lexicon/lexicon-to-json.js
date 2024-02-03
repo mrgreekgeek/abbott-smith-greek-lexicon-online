@@ -35,17 +35,6 @@ function LexiconEntry (xmlEntry) {
       
       return occurrences;
       },
-    //senses
-    /*"senses" : (entry) => {
-      let nodes = entry.getElementsByTagName("sense");
-      let senses = [];
-
-      for (let s = 0; s < nodes.length; s++) {
-        senses.push(nodes.innerHTML);
-        }
-      
-      return senses;
-    },*/
     //strongs number(s)
     "strongs" : (entry) => {
       let lemmaNumbers = null,
@@ -91,26 +80,24 @@ function encodeLexicon(lexiconURL) {
       })
     .then(response => response.text())
     .then(data => {
-        let parser = new DOMParser();
-        let xmlDoc = parser.parseFromString(data, "text/xml");
-        let lexiconEntries = xmlDoc.getElementsByTagName('entry');
-        
-        //many <entry>ies in the lexicon are not for words
-        lexiconEntries = Array.from(lexiconEntries)
-          .filter((entry) => {
-            return entry.hasAttribute("lemma");
-          });
+      let parser = new DOMParser();
+      let xmlDoc = parser.parseFromString(data, "text/xml");
+      let lexiconEntries = xmlDoc.getElementsByTagName('entry');
 
-
-        let formattedEntries = lexiconEntries.map((xmlElem) => {
-          let entry = new LexiconEntry(xmlElem);
-          //throw(JSON.stringify(entry));
-          return entry;
-          });
-        let lexiconIndex = makeLexiconIndex(formattedEntries);
-        
-        return {"searchTerms": lexiconIndex, "entries": formattedEntries};
+      //many <entry>ies in the lexicon are not for words
+      lexiconEntries = Array.from(lexiconEntries)
+        .filter((entry) => {
+          return entry.hasAttribute("lemma");
         });
+
+      let formattedEntries = lexiconEntries.map((xmlElem) => {
+        let entry = new LexiconEntry(xmlElem);
+        return entry;
+        });
+      let lexiconIndex = makeLexiconIndex(formattedEntries);
+
+      return {"searchTerms": lexiconIndex, "entries": formattedEntries};
+      });
   }
 
 
