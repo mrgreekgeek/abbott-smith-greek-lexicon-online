@@ -8,6 +8,8 @@
 <script src="parse-lexicon/greek-helpers.js"></script>
 <script src="parse-lexicon/AbbotSmithData.js"></script>
 <script src="parse-lexicon/AbbotSmithLexicon.js"></script>
+<script src="scripts/BibleInfo.js"></script>
+<script src="scripts/verse-tagger.js"></script>
 
 </head>
 <body>
@@ -173,6 +175,21 @@ The <a href="http://archive.org/details/manualgreeklexic00abborich">original pri
         domResultContent.innerHTML = '<span class="occurrencesNT">' + ((entry.occurrences) ? "approximately " + entry.occurrences : "unspecified number of") + ' occurrences in the Greek NT</span>';
         domResultContent.innerHTML += entry.innerHTML;
 
+        //make every Bible verse reference green
+        let refs = domResultContent.getElementsByTagName("ref");
+        let refsArray = Array.from(refs);
+
+        let addOsisRef =  (r) => [r, r.getAttribute("osisRef")];
+        let OsisNotNull = (refInfo) => (refInfo[1] !== null);
+        let parseOsisRef = (refInfo) => [refInfo[0], BibleInfo.parseOsis(refInfo[1], null)];
+        
+        refsArray = refsArray.map(addOsisRef)
+             // some <ref> tags are not Scripture References
+            .filter(OsisNotNull) 
+            .map(parseOsisRef)
+            .filter(OsisNotNull)
+            .forEach((refInfo) => refInfo[0].style.color = "green");
+        
         // Update the URL with the search term
         let newUrl = updateURLParameter('search', searchTerm);
         history.pushState({}, '', newUrl);
