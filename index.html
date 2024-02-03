@@ -187,7 +187,7 @@ The <a href="http://archive.org/details/manualgreeklexic00abborich">original pri
         domStrongsLinks.innerHTML = "";
         entry.strongs.forEach ((num) => {
             let href = getStrongsURL(num).toString();
-            domStrongsLinks.innerHTML += "<span class='strongLink'><a href='" + href + "'>G" + num + "</a></span>"; 
+            domStrongsLinks.innerHTML += "<span class='strongLink'><a href='" + href + "' target='_blank'>G" + num + "</a></span>"; 
         });
     }
 
