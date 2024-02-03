@@ -1,5 +1,7 @@
 # Abbott-Smith's "Manual Lexicon of the Greek New Testament" Online
-A little JS app to make Abbott-Smith searchable and usable with a focus on good UI and UX.
+A little JS app to make Abbott-Smith searchable and usable with a focus on good UI and UX.  
+
+The underlying data for this app comes from the marvelous [translatable-exegetical-tools/Abbott-Smith](https://github.com/translatable-exegetical-tools/Abbott-Smith). Needless to say, this app wouldn't exist without all the hard work that went into that repository! 
 
 # To Do List
 - [x] Refactor the code to search via JS data structure rather than raw XML
