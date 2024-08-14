@@ -9,6 +9,7 @@
 <script src="parse-lexicon/greek-helpers.js"></script>
 <script defer src="parse-lexicon/AbbotSmithData.js"></script>
 <script src="parse-lexicon/AbbotSmithLexicon.js"></script>
+<script src="scripts/disambiguated_strongs.js"></script>
 
 </head>
 <body>
@@ -267,9 +268,26 @@ BLB.Tagger.NoSearchClassNames = 'noTag doNotTag'; // CSS class list
         strongsNumber = new String(strongsNumber);
 
         //stepbible.org requires a strongs number of format "G0023"
-        let stepBibleStrongs = "G" + strongsNumber.padStart(4, '0');
+        let strongsPadded = strongsNumber.padStart(4, '0');
+        let suffixes = disambiguated_strongs[strongsPadded];
+        let step_URL = "";
 
-        return new URL("https://www.stepbible.org/?q=version=THGNT|strong=" + stepBibleStrongs + '&options=GVNHU');
+        if (suffixes === undefined) {
+            // It's a "normal" Strongs number, just do a plain search
+            step_URL = "https://www.stepbible.org/?q=version=THGNT|strong=G" + strongsPadded + '&options=GVNHU';
+        } else {
+            // It's a disambiguated Strongs number, create
+            let srchJoin = "";
+            let bars = "";
+            for (var x = 1; x <= suffixes.length; x++) {
+                srchJoin += x + "o";
+                bars += "strong=G" + strongsPadded + suffixes[x - 1] + "|";
+            }
+
+            // remove ending o and |, then generate link
+            step_URL = "https://www.stepbible.org/?q=version=THGNT|srchJoin=(" + srchJoin.replace(/o$/, '') + ")|" + bars.replace(/\|$/, '');
+        }
+        return new URL(step_URL);
     }
 
 </script>
