@@ -311,9 +311,9 @@ for item in data:
     # Add the suffix to the list associated with the prefix
     result_dict[prefix].append(suffix)
 
-# Convert the dictionary to a JSON string (optional)
-json_string = json.dumps(result_dict, indent=4)
+text = 'const disambiguated_strongs = '
 
 # Save the dictionary to a JSON file
-with open("output.json", "w") as outfile:
-    json.dump(result_dict, outfile, indent=4)
+with open("disambiguated_strongs.js", "w") as outfile:
+    outfile.write(text)
+    json.dump(result_dict, outfile, separators=(',', ':'))
