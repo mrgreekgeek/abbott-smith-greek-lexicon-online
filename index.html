@@ -1,46 +1,47 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Abbott-Smith, A Manual Greek Lexicon of the New Testament Online</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta charset="utf-8">
-<link rel="stylesheet" href="simple.css">
-<script src="parse-lexicon/greek-helpers.js"></script>
-<script defer src="parse-lexicon/AbbotSmithData.js"></script>
-<script src="parse-lexicon/AbbotSmithLexicon.js"></script>
-<script src="scripts/BibleInfo.js"></script>
-<script src="scripts/verse-tagger.js"></script>
+    <title>Abbott-Smith, A Manual Greek Lexicon of the New Testament Online</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="simple.css">
+    <script src="parse-lexicon/greek-helpers.js"></script>
+    <script defer src="parse-lexicon/AbbotSmithData.js"></script>
+    <script src="parse-lexicon/AbbotSmithLexicon.js"></script>
+    <script src="scripts/BibleInfo.js"></script>
 
 </head>
 <body>
 <main>
- <h1>A Manual Greek Lexicon of the New Testament</h1>
- <h2>Abbott-Smith</h2>
- <center>
- <form id="searchForm">
-    <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-     <path d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c46.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-33.9zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/>
-    </svg>
-    <input list="suggestions" type="text" autocomplete="off" id="searchTerm" placeholder="Enter your search term">
-    <div id="suggestions"></div>
- </form></center>
- <div class="loader"></div>
- <div id="result">
-    <div id="result-content"></div>
-    <div id="strongs-links"></div>
-    <div id="verse-popup"></div>
- </div>
- <noscript>
-   <div class="javascript-disabled">
-	   JavaScript is disabled in your browser. Please enable it to allow the search function to work properly.
-   </div>
- </noscript>
+    <h1>A Manual Greek Lexicon of the New Testament</h1>
+    <h2>Abbott-Smith</h2>
+    <center>
+        <form id="searchForm">
+            <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                <path d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c46.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-33.9zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/>
+            </svg>
+            <input list="suggestions" type="text" autocomplete="off" id="searchTerm"
+                   placeholder="Enter your search term">
+            <div id="suggestions"></div>
+        </form>
+    </center>
+    <div class="loader"></div>
+    <div id="result">
+        <div id="result-content"></div>
+        <div id="strongs-links"></div>
+        <div id="verse-popup"></div>
+    </div>
+    <noscript>
+        <div class="javascript-disabled">
+            JavaScript is disabled in your browser. Please enable it to allow the search function to work properly.
+        </div>
+    </noscript>
 </main>
 <footer>
-<p>Public domain.</br>
-The <a href="https://github.com/translatable-exegetical-tools/Abbott-Smith">source file</a> at Github.</br>
-The <a href="http://archive.org/details/manualgreeklexic00abborich">original printed book</a>.</p>
-<button id="dark-switch">Toggle dark mode</button>
+    <p>Public domain.</br>
+        The <a href="https://github.com/translatable-exegetical-tools/Abbott-Smith">source file</a> at Github.</br>
+        The <a href="http://archive.org/details/manualgreeklexic00abborich">original printed book</a>.</p>
+    <button id="dark-switch">Toggle dark mode</button>
 </footer>
 
 <script>
@@ -48,6 +49,11 @@ The <a href="http://archive.org/details/manualgreeklexic00abborich">original pri
         domResultContent = document.getElementById("result-content"),
         domSearchInput = document.getElementById("searchTerm"),
         domStrongsLinks = document.getElementById("strongs-links");
+    let ByzData = null;
+
+    fetch("byztxt/merged/ByzantineText.json")
+        .then((response) => response.json())
+        .then((json) => ByzData = json);
 
     window.onload = function () {
         lexicon = new AbbotSmithLexicon();
@@ -71,6 +77,68 @@ The <a href="http://archive.org/details/manualgreeklexic00abborich">original pri
         }
     };
 
+    function addpopups(strongstohighlight) {
+        /*
+        strongstohighlight: an array of strongs number which should be noted in the popup
+         */
+        function showverse(book, chapter, verse) {
+            let versePopup = document.getElementById("verse-popup");
+            if (ByzData == null) {
+                window.alert("The Byzantine Text has not loaded yet.");
+                return;
+            }
+
+            let bookInfo = ByzData[book];
+            let verseInfo = null;
+            if (bookInfo !== undefined) {
+                verseInfo = bookInfo[chapter + "-" + verse];
+            }
+
+            if (!(bookInfo && verseInfo)) {
+                versePopup.innerHTML = "We do not have Greek data for " + book + " " + chapter + ":" + verse;
+                return;
+            }
+
+            let greekWords = verseInfo["words"];
+            let strongNumbers = verseInfo["numbers"];
+            let domInfo = document.createDocumentFragment();
+
+            for (let i = 0; i < greekWords.length; i++) {
+                let word = greekWords[i];
+                let strongs = strongNumbers[i];
+                let elem = document.createElement("span");
+
+                if (strongstohighlight.indexOf(strongs) >= 0) {
+                    elem.classList.add("highlighted");
+                }
+
+                elem.innerHTML = word;
+                elem.onclick = () => search(strongs);
+                domInfo.appendChild(elem);
+            }
+            versePopup.replaceChildren(domInfo);
+        }
+
+        //make every Bible verse reference green
+        let refs = domResultContent.getElementsByTagName("ref");
+        let refsArray = Array.from(refs);
+
+        let addOsisRef = (r) => [r, r.getAttribute("osisRef")];
+        let OsisNotNull = (refInfo) => (refInfo[1] !== null);
+        let parseOsisRef = (refInfo) => [refInfo[0], BibleInfo.parseOsis(refInfo[1], null)];
+
+        refsArray.map(addOsisRef)
+            // some <ref> tags are not Scripture References
+            .filter(OsisNotNull)
+            .map(parseOsisRef)
+            .filter(OsisNotNull)
+            .forEach((refInfo) => {
+                let domElem = refInfo[0];
+                let referenceInfo = refInfo[1];
+                domElem.classList.add("reference");
+                domElem.onclick = () => showverse(referenceInfo.book, referenceInfo.chapter, referenceInfo.verse);
+            });
+    }
 
     function autocomplete(lexicon) {
         let currentFocus = -1,
@@ -78,7 +146,7 @@ The <a href="http://archive.org/details/manualgreeklexic00abborich">original pri
 
         domSearchInput.addEventListener('input', function () {
             currentFocus = -1; // so that first keydown shows 0th element
-            
+
             // Check if the input field is empty
             if (this.value) {
                 //show dropdown of suggestions
@@ -112,7 +180,7 @@ The <a href="http://archive.org/details/manualgreeklexic00abborich">original pri
         domSearchInput.addEventListener('keyup', function (e) {
             let suggestionWrapper = document.getElementById("suggestions"),
                 suggestions = null;
-            
+
             if (suggestionWrapper) {
                 suggestions = suggestionWrapper.getElementsByTagName("div");
             }
@@ -150,7 +218,7 @@ The <a href="http://archive.org/details/manualgreeklexic00abborich">original pri
             }
 
             // make the current item selected and visible:
-            
+
             //remove old class
             const className = "autocomplete-active";
             let selected = suggestionWrapper.getElementsByClassName(className);
@@ -160,7 +228,7 @@ The <a href="http://archive.org/details/manualgreeklexic00abborich">original pri
 
             suggestions[currentFocus].classList.add(className);
             suggestions[currentFocus].scrollIntoView(false);
-            });
+        });
     }
 
     function search(searchTerm) {
@@ -172,26 +240,10 @@ The <a href="http://archive.org/details/manualgreeklexic00abborich">original pri
             return;
         }
 
-        let prefix = 
-        domResultContent.innerHTML = '<span class="occurrencesNT">' + ((entry.occurrences) ? "approximately " + entry.occurrences : "unspecified number of") + ' occurrences in the Greek NT</span>';
+        let prefix =
+            domResultContent.innerHTML = '<span class="occurrencesNT">' + ((entry.occurrences) ? "approximately " + entry.occurrences : "unspecified number of") + ' occurrences in the Greek NT</span>';
         domResultContent.innerHTML += entry.innerHTML;
 
-        //make every Bible verse reference green
-        let versePopup = document.getElementById("verse-popups");
-        let refs = domResultContent.getElementsByTagName("ref");
-        let refsArray = Array.from(refs);
-
-        let addOsisRef =  (r) => [r, r.getAttribute("osisRef")];
-        let OsisNotNull = (refInfo) => (refInfo[1] !== null);
-        let parseOsisRef = (refInfo) => [refInfo[0], BibleInfo.parseOsis(refInfo[1], null)];
-        
-        refsArray = refsArray.map(addOsisRef)
-             // some <ref> tags are not Scripture References
-            .filter(OsisNotNull) 
-            .map(parseOsisRef)
-            .filter(OsisNotNull)
-            .forEach((refInfo) => refInfo[0].style.color = "green");
-        
         // Update the URL with the search term
         let newUrl = updateURLParameter('search', searchTerm);
         history.pushState({}, '', newUrl);
@@ -200,10 +252,13 @@ The <a href="http://archive.org/details/manualgreeklexic00abborich">original pri
         domSearchInput.value = entry.word;
 
         domStrongsLinks.innerHTML = "";
-        entry.strongs.forEach ((num) => {
+        entry.strongs.forEach((num) => {
             let href = getStrongsURL(num).toString();
-            domStrongsLinks.innerHTML += "<span class='strongLink'><a href='" + href + "' target='_blank'>G" + num + "</a></span>"; 
+            domStrongsLinks.innerHTML += "<span class='strongLink'><a href='" + href + "' target='_blank'>G" + num + "</a></span>";
         });
+
+        addpopups(entry.strongs);
+
     }
 
     function getURLParameter(name) {
@@ -237,6 +292,7 @@ The <a href="http://archive.org/details/manualgreeklexic00abborich">original pri
             document.documentElement.setAttribute("data-theme", "dark");
         }
     }
+
     detectColorScheme();
 
     const toggleSwitch = document.querySelector('#dark-switch');
@@ -298,14 +354,14 @@ The <a href="http://archive.org/details/manualgreeklexic00abborich">original pri
 </script>
 
 <script type='text/javascript'>
-/*if ('serviceWorker' in navigator) {
-	navigator.serviceWorker.register('sw.js', {scope: '.'});
-}
-window.addEventListener("load", function() {
-	if (navigator.serviceWorker.controller != null) {
-		navigator.serviceWorker.controller.postMessage({"command":"trimCache"});
-	}
-});*/
+    /*if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('sw.js', {scope: '.'});
+    }
+    window.addEventListener("load", function() {
+        if (navigator.serviceWorker.controller != null) {
+            navigator.serviceWorker.controller.postMessage({"command":"trimCache"});
+        }
+    });*/
 </script>
 <script defer src="https://stats.mrgreekgeek.com/script.js" data-website-id="d8e4dcbc-c1bb-4e19-875d-4888e1d24efe"></script>
 </body>

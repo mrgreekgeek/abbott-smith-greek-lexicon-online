@@ -940,3 +940,19 @@ etym, re {
   display: inline-block;
   margin: .25em;
 }
+
+.reference {
+  color: green;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#verse-popup span {
+  display: inline-block;
+  padding: .15em;
+}
+
+#verse-popup span.highlighted {
+  color: blue;
+  font-weight: bold;
+}
