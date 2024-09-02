@@ -28,6 +28,7 @@
  <div id="result">
     <div id="result-content"></div>
     <div id="strongs-links"></div>
+    <div id="verse-popup"></div>
  </div>
  <noscript>
    <div class="javascript-disabled">
@@ -95,9 +96,9 @@ The <a href="http://archive.org/details/manualgreeklexic00abborich">original pri
             results.forEach((result) => {
                 let div = document.createElement('div');
                 div.textContent = result.word;
-                div.role = 'option'; // Indicate that the suggestion is an option
+                div.role = "option"; // Indicate that the suggestion is an option
                 div.addEventListener('click', function () {
-                    suggestions.style.display = 'none';
+                    suggestions.style.display = "none";
                     search(this.textContent);
                 });
                 suggestions.appendChild(div);
@@ -108,7 +109,7 @@ The <a href="http://archive.org/details/manualgreeklexic00abborich">original pri
             }
         });
 
-        domSearchInput.addEventListener('keydown', function (e) {
+        domSearchInput.addEventListener('keyup', function (e) {
             let suggestionWrapper = document.getElementById("suggestions"),
                 suggestions = null;
             
@@ -176,6 +177,7 @@ The <a href="http://archive.org/details/manualgreeklexic00abborich">original pri
         domResultContent.innerHTML += entry.innerHTML;
 
         //make every Bible verse reference green
+        let versePopup = document.getElementById("verse-popups");
         let refs = domResultContent.getElementsByTagName("ref");
         let refsArray = Array.from(refs);
 
