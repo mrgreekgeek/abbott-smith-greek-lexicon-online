@@ -77,10 +77,26 @@
         }
     };
 
+    function highlightstrongs(strongstohighlight) {
+        let versePopup = document.getElementById("verse-popup");
+        let words = versePopup.getElementsByClassName("words")[0];
+        let wordList = undefined;
+
+        if (words === undefined || (wordList = words.getElementsByClassName("word")).length === 0) {
+            return;
+        }
+
+        for (let i = 0; i < wordList.length; i++) {
+            let child = wordList.item(i);
+            child.classList.remove("highlighted");
+            let strongs = child.dataset["strongs"];
+            if (strongstohighlight.indexOf(strongs) >= 0) {
+                child.classList.add("highlighted");
+            }
+        }
+    }
+
     function addpopups(strongstohighlight) {
-        /*
-        strongstohighlight: an array of strongs number which should be noted in the popup
-         */
         function showverse(book, chapter, verse) {
             let versePopup = document.getElementById("verse-popup");
             versePopup.classList.remove("visible");
@@ -114,11 +130,7 @@
                 let strongs = strongNumbers[i];
                 let elem = document.createElement("span");
                 elem.classList.add("word");
-
-                if (strongstohighlight.indexOf(strongs) >= 0) {
-                    elem.classList.add("highlighted");
-                }
-
+                elem.dataset["strongs"] = strongs;
                 elem.innerHTML = word;
                 elem.onclick = () => search(strongs);
                 domWords.appendChild(elem);
@@ -160,9 +172,10 @@
             domInfo.appendChild(bottomBar);
 
             versePopup.replaceChildren(domInfo);
+
+            highlightstrongs(strongstohighlight);
         }
 
-        //make every Bible verse reference green
         let refs = domResultContent.getElementsByTagName("ref");
         let refsArray = Array.from(refs);
 
@@ -301,7 +314,7 @@
         });
 
         addpopups(entry.strongs);
-
+        highlightstrongs(entry.strongs);
     }
 
     function getURLParameter(name) {
