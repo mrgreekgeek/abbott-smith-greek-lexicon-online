@@ -962,6 +962,12 @@ etym, re {
   visibility: visible;
 }
 
+#verse-popup.minimized {
+  background: unset;
+  border: unset;
+  text-align: center;
+}
+
 #verse-popup .words {
   padding: .5em;
 }
@@ -991,6 +997,14 @@ etym, re {
   text-align: center;
 }
 
+#verse-popup.minimized .bottomBar {
+  background: var(--form-bg);
+  border: 1px solid var(--text);
+  border-radius: 5px 5px 0 0;
+  color: var(--text);
+  display: inline-block;
+}
+
 #verse-popup .bottomBar .popup-action {
   cursor: pointer;
   text-decoration: underline;
@@ -1003,4 +1017,5 @@ etym, re {
 
 #verse-popup .bottomBar .popup-reference {
   flex-grow: 1;
+  text-align: left;
 }
