@@ -947,12 +947,27 @@ etym, re {
   text-decoration: underline;
 }
 
+#verse-popup.visible {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  bottom: 0;
+  color: var(--text);
+  padding: 10px;
+  position: sticky;
+}
+
 #verse-popup span {
   display: inline-block;
+  cursor: pointer;
   padding: .15em;
 }
 
+#verse-popup span:hover {
+  background-color: var(--accent-bg);
+}
+
 #verse-popup span.highlighted {
-  color: blue;
+  color: var(--accent);
   font-weight: bold;
 }

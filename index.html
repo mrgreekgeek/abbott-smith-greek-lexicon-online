@@ -83,6 +83,8 @@
          */
         function showverse(book, chapter, verse) {
             let versePopup = document.getElementById("verse-popup");
+            versePopup.classList.remove("visible");
+
             if (ByzData == null) {
                 window.alert("The Byzantine Text has not loaded yet.");
                 return;
@@ -94,6 +96,7 @@
                 verseInfo = bookInfo[chapter + "-" + verse];
             }
 
+            versePopup.classList.add("visible");
             if (!(bookInfo && verseInfo)) {
                 versePopup.innerHTML = "We do not have Greek data for " + book + " " + chapter + ":" + verse;
                 return;
@@ -116,6 +119,12 @@
                 elem.onclick = () => search(strongs);
                 domInfo.appendChild(elem);
             }
+
+            let reference = document.createElement("div");
+            reference.innerHTML = book + " " + chapter + ":" + verse;
+
+            domInfo.appendChild(reference);
+
             versePopup.replaceChildren(domInfo);
         }
 
