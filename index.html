@@ -97,6 +97,7 @@
             }
 
             versePopup.classList.add("visible");
+            versePopup.classList.remove("minimized");
             if (!(bookInfo && verseInfo)) {
                 versePopup.innerHTML = "We do not have Greek data for " + book + " " + chapter + ":" + verse;
                 return;
@@ -105,11 +106,14 @@
             let greekWords = verseInfo["words"];
             let strongNumbers = verseInfo["numbers"];
             let domInfo = document.createDocumentFragment();
+            let domWords = document.createElement("div");
+            domWords.classList.add("words");
 
             for (let i = 0; i < greekWords.length; i++) {
                 let word = greekWords[i];
                 let strongs = strongNumbers[i];
                 let elem = document.createElement("span");
+                elem.classList.add("word");
 
                 if (strongstohighlight.indexOf(strongs) >= 0) {
                     elem.classList.add("highlighted");
@@ -117,13 +121,43 @@
 
                 elem.innerHTML = word;
                 elem.onclick = () => search(strongs);
-                domInfo.appendChild(elem);
+                domWords.appendChild(elem);
             }
 
+            domInfo.appendChild(domWords);
+
+            let bottomBar = document.createElement("div");
+            bottomBar.classList.add("bottomBar");
+
             let reference = document.createElement("div");
+            reference.classList.add("popup-reference");
             reference.innerHTML = book + " " + chapter + ":" + verse;
 
-            domInfo.appendChild(reference);
+            let minimize = document.createElement("div");
+            minimize.classList.add("popup-action");
+            minimize.innerHTML = "minimize";
+            minimize.onclick = () => {
+                versePopup.classList.toggle("minimized");
+                if (versePopup.classList.contains("minimized")) {
+                    minimize.innerHTML = "maximize";
+                }
+                else {
+                    minimize.innerHTML = "minimize";
+                }
+            }
+
+            let close = document.createElement("div");
+            close.classList.add("popup-action");
+            close.innerHTML = "close";
+            close.onclick = () => {
+                versePopup.classList.remove("visible");
+                versePopup.innerHTML = "";
+            }
+
+            bottomBar.appendChild(minimize);
+            bottomBar.appendChild(reference);
+            bottomBar.appendChild(close);
+            domInfo.appendChild(bottomBar);
 
             versePopup.replaceChildren(domInfo);
         }
