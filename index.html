@@ -115,7 +115,7 @@
             versePopup.classList.add("visible");
             versePopup.classList.remove("minimized");
             if (!(bookInfo && verseInfo)) {
-                versePopup.innerHTML = "We do not have Greek data for " + book + " " + chapter + ":" + verse;
+                versePopup.innerHTML = "<div>We do not have Greek data for " + book + " " + chapter + ":" + verse + "</div>";
                 return;
             }
 

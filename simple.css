@@ -968,8 +968,13 @@ etym, re {
   text-align: center;
 }
 
-#verse-popup .words {
-  padding: .5em;
+#verse-popup > * {
+  margin: .5em;
+}
+
+#verse-popup.minimized > * {
+  margin-bottom: unset;
+  margin-top: unset;
 }
 
 #verse-popup.minimized .words {
@@ -1012,7 +1017,7 @@ etym, re {
 
 #verse-popup .bottomBar > div {
   display: inline-block;
-  padding: .25em;
+  padding: 0 .25em;
 }
 
 #verse-popup .bottomBar .popup-reference {
