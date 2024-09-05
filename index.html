@@ -241,7 +241,6 @@
                 }
 
                 div.addEventListener('click', function () {
-                    suggestions.style.display = "none";
                     search(searchTermOnSelected);
                 });
                 suggestions.appendChild(div);
@@ -279,9 +278,6 @@
                     suggestions[currentFocus].click();
                 }
 
-                // This is ugly and mixes function responsibilities
-                suggestionWrapper.style.display = 'none';
-
                 return null;
             }
 
@@ -310,14 +306,16 @@
         let entry = lexicon.search(searchTerm);
         let normalizedSearchTerm = null;
         let byzDataLoaded = ByzData !== null;
+        let suggestions = document.getElementById('suggestions');
+
+        // This is ugly and mixes function responsibilities
+        suggestions.style.display = 'none';
 
         domResultContent.innerHTML = "";
         domStrongsLinks.innerHTML = "";
 
         if (entry != null) {
-            normalizedSearchTerm = true;
-            let prefix =
-                domResultContent.innerHTML = '<span class="occurrencesNT">' + ((entry.occurrences) ? "approximately " + entry.occurrences : "unspecified number of") + ' occurrences in the Greek NT</span>';
+             domResultContent.innerHTML = '<span class="occurrencesNT">' + ((entry.occurrences) ? "approximately " + entry.occurrences : "unspecified number of") + ' occurrences in the Greek NT</span>';
             domResultContent.innerHTML += entry.innerHTML;
 
             normalizedSearchTerm = entry.word;
@@ -355,7 +353,6 @@
 
         if (normalizedSearchTerm === null) {
             domResultContent.innerHTML = "This search provided no results.";
-            domStrongsLinks.innerHTML = "";
 
             if (!byzDataLoaded) {
                 domResultContent.innerHTML += " The verse data is still loading."
