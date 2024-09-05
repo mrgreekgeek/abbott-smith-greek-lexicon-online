@@ -96,86 +96,88 @@
         }
     }
 
-    function addpopups(strongstohighlight) {
-        function showverse(book, chapter, verse) {
-            let versePopup = document.getElementById("verse-popup");
-            versePopup.classList.remove("visible");
+    function showverse(book, chapter, verse, strongstohighlight) {
+        let versePopup = document.getElementById("verse-popup");
+        versePopup.classList.remove("visible");
 
-            if (ByzData == null) {
-                window.alert("The Byzantine Text has not loaded yet.");
-                return;
-            }
-
-            let bookInfo = ByzData[book];
-            let verseInfo = null;
-            if (bookInfo !== undefined) {
-                verseInfo = bookInfo[chapter + "-" + verse];
-            }
-
-            versePopup.classList.add("visible");
-            versePopup.classList.remove("minimized");
-            if (!(bookInfo && verseInfo)) {
-                versePopup.innerHTML = "<div>We do not have Greek data for " + book + " " + chapter + ":" + verse + "</div>";
-                return;
-            }
-
-            let greekWords = verseInfo["words"];
-            let strongNumbers = verseInfo["numbers"];
-            let domInfo = document.createDocumentFragment();
-            let domWords = document.createElement("div");
-            domWords.classList.add("words");
-
-            for (let i = 0; i < greekWords.length; i++) {
-                let word = greekWords[i];
-                let strongs = strongNumbers[i];
-                let elem = document.createElement("span");
-                elem.classList.add("word");
-                elem.dataset["strongs"] = strongs;
-                elem.innerHTML = word;
-                elem.onclick = () => search(strongs);
-                domWords.appendChild(elem);
-            }
-
-            domInfo.appendChild(domWords);
-
-            let bottomBar = document.createElement("div");
-            bottomBar.classList.add("bottomBar");
-
-            let reference = document.createElement("div");
-            reference.classList.add("popup-reference");
-            reference.innerHTML = book + " " + chapter + ":" + verse;
-
-            let minimize = document.createElement("div");
-            minimize.classList.add("popup-action");
-            minimize.innerHTML = "minimize";
-            minimize.onclick = () => {
-                versePopup.classList.toggle("minimized");
-                if (versePopup.classList.contains("minimized")) {
-                    minimize.innerHTML = "maximize";
-                }
-                else {
-                    minimize.innerHTML = "minimize";
-                }
-            }
-
-            let close = document.createElement("div");
-            close.classList.add("popup-action");
-            close.innerHTML = "close";
-            close.onclick = () => {
-                versePopup.classList.remove("visible");
-                versePopup.innerHTML = "";
-            }
-
-            bottomBar.appendChild(reference);
-            bottomBar.appendChild(minimize);
-            bottomBar.appendChild(close);
-            domInfo.appendChild(bottomBar);
-
-            versePopup.replaceChildren(domInfo);
-
-            highlightstrongs(strongstohighlight);
+        if (ByzData == null) {
+            window.alert("The Byzantine Text has not loaded yet.");
+            return;
         }
 
+        let bookInfo = ByzData[book];
+        let verseInfo = null;
+        if (bookInfo !== undefined) {
+            verseInfo = bookInfo[chapter + "-" + verse];
+        }
+
+        versePopup.classList.add("visible");
+        versePopup.classList.remove("minimized");
+        if (!(bookInfo && verseInfo)) {
+            versePopup.innerHTML = "<div>We do not have Greek data for " + book + " " + chapter + ":" + verse + "</div>";
+            return;
+        }
+
+        let greekWords = verseInfo["words"];
+        let strongNumbers = verseInfo["numbers"];
+        let domInfo = document.createDocumentFragment();
+        let domWords = document.createElement("div");
+        domWords.classList.add("words");
+
+        for (let i = 0; i < greekWords.length; i++) {
+            let word = greekWords[i];
+            let strongs = strongNumbers[i];
+            let elem = document.createElement("span");
+            elem.classList.add("word");
+            elem.dataset["strongs"] = strongs;
+            elem.innerHTML = word;
+            elem.onclick = () => search(strongs);
+            domWords.appendChild(elem);
+        }
+
+        domInfo.appendChild(domWords);
+
+        let bottomBar = document.createElement("div");
+        bottomBar.classList.add("bottomBar");
+
+        let reference = document.createElement("div");
+        reference.classList.add("popup-reference");
+        reference.innerHTML = book + " " + chapter + ":" + verse;
+
+        let minimize = document.createElement("div");
+        minimize.classList.add("popup-action");
+        minimize.innerHTML = "minimize";
+        minimize.onclick = () => {
+            versePopup.classList.toggle("minimized");
+            if (versePopup.classList.contains("minimized")) {
+                minimize.innerHTML = "maximize";
+            }
+            else {
+                minimize.innerHTML = "minimize";
+            }
+        }
+
+        let close = document.createElement("div");
+        close.classList.add("popup-action");
+        close.innerHTML = "close";
+        close.onclick = () => {
+            versePopup.classList.remove("visible");
+            versePopup.innerHTML = "";
+        }
+
+        bottomBar.appendChild(reference);
+        bottomBar.appendChild(minimize);
+        bottomBar.appendChild(close);
+        domInfo.appendChild(bottomBar);
+
+        versePopup.replaceChildren(domInfo);
+
+        if (strongstohighlight !== undefined) {
+            highlightstrongs(strongstohighlight);
+        }
+    }
+
+    function addpopups(strongstohighlight) {
         let refs = domResultContent.getElementsByTagName("ref");
         let refsArray = Array.from(refs);
 
@@ -192,7 +194,7 @@
                 let domElem = refInfo[0];
                 let referenceInfo = refInfo[1];
                 domElem.classList.add("reference");
-                domElem.onclick = () => showverse(referenceInfo.book, referenceInfo.chapter, referenceInfo.verse);
+                domElem.onclick = () => showverse(referenceInfo.book, referenceInfo.chapter, referenceInfo.verse, strongstohighlight);
             });
     }
 
@@ -289,32 +291,51 @@
 
     function search(searchTerm) {
         let entry = lexicon.search(searchTerm);
+        let searchSucceeded = false;
 
-        if (entry == null) {
-            domResultContent.innerHTML = "This search provided no results.";
+        if (entry != null) {
+            searchSucceeded = true;
+            let prefix =
+                domResultContent.innerHTML = '<span class="occurrencesNT">' + ((entry.occurrences) ? "approximately " + entry.occurrences : "unspecified number of") + ' occurrences in the Greek NT</span>';
+            domResultContent.innerHTML += entry.innerHTML;
+
+            // Update the URL with the search term
+            let newUrl = updateURLParameter('search', searchTerm);
+            history.pushState({}, '', newUrl);
+
+            document.title = searchTerm + " | Abbott-Smith, A Manual Greek Lexicon of the New Testament Online";
+            domSearchInput.value = entry.word;
+
             domStrongsLinks.innerHTML = "";
-            return;
+            entry.strongs.forEach((num) => {
+                let href = getStrongsURL(num).toString();
+                domStrongsLinks.innerHTML += "<span class='strongLink'><a href='" + href + "' target='_blank'>G" + num + "</a></span>";
+            });
+
+            addpopups(entry.strongs);
+            highlightstrongs(entry.strongs);
+        }
+        else {
+            let possibleBook = searchTerm.trim();
+            let lastSpace = possibleBook.lastIndexOf(" ");
+            let firstColon = possibleBook.indexOf(":");
+            if (lastSpace >= 0 && firstColon > lastSpace) {
+                let bookName = possibleBook.slice(0, lastSpace).trim();
+                let chapterVerse = possibleBook.slice(lastSpace+1);
+                chapterVerse = chapterVerse.split(":", 2);
+                let chapter = chapterVerse[0];
+                let verse = chapterVerse[1];
+                if (BibleInfo.verseExists(bookName, chapter, verse)) {
+                    showverse(bookName, chapter, verse);
+                    searchSucceeded = true;
+                }
+            }
         }
 
-        let prefix =
-            domResultContent.innerHTML = '<span class="occurrencesNT">' + ((entry.occurrences) ? "approximately " + entry.occurrences : "unspecified number of") + ' occurrences in the Greek NT</span>';
-        domResultContent.innerHTML += entry.innerHTML;
-
-        // Update the URL with the search term
-        let newUrl = updateURLParameter('search', searchTerm);
-        history.pushState({}, '', newUrl);
-
-        document.title = searchTerm + " | Abbott-Smith, A Manual Greek Lexicon of the New Testament Online";
-        domSearchInput.value = entry.word;
-
-        domStrongsLinks.innerHTML = "";
-        entry.strongs.forEach((num) => {
-            let href = getStrongsURL(num).toString();
-            domStrongsLinks.innerHTML += "<span class='strongLink'><a href='" + href + "' target='_blank'>G" + num + "</a></span>";
-        });
-
-        addpopups(entry.strongs);
-        highlightstrongs(entry.strongs);
+        if (!searchSucceeded) {
+            domResultContent.innerHTML = "This search provided no results.";
+            domStrongsLinks.innerHTML = "";
+        }
     }
 
     function getURLParameter(name) {
