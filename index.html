@@ -217,15 +217,32 @@
             suggestions.innerHTML = '';
 
             let searchTerm = this.value;
-            let results = lexicon.getSimilar(searchTerm);
+            let results = [];
+
+            if (ByzData !== null && searchTerm.length > 1) {
+                results = Object.getOwnPropertyNames(ByzData).filter((elem, ind, arr) => elem.toLowerCase().startsWith(searchTerm.toLowerCase())).map(v => v + " 1:1");
+            }
+
+            results = results.concat(lexicon.getSimilar(searchTerm));
 
             results.forEach((result) => {
                 let div = document.createElement('div');
-                div.textContent = result.word;
                 div.role = "option"; // Indicate that the suggestion is an option
+
+                let searchTermOnSelected = null;
+
+                if (typeof(result) == "string") {
+                    div.textContent = result;
+                    searchTermOnSelected = result;
+                }
+                else {
+                    div.textContent = result.word;
+                    searchTermOnSelected = result.word;
+                }
+
                 div.addEventListener('click', function () {
                     suggestions.style.display = "none";
-                    search(this.textContent);
+                    search(searchTermOnSelected);
                 });
                 suggestions.appendChild(div);
             });
