@@ -21,7 +21,7 @@
                 <path d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c46.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-33.9zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/>
             </svg>
             <input list="suggestions" type="text" autocomplete="off" id="searchTerm"
-                   placeholder="Enter your search term">
+                   placeholder="Enter word or reference">
             <div id="suggestions"></div>
         </form>
     </center>
@@ -291,22 +291,19 @@
 
     function search(searchTerm) {
         let entry = lexicon.search(searchTerm);
-        let searchSucceeded = false;
+        let normalizedSearchTerm = null;
+
+        domResultContent.innerHTML = "";
+        domStrongsLinks.innerHTML = "";
 
         if (entry != null) {
-            searchSucceeded = true;
+            normalizedSearchTerm = true;
             let prefix =
                 domResultContent.innerHTML = '<span class="occurrencesNT">' + ((entry.occurrences) ? "approximately " + entry.occurrences : "unspecified number of") + ' occurrences in the Greek NT</span>';
             domResultContent.innerHTML += entry.innerHTML;
 
-            // Update the URL with the search term
-            let newUrl = updateURLParameter('search', searchTerm);
-            history.pushState({}, '', newUrl);
+            normalizedSearchTerm = entry.word;
 
-            document.title = searchTerm + " | Abbott-Smith, A Manual Greek Lexicon of the New Testament Online";
-            domSearchInput.value = entry.word;
-
-            domStrongsLinks.innerHTML = "";
             entry.strongs.forEach((num) => {
                 let href = getStrongsURL(num).toString();
                 domStrongsLinks.innerHTML += "<span class='strongLink'><a href='" + href + "' target='_blank'>G" + num + "</a></span>";
@@ -315,27 +312,41 @@
             addpopups(entry.strongs);
             highlightstrongs(entry.strongs);
         }
+
         else {
             let possibleBook = searchTerm.trim();
             let lastSpace = possibleBook.lastIndexOf(" ");
             let firstColon = possibleBook.indexOf(":");
+
             if (lastSpace >= 0 && firstColon > lastSpace) {
                 let bookName = possibleBook.slice(0, lastSpace).trim();
                 let chapterVerse = possibleBook.slice(lastSpace+1);
                 chapterVerse = chapterVerse.split(":", 2);
                 let chapter = chapterVerse[0];
                 let verse = chapterVerse[1];
-                if (BibleInfo.verseExists(bookName, chapter, verse)) {
+
+                // allow searching in any case. Thank you, StackOverflow!
+                bookName = bookName.toLowerCase().replace(/(^\w|\s\w)/g, m => m.toUpperCase());
+
+                if (ByzData[bookName] !== undefined) {
                     showverse(bookName, chapter, verse);
-                    searchSucceeded = true;
+                    normalizedSearchTerm = bookName + " " + chapter + ":" + verse;
                 }
             }
         }
 
-        if (!searchSucceeded) {
+        if (normalizedSearchTerm === null) {
             domResultContent.innerHTML = "This search provided no results.";
             domStrongsLinks.innerHTML = "";
+            return;
         }
+
+        // Update the URL with the search term
+        document.title = searchTerm + " | Abbott-Smith, A Manual Greek Lexicon of the New Testament Online";
+        domSearchInput.value = normalizedSearchTerm;
+
+        let newUrl = updateURLParameter('search', searchTerm);
+        history.pushState({}, '', newUrl);
     }
 
     function getURLParameter(name) {
