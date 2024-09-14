@@ -151,6 +151,32 @@ var BibleInfo = new function() {
 		};
 
 
+	/*
+	True if bookName is an OT book. False, otherwise.
+	 */
+	this.isOTBook = function (bookName) {
+		let index = this.getBookIndex(bookName);
+
+		if (index >= this.getBookIndex("genesis") && index <= this.getBookIndex("malachi"))
+			return true;
+
+		return false;
+	}
+
+
+	/*
+	True if bookName is an NT book. False, otherwise.
+	 */
+	this.isNTBook = function (bookName) {
+		let index = this.getBookIndex(bookName);
+
+		if (index >= this.getBookIndex("matthew") && index <= this.getBookIndex("revelation"))
+			return true;
+
+		return false;
+	}
+
+
 		/*
 		When given an Osis reference, this parses it and returns an
 		object like {"book": "John", "chapter": 3, "verse": 16}

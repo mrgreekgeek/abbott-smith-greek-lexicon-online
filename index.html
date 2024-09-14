@@ -190,6 +190,7 @@
             .filter(OsisNotNull)
             .map(parseOsisRef)
             .filter(OsisNotNull)
+            .filter(osisRef => BibleInfo.isNTBook(osisRef[1].book))
             .forEach((refInfo) => {
                 let domElem = refInfo[0];
                 let referenceInfo = refInfo[1];
