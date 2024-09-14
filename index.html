@@ -49,11 +49,8 @@
         domResultContent = document.getElementById("result-content"),
         domSearchInput = document.getElementById("searchTerm"),
         domStrongsLinks = document.getElementById("strongs-links");
-    let ByzData = null;
-
-    fetch("byztxt/merged/ByzantineText.json")
-        .then((response) => response.json())
-        .then((json) => ByzData = json);
+    let ByzData = {},
+        ByzBooksBeingLoaded = {};
 
     window.onload = function () {
         lexicon = new AbbotSmithLexicon();
@@ -98,20 +95,43 @@
 
     function showverse(book, chapter, verse, strongstohighlight) {
         let versePopup = document.getElementById("verse-popup");
-        versePopup.classList.remove("visible");
+        versePopup.classList.add("visible");
+        // track the currently selected verse so that it won't be overridden
+        // when other books are loaded in the background
+        this.currentBook = book;
+        this.currentChapter = chapter;
+        this.currentVerse = verse;
 
-        if (ByzData == null) {
-            window.alert("The Byzantine Text has not loaded yet.");
+        if (ByzData[book] !== undefined) {
+            addVerseToPopup(book, chapter, verse, strongstohighlight);
             return;
         }
 
+        versePopup.innerHTML = "<div>Loading data for " + book + "</div>";
+
+        if (ByzBooksBeingLoaded[book] === undefined) {
+            ByzBooksBeingLoaded[book] = true;
+            fetch("byztxt/merged/" + book + ".json")
+                .then((response) => response.json())
+                .then((json) => {
+                    ByzData[book] = json;
+                    ByzBooksBeingLoaded[book] = undefined;
+                    // If they clicked a different reference in this book,
+                    // we need to take them there.
+                    if (this.currentBook === book)
+                        addVerseToPopup(book, this.currentChapter, this.currentVerse, strongstohighlight);
+                });
+        }
+    }
+
+    function addVerseToPopup(book, chapter, verse, strongstohighlight) {
+        let versePopup = document.getElementById("verse-popup");
         let bookInfo = ByzData[book];
         let verseInfo = null;
         if (bookInfo !== undefined) {
             verseInfo = bookInfo[chapter + "-" + verse];
         }
 
-        versePopup.classList.add("visible");
         versePopup.classList.remove("minimized");
         if (!(bookInfo && verseInfo)) {
             versePopup.innerHTML = "<div>We do not have Greek data for " + book + " " + chapter + ":" + verse + "</div>";
@@ -220,8 +240,8 @@
             let searchTerm = this.value;
             let results = [];
 
-            if (ByzData !== null && searchTerm.length > 1) {
-                results = Object.getOwnPropertyNames(ByzData).filter((elem, ind, arr) => elem.toLowerCase().startsWith(searchTerm.toLowerCase())).map(v => v + " 1:1");
+            if (searchTerm.length > 1) {
+                results = BibleInfo.getNTBooks().filter((elem, ind, arr) => elem.toLowerCase().startsWith(searchTerm.toLowerCase())).map(v => v + " 1:1");
             }
 
             results = results.concat(lexicon.getSimilar(searchTerm));
@@ -316,7 +336,7 @@
         domStrongsLinks.innerHTML = "";
 
         if (entry != null) {
-             domResultContent.innerHTML = '<span class="occurrencesNT">' + ((entry.occurrences) ? "approximately " + entry.occurrences : "unspecified number of") + ' occurrences in the Greek NT</span>';
+            domResultContent.innerHTML = '<span class="occurrencesNT">' + ((entry.occurrences) ? "approximately " + entry.occurrences : "unspecified number of") + ' occurrences in the Greek NT</span>';
             domResultContent.innerHTML += entry.innerHTML;
 
             normalizedSearchTerm = entry.word;

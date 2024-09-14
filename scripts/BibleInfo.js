@@ -56,8 +56,24 @@ var BibleInfo = new function() {
 		
 		return bookinfo.length - 1;
 		};
-	
-	
+
+
+	/*
+	Returns an array of the New Testament books in order.
+	 */
+	this.getNTBooks = function () {
+		let matthewIndex = this.getBookIndex("matthew");
+		return this.bookNames.slice(matthewIndex);
+	}
+
+	/*
+	Returns an array of the Old Testament books in order.
+	 */
+	this.getOTBooks = function () {
+		let malachiIndex = this.getBookIndex("malachi");
+		return this.bookNames.slice(0, malachiIndex + 1);
+	}
+
 	this.getVersesInChapter = function (book, chapter) {
 		/*
 		This returns the verses for the $chapter in $book.
