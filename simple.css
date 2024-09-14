@@ -1024,3 +1024,13 @@ etym, re {
   flex-grow: 1;
   text-align: left;
 }
+
+#verse-popup .popup-reference a {
+  color: var(--text);
+  font-size: 75%;
+  text-decoration: 1px solid var(--text) underline;
+}
+
+#verse-popup.minimized .popup-reference a {
+  display: none;
+}
