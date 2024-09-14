@@ -107,7 +107,7 @@
             return;
         }
 
-        versePopup.innerHTML = "<div>Loading data for " + book + "</div>";
+        versePopup.innerHTML = "<div>Loading data for " + book + " " + chapter + ":" + verse + "</div>";
 
         if (ByzBooksBeingLoaded[book] === undefined) {
             ByzBooksBeingLoaded[book] = true;
@@ -326,7 +326,6 @@
     function search(searchTerm) {
         let entry = lexicon.search(searchTerm);
         let normalizedSearchTerm = null;
-        let byzDataLoaded = ByzData !== null;
         let suggestions = document.getElementById('suggestions');
 
         // This is ugly and mixes function responsibilities
@@ -350,7 +349,7 @@
             highlightstrongs(entry.strongs);
         }
 
-        else if (byzDataLoaded) {
+        else {
             let possibleBook = searchTerm.trim();
             let lastSpace = possibleBook.lastIndexOf(" ");
             let firstColon = possibleBook.indexOf(":");
@@ -365,7 +364,7 @@
                 // allow searching in any case. Thank you, StackOverflow!
                 bookName = bookName.toLowerCase().replace(/(^\w|\s\w)/g, m => m.toUpperCase());
 
-                if (ByzData[bookName] !== undefined) {
+                if (BibleInfo.isNTBook(bookName)) {
                     showverse(bookName, chapter, verse);
                     normalizedSearchTerm = bookName + " " + chapter + ":" + verse;
                 }
@@ -374,11 +373,6 @@
 
         if (normalizedSearchTerm === null) {
             domResultContent.innerHTML = "This search provided no results.";
-
-            if (!byzDataLoaded) {
-                domResultContent.innerHTML += " The verse data is still loading."
-            }
-            return;
         }
 
         // Update the URL with the search term
