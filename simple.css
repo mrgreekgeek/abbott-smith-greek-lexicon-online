@@ -940,3 +940,97 @@ etym, re {
   display: inline-block;
   margin: .25em;
 }
+
+.reference {
+  color: green;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#verse-popup {
+  visibility: hidden;
+}
+
+#verse-popup.visible {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 5px 5px 0 0;
+  bottom: 0;
+  color: var(--text);
+  font-size: 75%;
+  position: sticky;
+  visibility: visible;
+}
+
+#verse-popup.minimized {
+  background: unset;
+  border: unset;
+  text-align: center;
+}
+
+#verse-popup > * {
+  margin: .5em;
+}
+
+#verse-popup.minimized > * {
+  margin-bottom: unset;
+  margin-top: unset;
+}
+
+#verse-popup.minimized .words {
+  display: none;
+}
+
+#verse-popup .words .word {
+  display: inline-block;
+  cursor: pointer;
+  padding: .15em;
+}
+
+#verse-popup .word:hover {
+  background-color: var(--accent-bg);
+}
+
+#verse-popup .word.highlighted {
+  color: var(--accent);
+  font-weight: bold;
+}
+
+#verse-popup .bottomBar {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+#verse-popup.minimized .bottomBar {
+  background: var(--form-bg);
+  border: 1px solid var(--text);
+  border-radius: 5px 5px 0 0;
+  color: var(--text);
+  display: inline-block;
+}
+
+#verse-popup .bottomBar .popup-action {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#verse-popup .bottomBar > div {
+  display: inline-block;
+  padding: 0 .25em;
+}
+
+#verse-popup .bottomBar .popup-reference {
+  flex-grow: 1;
+  text-align: left;
+}
+
+#verse-popup .popup-reference a {
+  color: var(--text);
+  font-size: 75%;
+  text-decoration: 1px solid var(--text) underline;
+}
+
+#verse-popup.minimized .popup-reference a {
+  display: none;
+}
