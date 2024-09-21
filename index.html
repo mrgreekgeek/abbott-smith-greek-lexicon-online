@@ -345,6 +345,14 @@
                 domStrongsLinks.innerHTML += "<span class='strongLink'><a href='" + href + "' target='_blank'>G" + num + "</a></span>";
             });
 
+            function addLinkToMissingEntries() {
+                const resultContent = document.getElementById('result-content');
+                const pattern = /,\s+v\.s\.\s+(?:<ref>)?<foreign xml:lang="grc">([^<]+)<\/foreign>(?:<\/ref>)?/g;
+                const replacement = (match, p1) => `, v.s. <foreign xml:lang="grc"><a href="/?search=${encodeURIComponent(p1)}">${p1}</a></foreign>`;
+                resultContent.innerHTML = resultContent.innerHTML.replace(pattern, replacement);
+            }
+            addLinkToMissingEntries();
+
             addpopups(entry.strongs);
             highlightstrongs(entry.strongs);
         }
