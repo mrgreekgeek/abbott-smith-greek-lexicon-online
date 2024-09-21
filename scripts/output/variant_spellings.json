@@ -1,0 +1,952 @@
+{
+  "entries": [
+    {
+      "word": "ἀγυιά",
+      "innerHTML": "\n<form><orth>ἀγυιά</orth>,  v.s. <ref><foreign xml:lang=\"grc\">ἀγορά</foreign></ref>,  [in LXX: <ref osisRef=\"3Macc.1.20\">III Mac 1:20</ref> <ref osisRef=\"3Macc.4.3\">4:3</ref>*].</form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Αἰλαμίτης",
+      "innerHTML": "\n  <form><orth>Αἰλαμίτης</orth>,  v.s. <foreign xml:lang=\"grc\">Ἐλαμείτης</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἁλιεύς",
+      "innerHTML": "\n  <form><orth>ἁλιεύς</orth>,  v.s. <ref><foreign xml:lang=\"grc\">ἁλεεύς</foreign></ref>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἀμφιέζω",
+      "innerHTML": "\n  <form><orth>ἀμφιέζω</orth>,  v.s. <ref><foreign xml:lang=\"grc\">ἀμφιάζω</foreign></ref>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἀνάπειρος",
+      "innerHTML": "\n  <form>* <orth>ἀνάπειρος</orth>,  v.s. <ref><foreign xml:lang=\"grc\">ἀνάπηρος</foreign></ref>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἀντίληψις",
+      "innerHTML": "\n  <form><orth>ἀντί-ληψις</orth>,  v.s. <ref><foreign xml:lang=\"grc\">ἀντίλημψις</foreign></ref>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἁπλόος",
+      "innerHTML": "\n  <form><orth>ἁπλόος</orth>,  v.s. <ref><foreign xml:lang=\"grc\">ἁπλοῦς</foreign></ref>.</form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἀραβών",
+      "innerHTML": "\n  <form><orth>ἀραβών</orth>,  v.s. <ref><foreign xml:lang=\"grc\">ἀρραβών</foreign></ref>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἄραγε",
+      "innerHTML": "\n  <form><orth>ἄραγε</orth>,  v.s. <ref><foreign xml:lang=\"grc\">ἄρα</foreign></ref>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἆράγε",
+      "innerHTML": "\n  <form><orth>ἆράγε</orth>,  v.s. <ref><foreign xml:lang=\"grc\">ἆρα</foreign></ref>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Ἄριος",
+      "innerHTML": "\n  <form><orth>Ἄριος</orth>,  v.s. <ref><foreign xml:lang=\"grc\">Ἄρειος</foreign></ref>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἄρνας",
+      "innerHTML": "\n  <form><orth>ἄρνας</orth>,  v.s. <ref><foreign xml:lang=\"grc\">ἀρήν</foreign></ref>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἄρραφος",
+      "innerHTML": "\n  <form><orth>ἄρραφος</orth>,  v.s. <ref><foreign xml:lang=\"grc\">ἄραφος</foreign></ref>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἄρρην",
+      "innerHTML": "\n  <form><orth>ἄρρην</orth>,  v.s. <ref><foreign xml:lang=\"grc\">ἄρσην</foreign></ref>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Ἀσά",
+      "innerHTML": "\n  <form><orth>Ἀσά</orth>,  v.s. <ref><foreign xml:lang=\"grc\">Ἀσάφ</foreign></ref>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἀσαίνω",
+      "innerHTML": "\n  <form><orth>ἀσαίνω</orth>,  v.s. <ref><foreign xml:lang=\"grc\">σαίνω</foreign></ref>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Ἀσύγκριτος",
+      "innerHTML": "\n  <form><orth>Ἀσύγκριτος</orth>,  v.s. <ref><foreign xml:lang=\"grc\">Ἀσύνκριτος</foreign></ref>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "αὔξω",
+      "innerHTML": "\n  <form><orth>αὔξω</orth>,  v.s. <ref><foreign xml:lang=\"grc\">αὐξάνω</foreign></ref>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἀφεῖδον",
+      "innerHTML": "\n  <form><orth>ἀφεῖδον</orth>,  v.s. <ref><foreign xml:lang=\"grc\">ἀπεῖδον</foreign></ref>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Ἄχας",
+      "innerHTML": "\n  <form><orth>Ἄχας</orth>,  v.s. <ref><foreign xml:lang=\"grc\">Ἄχαζ</foreign></ref>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Δαβίδ",
+      "innerHTML": "\n  <form><orth>Δαβίδ</orth>,  v.s. <foreign xml:lang=\"grc\">Δαυείδ</foreign>.</form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Δελματία",
+      "innerHTML": "\n  <form><orth>Δελματία</orth>,  v.s. <foreign xml:lang=\"grc\">Δαλματία</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "δύω",
+      "innerHTML": "\n  <form><orth>δύω</orth>,  v.s. <foreign xml:lang=\"grc\">δύνω</foreign></form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἔγγιστος",
+      "innerHTML": "\n  <form><orth>ἔγγιστος</orth>,  v.s. <foreign xml:lang=\"grc\">ἐγγύς</foreign>. </form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἐγκακέω",
+      "innerHTML": "\n  <form><orth>ἐγκακέω</orth>,  v.s. <foreign xml:lang=\"grc\">ἐνκ-</foreign>.</form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἐγκαυχάομαι",
+      "innerHTML": "\n  <form><orth>ἐγ-καυχάομαι</orth>,  v.s. <foreign xml:lang=\"grc\">ἐνκ-</foreign>.</form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἐθέλω",
+      "innerHTML": "\n  <form><orth>ἐθέλω</orth>,  v.s. <foreign xml:lang=\"grc\"><ref>θέλω</ref></foreign>. </form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "εἶδον",
+      "innerHTML": "\n  <form><orth>εἶδον</orth>,  v.s. <foreign xml:lang=\"grc\"><ref>ὁράω</ref></foreign>.</form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "εἵνεκεν",
+      "innerHTML": "\n  <form><orth>εἵνεκεν</orth>,  v.s. <foreign xml:lang=\"grc\"><ref>ἕνεκα</ref></foreign>.</form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "εἴπερ",
+      "innerHTML": "\n  <form><orth>εἴ-περ</orth>,  v.s. <foreign xml:lang=\"grc\"><ref>εἰ</ref></foreign>.</form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "εἴπως",
+      "innerHTML": "\n  <form><orth>εἴ-πως</orth>,  v.s. <foreign xml:lang=\"grc\">εἰ</foreign>.</form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "εἴωθα",
+      "innerHTML": "\n  <form><orth>εἴωθα</orth>,  v.s. <foreign xml:lang=\"grc\">ἔθω</foreign>.</form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἐκκακέω",
+      "innerHTML": "\n  <form><orth>ἐκκακέω,  -ῶ</orth>,  v.s. <foreign xml:lang=\"grc\">ἐνκακέω</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἐλεινός",
+      "innerHTML": "\n  <form><orth>ἐλεινός</orth>,  v.s. <foreign xml:lang=\"grc\">ἐλεεινός</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Ἐλισάβετ",
+      "innerHTML": "\n  <form><orth>Ἐλισάβετ</orth>,  v.s. <foreign xml:lang=\"grc\">Ἐλεισ-</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἐλκύω",
+      "innerHTML": "\n  <form><orth>ἐλκύω</orth>,  v.s. <foreign xml:lang=\"grc\">ἕλκω</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἐμπρήθω",
+      "innerHTML": "\n  <form><orth>ἐμ-πρήθω</orth>,  v.s. <foreign xml:lang=\"grc\">ἐμπίπρημι</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἐννεός",
+      "innerHTML": "\n  <form><orth>ἐννεός</orth>,  v.s. <foreign xml:lang=\"grc\">ἐνεός</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἔννυχα",
+      "innerHTML": "\n  <form>*† <orth>ἔννυχα</orth>,  v.s. <foreign xml:lang=\"grc\">ἔννυχος</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἐξ",
+      "innerHTML": "\n  <form><orth>ἐξ</orth>,  v.s. <foreign xml:lang=\"grc\">ἐκ</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἐξέφνης",
+      "innerHTML": "\n  <form><orth>ἐξέφνης</orth>,  v.s. <foreign xml:lang=\"grc\">ἐξαίφνης</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἐξόν",
+      "innerHTML": "\n  <form><orth>ἐξ-όν</orth>,  v.s. <foreign xml:lang=\"grc\">ἔξστι</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἐξουδενόω",
+      "innerHTML": "\n  <form><orth>ἐξ-ουδενόω</orth>,  v.s. <foreign xml:lang=\"grc\">ἐξουδενέω</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἐπιείκεια",
+      "innerHTML": "\n  <form><orth>ἐπιείκεια</orth>,  v.s. <foreign xml:lang=\"grc\">ἐπιεικία</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἐπιοῦσα",
+      "innerHTML": "\n  <form><orth>ἐπιοῦσα</orth>,  v.s. <foreign xml:lang=\"grc\">ἔπειμι</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἐφεῖδον",
+      "innerHTML": "\n  <form><orth>ἐφεῖδον</orth>,  v.s. <foreign xml:lang=\"grc\">ἐπεῖδον</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἔφιδε",
+      "innerHTML": "\n  <form><orth>ἔφιδε</orth>,  v.s. <foreign xml:lang=\"grc\">ἐπεῖδον</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἐφνίδιος",
+      "innerHTML": "\n  <form><orth>ἐφνίδιος</orth>,  v.s. <ref><foreign xml:lang=\"grc\">αἰφνίδιος</foreign></ref>.</form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἡμεῖς",
+      "innerHTML": "\n  <form><orth>ἡμεῖς</orth>,  v.s. <foreign xml:lang=\"grc\">ἐγώ</foreign>.</form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἦμήν",
+      "innerHTML": "\n\t<note type=\"occurrencesNT\">15 (KJV)</note>\n<form><orth>ἦ μήν</orth>,  v.s. <foreign xml:lang=\"grc\">ἦ</foreign>.</form>\n",
+      "occurrences": "15 (KJV)",
+      "strongs": []
+    },
+    {
+      "word": "ἡσσάομαι",
+      "innerHTML": "\n  <form><orth>ἡσσάομαι</orth>,  v.s. <foreign xml:lang=\"grc\">ἡττάω</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἥττων",
+      "innerHTML": "\n  <form><orth>ἥττων</orth>,  v.s. <foreign xml:lang=\"grc\">ἥσσων</foreign>.</form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Ἱεριχώ",
+      "innerHTML": "\n  <form><orth>Ἱεριχώ</orth>,  v.s. <foreign xml:lang=\"grc\">Ἱερειχώ</foreign>.</form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Ἰτουραία",
+      "innerHTML": "\n  <form><orth>Ἰτουραία</orth>,  v.s. <foreign xml:lang=\"grc\">Ἰτουραῖος</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Ἰωβήλ",
+      "innerHTML": "\n  <form><orth>Ἰωβήλ</orth>,  v.s. <foreign xml:lang=\"grc\">Ἰωβήδ</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Ἰωνάθας",
+      "innerHTML": "\n  <form><orth>Ἰωνάθας</orth>,  v.s. <foreign xml:lang=\"grc\">Ἰώαννης</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Ἰωσίας",
+      "innerHTML": "\n  <form><orth>Ἰωσίας</orth>,  v.s. <foreign xml:lang=\"grc\">Ἰωσείας</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "κάμιλος",
+      "innerHTML": "\n  <form><orth>κάμιλος</orth>,  v.s. <foreign xml:lang=\"grc\">κάμηλος</foreign>,  and cf. Thayer; LS,  s.v.</form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Κανανίτης",
+      "innerHTML": "\n  <form><orth>Κανανίτης</orth>,  v.s. <foreign xml:lang=\"grc\">Καναναῖος</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Καπερναούμ",
+      "innerHTML": "\n  <form><orth>Καπερναούμ</orth>,  v.s. <foreign xml:lang=\"grc\">Καφαρναούμ</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "καταφάγω",
+      "innerHTML": "\n  <form><orth>κατα-φάγω</orth>,  v.s. <foreign xml:lang=\"grc\" n=\"G2719\">κατεσθίω</foreign>.</form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "κατωτέρω",
+      "innerHTML": "\n  <form><orth>κατωτέρω</orth>,  v.s. <foreign xml:lang=\"grc\">κάτω</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Κεγχρεαί",
+      "innerHTML": "\n  <form><orth>Κεγχρεαί</orth>,  v.s. <foreign xml:lang=\"grc\">Κενχρεαί</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "κερέα",
+      "innerHTML": "\n  <form><orth>κερέα</orth>,  v.s. <foreign xml:lang=\"grc\">κεραία</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "κινάμωμον",
+      "innerHTML": "\n  <form><orth>κινάμωμον</orth>,  v.s. <foreign xml:lang=\"grc\">κιννάμωμον</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Κίς",
+      "innerHTML": "\n  <form><orth>Κίς</orth>,  v.s. <foreign xml:lang=\"grc\">Κείς</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "κίχρημι",
+      "innerHTML": "\n  <form><orth>κίχρημι</orth>,  v.s. <foreign xml:lang=\"grc\">χράω</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Κλαῦδα",
+      "innerHTML": "\n  <form><orth>Κλαῦδα</orth>,  v.s. <foreign xml:lang=\"grc\">Καῦδα</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Κολασσαί",
+      "innerHTML": "\n  <form><orth>Κολασσαί</orth>,  v.s. <foreign xml:lang=\"grc\">Κολοσσαί</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "κολλύριον",
+      "innerHTML": "\n  <form><orth>κολλύριον</orth>,  v.s. <foreign xml:lang=\"grc\">κολλούριον</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Κολοσσαεύς",
+      "innerHTML": "\n  <form><orth>Κολοσσαεύς</orth>,  v.s. <foreign xml:lang=\"grc\">Κολασσαεύς</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "κρέμαμαι",
+      "innerHTML": "\n  <form><orth>κρέμαμαι</orth>,  v.s. <foreign xml:lang=\"grc\">κρεμάννυμι</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "κρεπάλη",
+      "innerHTML": "\n  <form><orth>κρεπάλη</orth>,  v.s. <foreign xml:lang=\"grc\">κραιπάλη</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "κρύβω",
+      "innerHTML": "\n  <form><orth>κρύβω</orth>,  v.s. <foreign xml:lang=\"grc\">κρύπτω</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "κυβεία",
+      "innerHTML": "\n  <form><orth>κυβεία</orth>,  v.s. <foreign xml:lang=\"grc\">κυβία</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "λαμμᾶ",
+      "innerHTML": "\n  <form><orth>λαμμᾶ</orth>,  v.s. <foreign xml:lang=\"grc\">λαμά</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Λαοδικεία",
+      "innerHTML": "\n  <form><orth>Λαοδικεία</orth>,  v.s. <foreign xml:lang=\"grc\">Λαοδικία</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "λεμά",
+      "innerHTML": "\n  <form><orth>λεμά</orth>,  v.s. <foreign xml:lang=\"grc\">λαμά</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "λῆψις",
+      "innerHTML": "\n  <form><orth>λῆψις</orth>,  v.s. <foreign xml:lang=\"grc\">λῆμψις</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "λίμμα",
+      "innerHTML": "\n  <form><orth>λίμμα</orth>,  v.s. <foreign xml:lang=\"grc\">λεῖμμα</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "μαγεία",
+      "innerHTML": "\n  <form><orth>μαγεία</orth>,  v.s. <foreign xml:lang=\"grc\">μαγία</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Μαθθαθίας",
+      "innerHTML": "\n  <form><orth>Μαθθαθίας</orth>,  v.s. <foreign xml:lang=\"grc\">Ματταθίας</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Μαϊνάν",
+      "innerHTML": "\n  <form><orth>Μαϊνάν</orth>,  v.s. <foreign xml:lang=\"grc\">Μεννά</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "μᾶλλον",
+      "innerHTML": "\n  <form><orth>μᾶλλον</orth>,  v.s. <foreign xml:lang=\"grc\">μάλα</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "μάρτυρ",
+      "innerHTML": "\n  <form><orth>μάρτυρ</orth>,  v.s. <foreign xml:lang=\"grc\">μάρτυς</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "μασθός",
+      "innerHTML": "\n  <form><orth>μασθός</orth>,  v.s. <foreign xml:lang=\"grc\">μαστός</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "μείγνυμι",
+      "innerHTML": "\n  <form><orth>μείγνυμι</orth>,  v.s. <foreign xml:lang=\"grc\">μίγνυμι</foreign>,  and cf. Bl.,  § 3,  5.</form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "μέλει",
+      "innerHTML": "\n  <form><orth>μέλει</orth>,  v.s. <foreign xml:lang=\"grc\">μέλω</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Μελελεήλ",
+      "innerHTML": "\n  <form><orth>Μελελεήλ</orth>,  v.s. <foreign xml:lang=\"grc\">Μελ-</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "μεσανύκτιον",
+      "innerHTML": "\n  <form><orth>μεσανύκτιον</orth>,  v.s. <foreign xml:lang=\"grc\">μεσανύκτιος</foreign>.</form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "μετάληψις",
+      "innerHTML": "\n  <form><orth>μετά-ληψις</orth>,  v.s. <foreign xml:lang=\"grc\">μεάλημψις</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "μήγε",
+      "innerHTML": "\n  <form><orth>μήγε</orth>,  v.s. <foreign xml:lang=\"grc\">γε</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "μηθείς",
+      "innerHTML": "\n  <form><orth>μηθείς</orth>,  v.s. <foreign xml:lang=\"grc\">μηδείς</foreign>.</form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "μογγιλάλος",
+      "innerHTML": "\n  <form><orth>μογγι-λάλος</orth>,  v.s. <foreign xml:lang=\"grc\">μογιλάλος</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Μύρρα",
+      "innerHTML": "\n  <form><orth>Μύρρα</orth>,  v.s. <foreign xml:lang=\"grc\">Μύρα</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Μυτιλήνη",
+      "innerHTML": "\n  <form><orth>Μυτιλήνη</orth>,  v.s. <foreign xml:lang=\"grc\">Μιτυλήνη</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Νεεμάν",
+      "innerHTML": "\n  <form><orth>Νεεμάν</orth>,  v.s. <foreign xml:lang=\"grc\">Ναιμάν</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "νεοσσός",
+      "innerHTML": "\n  <form><orth>νεοσσός</orth>,  v.s. <foreign xml:lang=\"grc\">νοσσός</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "νεώτερος",
+      "innerHTML": "\n  <form><orth>νεώτερος</orth>,  v.s. <foreign xml:lang=\"grc\">νέος</foreign>.</form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "νίζω",
+      "innerHTML": "\n  <form><orth>νίζω</orth>,  v.s. <foreign xml:lang=\"grc\">νίπτω</foreign>.</form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "νόος",
+      "innerHTML": "\n  <form><orth>νόος</orth>,  v.s. <foreign xml:lang=\"grc\">νοῦς</foreign>.</form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "νουμηνία",
+      "innerHTML": "\n  <form><orth>νουμηνία</orth>,  v.s. <foreign xml:lang=\"grc\">νεομηνία</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Ὀζίας",
+      "innerHTML": "\n  <form><orth>Ὀζίας</orth>,  v.s. <foreign xml:lang=\"grc\">Ὀζείας</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "οἰκειακός",
+      "innerHTML": "\n  <form><orth>οἰκειακός</orth>,  v.s. <foreign xml:lang=\"grc\">οἰκιακός</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "οἶμαι",
+      "innerHTML": "\n  <form><orth>οἶμαι</orth>,  v.s. <foreign xml:lang=\"grc\">οἴομαι</foreign>.</form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "οἴσω",
+      "innerHTML": "\n  <form><orth>οἴσω</orth>,  v.s. <foreign xml:lang=\"grc\">φέρω</foreign>, </form> p. 499.",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ὀλεθρεύω",
+      "innerHTML": "\n  <form><orth>ὀλεθρεύω</orth>,  v.s. <foreign xml:lang=\"grc\">ὀλοθρεύω</foreign>.</form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ὀμόω",
+      "innerHTML": "\n  <form><orth>ὀμόω</orth>,  v.s. <foreign xml:lang=\"grc\">ὀμνύω</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ὄπτω",
+      "innerHTML": "\n  <form><orth>ὄπτω</orth>,  v.s. <foreign xml:lang=\"grc\">ὁράω</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ὀρινός",
+      "innerHTML": "\n  <form><orth>ὀρινός</orth>,  v.s. <foreign xml:lang=\"grc\">ὀρεινός</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ὅσον",
+      "innerHTML": "\n  <form><orth>ὅσον</orth>,  v.s. <foreign xml:lang=\"grc\">ὅσος</foreign>.</form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ὅτου",
+      "innerHTML": "\n  <form><orth>ὅτου</orth>,  v.s. <foreign xml:lang=\"grc\">ὅστις</foreign> </form>.\n<note type=\"transcriber\">Although this entry is out of order alphabetically,  it is in this place in Abbott-Smith.</note>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "οὐθείς",
+      "innerHTML": "\n  <form><orth>οὐθείς</orth>,  v.s. <foreign xml:lang=\"grc\">οὐδείς</foreign>.</form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "οὐχ",
+      "innerHTML": "\n  <form><orth>οὐχ</orth>,  v.s. <foreign xml:lang=\"grc\">οὐ</foreign>.</form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Πάγος",
+      "innerHTML": "\n  <form><orth>Πάγος</orth>,  v.s. <foreign xml:lang=\"grc\">Ἄρειος</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "παιδία",
+      "innerHTML": "\n  <form><orth>παιδία</orth>,  v.s. <foreign xml:lang=\"grc\">παιδεία</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "παλιγγενεσία",
+      "innerHTML": "\n  <form><orth>παλιγγενεσία</orth>,  v.s. <foreign xml:lang=\"grc\">παλινγενεσία</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "παμπληθεί",
+      "innerHTML": "\n  <form><orth>παμπληθεί</orth>,  v.s. <foreign xml:lang=\"grc\">πανπληθεί</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "πανδοκεύς",
+      "innerHTML": "\n  <form><orth>πανδοκεύς</orth>,  v.s. <foreign xml:lang=\"grc\">πανδοχεύς</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "πανδοκίον",
+      "innerHTML": "\n  <form><orth>πανδοκίον</orth>,  v.s. <foreign xml:lang=\"grc\">πανδοχεῖον</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "παριστάνω",
+      "innerHTML": "\n  <form><orth>παρ-ιστάνω</orth>,  v.s. <foreign xml:lang=\"grc\">παρίστημι</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "πεζῇ",
+      "innerHTML": "\n  <form><orth>πεζῇ</orth>,  v.s. <foreign xml:lang=\"grc\">πεζός</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "περικρύβω",
+      "innerHTML": "\n  <form>*† <orth>περι-κρύβω</orth>,  v.s. <foreign xml:lang=\"grc\">περικρύπτω</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "πιθός",
+      "innerHTML": "\n  <form><orth>πιθός</orth>,  v.s. <foreign xml:lang=\"grc\">πειθός</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Πιλάτος",
+      "innerHTML": "\n  <form><orth>Πιλάτος</orth>,  v.s. <foreign xml:lang=\"grc\">Πειλᾶτος</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "πλησίον",
+      "innerHTML": "\n  <form><orth>πλησίον</orth>,  v.s. <foreign xml:lang=\"grc\">πλησίος</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "πολυεύσπλαγχνος",
+      "innerHTML": "\n  <form><orth>πολυ-εύσπλαγχνος</orth>,  v.s. <foreign xml:lang=\"grc\">πολύσπλαγχνος</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "πραγματεία",
+      "innerHTML": "\n  <form><orth>πραγματεία</orth>,  v.s. <foreign xml:lang=\"grc\">πραγματία</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "πρεσβευτής",
+      "innerHTML": "\n  <form><orth>πρεσβευτής</orth>,  v.s. <foreign xml:lang=\"grc\">πρεσβύτης</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "πρεσβύτερος",
+      "innerHTML": "\n  <form><orth>πρεσβύτερος</orth>,  v.s. <foreign xml:lang=\"grc\">πρέσβυς</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "πρίω",
+      "innerHTML": "\n  <form><orth>πρίω</orth>,  v.s. <foreign xml:lang=\"grc\">πρίζω</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ῥαχά",
+      "innerHTML": "\n  <form><orth>ῥαχά</orth>,  v.s. <foreign xml:lang=\"grc\">ῥακά</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ῥήσσω",
+      "innerHTML": "\n  <form><orth>ῥήσσω</orth>,  v.s. <foreign xml:lang=\"grc\">ῥήγνυμι</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Σαλωμών",
+      "innerHTML": "\n  <form><orth>Σαλωμών</orth>,  v.s. <foreign xml:lang=\"grc\">Σολομών</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Σαμάρεια",
+      "innerHTML": "\n  <form><orth>Σαμάρεια</orth>,  v.s. <foreign xml:lang=\"grc\">Σαμαρία</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Σαρούχ",
+      "innerHTML": "\n  <form><orth>Σαρούχ</orth>,  v.s. <foreign xml:lang=\"grc\">Σερούχ</foreign>. </form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "σηρικός",
+      "innerHTML": "\n  <form><orth>σηρικός</orth>,  v.s. <foreign xml:lang=\"grc\">σιρικός</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "σιρός",
+      "innerHTML": "\n  <form><orth>σιρός</orth>,  v.s. <foreign xml:lang=\"grc\">σειρός</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Σιχάρ",
+      "innerHTML": "\n  <form><orth>Σιχάρ</orth>,  v.s. <foreign xml:lang=\"grc\">Συχάρ</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "σπυρίς",
+      "innerHTML": "\n  <form><orth>σπυρίς</orth>,  v.s. <foreign xml:lang=\"grc\">σφυρίς</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Στοϊκός",
+      "innerHTML": "\n  <form><orth>Στοϊκός</orth>,  v.s. <foreign xml:lang=\"grc\">Στωικός</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "συγγνώμη",
+      "innerHTML": "\n  <form><orth>συγγνώμη</orth>,  v.s. <foreign xml:lang=\"grc\">συνγνώμη</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "συνμορφίζω",
+      "innerHTML": "\n  <form><orth>συν-μορφίζω</orth>,  v.s. <foreign xml:lang=\"grc\">συμμορφίζω</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "συνοράω",
+      "innerHTML": "\n  <form><orth>συν-οράω</orth>,  v.s. <foreign xml:lang=\"grc\">συνεῖδον</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "σωτήριον",
+      "innerHTML": "\n  <form><orth>σωτήριον</orth>,  v.s. <foreign xml:lang=\"grc\">σωτήριος</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Ταβιθά",
+      "innerHTML": "\n  <form><orth>Ταβιθά</orth>,  v.s. <foreign xml:lang=\"grc\">Ταβειθά</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "τετραρχέω",
+      "innerHTML": "\n  <form><orth>τετραρχέω -αρχής</orth>,  v.s. <foreign xml:lang=\"grc\">τετρααρχέω,  -αρχής</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "τεύχω",
+      "innerHTML": "\n  <form><orth>τεύχω</orth>,  v.s. <foreign xml:lang=\"grc\">τυγχάνω</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ὑπεροράω",
+      "innerHTML": "\n  <form><orth>ὑπερ-οράω</orth>,  v.s. <foreign xml:lang=\"grc\">ὑπερεῖδον</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ὑπόλιμμα",
+      "innerHTML": "\n  <form><orth>ὑπό-λιμμα</orth>,  v.s. <foreign xml:lang=\"grc\">ὑπόλειμμα</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "φαιλόνης",
+      "innerHTML": "\n  <form><orth>φαιλόνης</orth>,  v.s. <foreign xml:lang=\"grc\">φελόνης</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "φαρμακεῖα",
+      "innerHTML": "\n  <form><orth>φαρμακεῖα</orth>,  v.s. <foreign xml:lang=\"grc\">φαρμακία</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "χέω",
+      "innerHTML": "\n  <form><orth>χέω</orth>,  v.s. <foreign xml:lang=\"grc\">χύνω</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "χθές",
+      "innerHTML": "\n  <form><orth>χθές</orth>,  v.s. <foreign xml:lang=\"grc\">ἐχθές</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "χόος",
+      "innerHTML": "\n  <form><orth>χόος</orth>,  v.s. <foreign xml:lang=\"grc\">χοῦς</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "χρυσοῦς",
+      "innerHTML": "\n  <form><orth>χρυσοῦς</orth>,  v.s. <foreign xml:lang=\"grc\">χρύσεος</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Χωραζίν",
+      "innerHTML": "\n  <form><orth>Χωραζίν</orth>,  v.s. <foreign xml:lang=\"grc\">Χοραζείν</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ψεύδομαι",
+      "innerHTML": "\n  <form><orth>ψεύδομαι</orth>,  v.s. <foreign xml:lang=\"grc\">ψεύδω</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    }
+  ]
+}

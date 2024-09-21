@@ -1,0 +1,2716 @@
+{
+  "entries": [
+    {
+      "word": "Ἀβειληνή",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form><orth>Ἀβειληνή</orth> (T,  Rec. <foreign xml:lang=\"grc\">Ἀβι-</foreign>),  <foreign xml:lang=\"grc\">-ῆς,  ἡ</foreign>,  (sc. <ref><foreign xml:lang=\"grc\">χώρα</foreign></ref>), </form>\n  <sense><gloss>Abilene</gloss>,  a district in the Anti-Lebanon: <ref osisRef=\"Luke.3.1\">Lk 3:1</ref>.†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "ἀγαθουργέω",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>*† <orth>ἀγαθουργέω</orth>,  <foreign xml:lang=\"grc\">-ῶ</foreign>,  contracted form (rare,  v. WH,  <emph>App</emph>.,  145) of <ref target=\"#ἀγαθοεργέω\"><foreign xml:lang=\"grc\">ἀγαθοερ-</foreign></ref> (q.v.),  </form>\n  <sense><gloss>to do good</gloss>: <ref osisRef=\"Acts.14.17\">Ac 14:17</ref>.†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "ἀγγέλλω",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">2</note>\n  <form><orth>ἀγγέλλω</orth> (<ref><foreign xml:lang=\"grc\">ἄγγελος</foreign></ref>), </form>\n<etym>\n  <seg type=\"septuagint\">[in LXX for <foreign xml:lang=\"heb\" n=\"H5046\">נגד</foreign> hi.;]</seg>\n</etym>\n  <sense><gloss>to announce,  report</gloss>: <ref osisRef=\"John.4.51\">Jo 4:51</ref> (WHR omit),  <ref osisRef=\"John.20.18\">20:18</ref> (MM,  <emph>VGT</emph>,  s.v.).†</sense>\n",
+      "occurrences": "2",
+      "strongs": []
+    },
+    {
+      "word": "ἄγγος",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form><orth>ἄγγος</orth>,  <foreign xml:lang=\"grc\">-εος,  τό</foreign>,  </form>\n<etym>\n  <seg type=\"septuagint\">[in LXX for <foreign xml:lang=\"heb\" n=\"H3627\">כְּלִי</foreign>,  <foreign xml:lang=\"heb\" n=\"H3619\">כְּלוּב</foreign>;]</seg>\n</etym>\n  <sense><gloss>a vessel</gloss>: <ref osisRef=\"Matt.13.48\">Mt 13:48</ref>.†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "ἀγυιά",
+      "innerHTML": "\n<form><orth>ἀγυιά</orth>,  v.s. <ref><foreign xml:lang=\"grc\">ἀγορά</foreign></ref>,  [in LXX: <ref osisRef=\"3Macc.1.20\">III Mac 1:20</ref> <ref osisRef=\"3Macc.4.3\">4:3</ref>*].</form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Ἀδμείν",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form><orth>Ἀδμείν</orth> (WH,  mg.,  <foreign xml:lang=\"grc\">Ἀδάμ</foreign>),  <foreign xml:lang=\"grc\">ὁ</foreign>,  indecl., </form>\n  <sense><gloss>Admin.</gloss>: <ref osisRef=\"Luke.3.33\">Lk 3:33</ref>.†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "ἀηδία",
+      "innerHTML": "\n <note type=\"occurrencesNT\">1</note>\n <form><orth>ἀηδία</orth>,  <foreign xml:lang=\"grc\">-ας,  ἡ</foreign> </form>\n<etym>\n  <seg type=\"derivation\">(&lt; <foreign xml:lang=\"grc\">ἀ-</foreign> neg.,  <ref><foreign xml:lang=\"grc\">ἦδος</foreign></ref>,  <emph>pleasure</emph>), </seg>\n  <seg type=\"septuagint\">[in LXX: <ref osisRef=\"Prov.23.29\">Pr 23:29</ref> (<foreign xml:lang=\"heb\" n=\"H7879\">שִׂיחַ</foreign>)*;]</seg>\n</etym>\n  <sense n=\"1.\">of things or persons,  <gloss>unpleasantness</gloss>,  <gloss>odiousness</gloss> (Hipp.,  Dem.,  al.);</sense>\n   <sense n=\"2.\"><gloss>dislike</gloss> (Plat.),  <gloss>disagreement</gloss> (MM,  <emph>VGT</emph>,  s.v.): <ref osisRef=\"Luke.23.12\">Lk 23:12</ref> D.†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "ἀθροίζω",
+      "innerHTML": "\n <note type=\"occurrencesNT\">1</note>\n <form><orth>ἀθροίζω</orth> </form>\n<etym>\n  <seg type=\"derivation\">(&lt; <ref><foreign xml:lang=\"grc\">ἀθρόος</foreign></ref>,  <emph>assembled in crowds</emph>,  MM,  <emph>VGT</emph>,  s.v.; &lt; <foreign xml:lang=\"grc\">θρόος</foreign>,  <emph>a noise,  tumult</emph>), </seg>\n  <seg type=\"septuagint\">[in LXX chiefly for <foreign xml:lang=\"heb\" n=\"H6908\">קבץ</foreign>;]</seg>\n</etym>\n  <sense><gloss>to gather</gloss>,  <gloss>assemble</gloss>: <ref osisRef=\"Luke.24.33\">Lk 24:33</ref>.†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "Αἰλαμίτης",
+      "innerHTML": "\n  <form><orth>Αἰλαμίτης</orth>,  v.s. <foreign xml:lang=\"grc\">Ἐλαμείτης</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἄκρον",
+      "innerHTML": "\n  <form><orth>ἄκρον</orth>,  <foreign xml:lang=\"grc\">-ου,  τό</foreign>,  v.s. <ref><foreign xml:lang=\"grc\">ἄκρος</foreign></ref>.</form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἁλιεύς",
+      "innerHTML": "\n  <form><orth>ἁλιεύς</orth>,  v.s. <ref><foreign xml:lang=\"grc\">ἁλεεύς</foreign></ref>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἀλλαχοῦ",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>* <orth>ἀλλαχοῦ</orth>,  </form>\n   <gramGrp><pos>adv.</pos> </gramGrp>\n   <etym>\n  <seg type=\"derivation\">(&lt; <ref><foreign xml:lang=\"grc\">ἀλλος</foreign></ref>) = <ref><foreign xml:lang=\"grc\">ἄλλοσε</foreign></ref> (MM,  <emph>VGT</emph>,  s.v.), </seg>\n</etym>\n  <sense><gloss>elsewhere</gloss>: <ref osisRef=\"Mark.1.38\">Mk 1:38</ref>.</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "Ἄλφα",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">3</note>\n  <form><orth>Ἄλφα</orth>,  <foreign xml:lang=\"grc\">τό</foreign>,  indecl. (v.s. Α),  </form>\n  <sense><gloss>Alpha</gloss>: <ref osisRef=\"Rev.1.8\">Re 1:8</ref> <ref osisRef=\"Rev.21.6\">21:6</ref> <ref osisRef=\"Rev.22.13\">22:13</ref> (v. Swete,  in ll.).†</sense>\n",
+      "occurrences": "3",
+      "strongs": []
+    },
+    {
+      "word": "ἀμφιάζω",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form><orth>ἀμφιάζω</orth></form>\n<etym>\n  <seg type=\"derivation\">(&lt; <ref><foreign xml:lang=\"grc\">ἀμφί</foreign></ref>,  on both sides: v. M,  <emph>Pr.</emph>,  100),  Hellenistic for <foreign xml:lang=\"grc\">ἀμφιέννυμι</foreign> (cf. MM,  <emph>VGT</emph>,  s.v.),  </seg>\n  <seg type=\"septuagint\">[in LXX for <foreign xml:lang=\"heb\" n=\"H3847\">לָבַשׁ</foreign>,  etc.;]</seg>\n</etym>\n    <sense><gloss>to clothe</gloss>: <ref osisRef=\"Luke.12.28\">Lk 12:28</ref> (T,  <foreign xml:lang=\"grc\">-έζει</foreign>).†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "ἀμφιβάλλω",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form><orth>ἀμφι-βάλλω</orth> (v. supr.),  </form>\n<etym>\n  <seg type=\"septuagint\">[in LXX: <ref osisRef=\"Hab.1.17\">Hb 1:17</ref>*;]</seg>\n</etym>\n  <sense>= <ref><foreign xml:lang=\"grc\">περιβάλλω</foreign></ref>,  <gloss>to throw around</gloss>,  as a garment: absol. (MM,  <emph>VGT</emph>,  s.v.),  of casting a net: <ref osisRef=\"Mark.1.16\">Mk 1:16</ref> (Rec. <foreign xml:lang=\"grc\">βάλλονταν ἀμφίβληστρον</foreign>).†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "ἀμφιέζω",
+      "innerHTML": "\n  <form><orth>ἀμφιέζω</orth>,  v.s. <ref><foreign xml:lang=\"grc\">ἀμφιάζω</foreign></ref>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἄμωμον",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>* <orth>ἄμωμον</orth>,  <foreign xml:lang=\"grc\">-ου,  τό</foreign>, </form>\n    <sense><gloss>amomum</gloss>,  a fragrant plant of India (RV,  <emph>spice</emph>): <ref osisRef=\"Rev.18.13\">Re 18:13</ref>. </sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "ἄν_2",
+      "innerHTML": "\n  <form><orth>ἄν</orth>,  contr. from <ref><foreign xml:lang=\"grc\">ἐάν</foreign></ref>,  q.v.</form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἀνακυλίω",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>* <orth>ἀνα-κυλίω</orth>, </form>\n    <sense n=\"(a)\"><gloss>to roll up</gloss>;</sense>\n    <sense n=\"(b)\"><gloss>to roll back</gloss>: <ref osisRef=\"Mark.16.4\">Mk 16:4</ref> (Rec. <foreign xml:lang=\"grc\">ἀποκ-</foreign>).†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "ἀνάληψις",
+      "innerHTML": "\n  <form><orth>ἀνά-ληψις</orth>,  <foreign xml:lang=\"grc\">-εως,  ἡ</foreign>,  Rec. for <foreign xml:lang=\"grc\">ἀνάλημψις</foreign>,  q.v.</form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἀνάπειρος",
+      "innerHTML": "\n  <form>* <orth>ἀνάπειρος</orth>,  v.s. <ref><foreign xml:lang=\"grc\">ἀνάπηρος</foreign></ref>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἀναπηδάω",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form><orth>ἀνα-πηδάω</orth>,  <foreign xml:lang=\"grc\">-ῶ</foreign></form>\n<etym>\n  <seg type=\"derivation\">(&lt; <ref><foreign xml:lang=\"grc\">πηδάω</foreign></ref>,  <emph>to leap</emph>), </seg>\n  <seg type=\"septuagint\">[in LXX: <ref osisRef=\"1Sam.20.34\">I Ki 20:34</ref> (<foreign xml:lang=\"heb\" n=\"H6965\">קוּם</foreign>) <ref osisRef=\"1Sam.25.10\">25:10</ref>,  <ref osisRef=\"Esth.5.1\">Es 5:1</ref>,  To<hi rend=\"subscript\">4</hi>*;]</seg>\n</etym>\n  <sense><gloss>to leap up</gloss>: <ref osisRef=\"Mark.10.50\">Mk 10:50</ref> (Rec. <foreign xml:lang=\"grc\">ἀναστάς</foreign>).†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "ἀνίλεως",
+      "innerHTML": "\n  <form><orth>ἀν-ίλεως</orth>,  <foreign xml:lang=\"grc\">-ων</foreign>,  v.s. <ref><foreign xml:lang=\"grc\">ἀνέλεος</foreign></ref>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἀντίληψις",
+      "innerHTML": "\n  <form><orth>ἀντί-ληψις</orth>,  v.s. <ref><foreign xml:lang=\"grc\">ἀντίλημψις</foreign></ref>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἀνώγαιον",
+      "innerHTML": "\n  <form><orth>ἀνώγαιον</orth>,  <ref><foreign xml:lang=\"grc\">ἀνώγεον</foreign></ref>,  v.s. <ref><foreign xml:lang=\"grc\">ἀνάγαιον</foreign></ref>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἀπασπάζομαι",
+      "innerHTML": "\n  <form>**† <orth>ἀπ-ασπάζομαι</orth>,  depon., </form>\n  <etym>\n    <seg type=\"septuagint\">[in LXX: <ref osisRef=\"Tob.10.13\">To 10:13</ref> <foreign xml:lang=\"heb\">א</foreign>*;]</seg>\n  </etym>\n  <sense><gloss>to take leave of</gloss>: c. acc.: <ref osisRef=\"Acts.21.6\">Ac 21:6</ref>.†</sense>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἀπειθία",
+      "innerHTML": "\n  <form><orth>ἀπειθία</orth>,  <foreign xml:lang=\"grc\">-ας,  ἡ</foreign>,  v.s. <ref><foreign xml:lang=\"grc\">ἀπείθεια</foreign></ref>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἁπλόος",
+      "innerHTML": "\n  <form><orth>ἁπλόος</orth>,  v.s. <ref><foreign xml:lang=\"grc\">ἁπλοῦς</foreign></ref>.</form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἀποδεκατόω",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">3</note>\n  <form>† <orth>ἀπο-δεκατόω</orth>, </form>\n<etym>\n  <seg type=\"septuagint\">[in LXX for <foreign xml:lang=\"heb\" n=\"H6237\">עשׂר</foreign> in both senses foll.,  e.g. (1) <ref osisRef=\"Gen.28.22\">Ge 28:22</ref> (2) <ref osisRef=\"1Sam.8.15\">I Ki 8:15</ref>;]</seg>\n</etym>\n    <sense n=\"1.\">c. acc. rei,  <gloss>to tithe</gloss>,  <gloss>pay a tenth of</gloss>: <ref osisRef=\"Matt.23.23\">Mt 23:23</ref>,  <ref osisRef=\"Luke.11.42\">Lk 11:42</ref>.</sense>\n    <sense n=\"2.\">C. acc. pers.,  <gloss>to exact tithes from</gloss>: <ref osisRef=\"Heb.7.5\">He 7:5</ref>.</sense>\n    <sense n=\"3.\"><gloss>to decimate</gloss> (Socr.,  <emph>HE</emph>,  573 A; v. Kennedy,  <emph>Sources</emph>,  117).†</sense>\n",
+      "occurrences": "3",
+      "strongs": []
+    },
+    {
+      "word": "ἀποκαθιστάνω",
+      "innerHTML": "\n  <form><orth>ἀπο-καθ-ιστάνω</orth>,  <ref><foreign xml:lang=\"grc\">ἀποκαθιστάω</foreign></ref>, </form>\n  <seg type=\"derivation\">see next word.</seg>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἀποκατιστάνω",
+      "innerHTML": "\n  <form><orth>ἀπο-κατ-ιστάνω</orth>,  v. <ref><foreign xml:lang=\"grc\">ἀποκαθίστημι</foreign></ref>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Ἅρ",
+      "innerHTML": "\n  <form><orth>Ἅρ</orth> indecl.,  <ref osisRef=\"Rev.16.16\">Re 16:16</ref>,  v.s.,  <ref><foreign xml:lang=\"grc\">Ἁρμαγεδών</foreign></ref>.</form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἀραβών",
+      "innerHTML": "\n  <form><orth>ἀραβών</orth>,  v.s. <ref><foreign xml:lang=\"grc\">ἀρραβών</foreign></ref>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἄραγε",
+      "innerHTML": "\n  <form><orth>ἄραγε</orth>,  v.s. <ref><foreign xml:lang=\"grc\">ἄρα</foreign></ref>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἆράγε",
+      "innerHTML": "\n  <form><orth>ἆράγε</orth>,  v.s. <ref><foreign xml:lang=\"grc\">ἆρα</foreign></ref>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Ἄριος",
+      "innerHTML": "\n  <form><orth>Ἄριος</orth>,  v.s. <ref><foreign xml:lang=\"grc\">Ἄρειος</foreign></ref>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἄρνας",
+      "innerHTML": "\n  <form><orth>ἄρνας</orth>,  v.s. <ref><foreign xml:lang=\"grc\">ἀρήν</foreign></ref>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Ἀρνεί",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form><orth>Ἀρνεί</orth> (Rec. <foreign xml:lang=\"grc\">Ἀράμ</foreign>),  <foreign xml:lang=\"grc\">ὁ, </foreign> indecl., </form>\n  <sense><gloss>Arnei</gloss>: <ref osisRef=\"Luke.3.33\">Lk 3:33</ref>.†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "ἄρραφος",
+      "innerHTML": "\n  <form><orth>ἄρραφος</orth>,  v.s. <ref><foreign xml:lang=\"grc\">ἄραφος</foreign></ref>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἄρρην",
+      "innerHTML": "\n  <form><orth>ἄρρην</orth>,  v.s. <ref><foreign xml:lang=\"grc\">ἄρσην</foreign></ref>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἄρχι-",
+      "innerHTML": "\n  <form><orth>ἄρχι-</orth></form>\n  <seg type=\"derivation\">(<foreign xml:lang=\"grc\">ἄρχω</foreign>), </seg>\n  <sense>insep. prefix,  denoting high office and dignity,  freq. in Alex. and Byzant. Gk. (MM,  s.v.).</sense>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Ἀσά",
+      "innerHTML": "\n  <form><orth>Ἀσά</orth>,  v.s. <ref><foreign xml:lang=\"grc\">Ἀσάφ</foreign></ref>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἀσαίνω",
+      "innerHTML": "\n  <form><orth>ἀσαίνω</orth>,  v.s. <ref><foreign xml:lang=\"grc\">σαίνω</foreign></ref>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Ἀσύγκριτος",
+      "innerHTML": "\n  <form><orth>Ἀσύγκριτος</orth>,  v.s. <ref><foreign xml:lang=\"grc\">Ἀσύνκριτος</foreign></ref>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἀτιμάω",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>* <orth>ἀ-τιμάω</orth>,  <foreign xml:lang=\"grc\">-ῶ</foreign></form>\n<etym>\n  <seg type=\"derivation\">(&lt; <ref><foreign xml:lang=\"grc\">τιμή</foreign></ref>), </seg>\n</etym>\n  <sense><gloss>to dishonour</gloss>,  <gloss>despise</gloss>: c. acc. pers.,  <ref osisRef=\"Mark.12.4\">Mk 12:4</ref>,  LTr.,  txt. (cf. <ref><foreign xml:lang=\"grc\">ἀτιμάζω</foreign></ref>).†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "αὔξω",
+      "innerHTML": "\n  <form><orth>αὔξω</orth>,  v.s. <ref><foreign xml:lang=\"grc\">αὐξάνω</foreign></ref>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "αὔρα",
+      "innerHTML": "\n  <form><orth>αὔρα</orth>, </form>\n  <sense><gloss>a breeze</gloss>: <foreign xml:lang=\"grc\">τ. πνεούσῃ</foreign> (sc. <ref><foreign xml:lang=\"grc\">αὔρᾳ</foreign></ref>),  <ref osisRef=\"Acts.27.40\">Ac 27:40</ref>.†</sense>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "αὐχέω",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>* <orth>αὐχέω</orth>,  <foreign xml:lang=\"grc\">-ῶ</foreign>, </form>\n<etym>\n  <seg type=\"derivation\">(&lt; <ref><foreign xml:lang=\"grc\">αὔχη</foreign></ref>,  <emph>boasting</emph>), </seg>\n</etym>\n  <sense><gloss>to boast</gloss>: c. acc. (MM,  s.v.),  <foreign xml:lang=\"grc\">μεγάλα αὐχεῖ</foreign> (Rec. <foreign xml:lang=\"grc\">μεγαλαυχεῖ</foreign>,  q.v.),  <ref osisRef=\"Jas.3.5\">Ja 3:5</ref>.†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "ἀφεῖδον",
+      "innerHTML": "\n  <form><orth>ἀφεῖδον</orth>,  v.s. <ref><foreign xml:lang=\"grc\">ἀπεῖδον</foreign></ref>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἀφθορία",
+      "innerHTML": "\n  <form>† <orth>ἀ-φθορία</orth>,  <foreign xml:lang=\"grc\">-ας,  ἡ</foreign>, </form>\n<etym>\n  <seg type=\"derivation\">(&lt; <ref><foreign xml:lang=\"grc\">φθείρω</foreign></ref>), </seg>\n  <seg type=\"septuagint\">[in LXX: <ref osisRef=\"Hag.2.18\">Ha 2:18</ref>,  (<ref osisRef=\"Hag.2.17\">17</ref>) (<foreign xml:lang=\"heb\" n=\"H7711\">שִׁדָּפוֹן</foreign>)*;]</seg>\n</etym>\n  <sense><gloss>uncorruptness</gloss>: <ref osisRef=\"Titus.2.7\">Tit 2:7</ref> (Rec. <foreign xml:lang=\"grc\">ἀφθορία</foreign>).†</sense>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἀφυστερέω",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>† <orth>ἀφ-υστερέω</orth>,  <foreign xml:lang=\"grc\">-ῶ</foreign>, </form>\n<etym>\n  <seg type=\"septuagint\">[in LXX: <ref osisRef=\"Neh.9.20\">Ne 9:20</ref> (<foreign xml:lang=\"heb\" n=\"H4513\">מנע</foreign>),  <ref osisRef=\"Sir.14.14\">Si 14:14</ref>*;]</seg>\n</etym>\n    <sense n=\"1.\">as in cl.,  <gloss>to be late</gloss> (Polyb.,  <ref osisRef=\"Sir.14.14\">Si 14:14</ref>).</sense>\n    <sense n=\"2.\">Trans.,  <gloss>to keep back</gloss> (<ref osisRef=\"Neh.9.20\">Ne 9:20</ref>; v. Mayor,  <emph>Ja.</emph>,  157 f.): pass.,  <ref osisRef=\"Jas.5.4\">Ja 5:4</ref> (MM,  s.v.).†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "Ἄχας",
+      "innerHTML": "\n  <form><orth>Ἄχας</orth>,  v.s. <ref><foreign xml:lang=\"grc\">Ἄχαζ</foreign></ref>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Ἀχελδαμάχ",
+      "innerHTML": "  <note type=\"occurrencesNT\">1</note>  <form><orth>Ἀχελδαμάχ</orth> (T <foreign xml:lang=\"grc\">Ἁχ-</foreign>; Rec. <foreign xml:lang=\"grc\">Ἀκελδαμά</foreign>,  WH,  <foreign xml:lang=\"grc\">Ἁκελδαμάχ</foreign>),  indecl.</form>\n  <etym>\n  <seg type=\"derivation\">(Aram. <foreign xml:lang=\"arc\" n=\"????\">חֲקַל דְּמָא</foreign>,  <emph>field of blood</emph>), </seg>\n  </etym>\n  <sense><gloss>Akeldama</gloss> (AV,  <emph>Aceldama</emph>): <ref osisRef=\"Acts.1.19\">Ac 1:19</ref>.†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "Β",
+      "innerHTML": "\n<form><orth>Β</orth>,  <foreign xml:lang=\"grc\">β,  βῆτα,  τὸ</foreign>,  indecl., </form>\n  <sense><gloss>beta</gloss>,  <gloss>b</gloss>,  the second letter. As a numeral,  <foreign xml:lang=\"grc\">βʹ</foreign> = 2; <foreign xml:lang=\"grc\">β͵</foreign> = 2000.</sense>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "βάρ",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form><orth>βάρ</orth></form>\n  <etym>\n    <seg type=\"derivation\">(Aram.: <foreign xml:lang=\"arc\" n=\"H1247\">בַּר</foreign>,  <emph>son</emph>),  indecl.:</seg>\n  </etym>\n  <sense><foreign xml:lang=\"grc\">β. Ἰωνᾶ</foreign>,  <gloss>son of Jonah</gloss>,  <ref osisRef=\"Matt.16.17\">Mt 16:17</ref>,  Rec. (L,  T,  WH,  <foreign xml:lang=\"grc\">Βαριωνᾶ</foreign>,  q.v.).†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "Βελίαλ",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form><orth>Βελίαλ</orth>,  <foreign xml:lang=\"grc\">ὁ</foreign>,  indecl.</form>\n  <etym>\n    <seg type=\"derivation\">(Heb. <foreign xml:lang=\"heb\" n=\"H1100\">בְּלִיַּעַל</foreign>,  <emph>worthlessness</emph>,  but v. <emph>DB</emph>,  i,  268), </seg>\n  </etym>\n  <sense><gloss>Belial</gloss>,  a name of Satan: <ref osisRef=\"2Cor.6.15\">II Co 6:15</ref>,  Rec. See next word.†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "Γαλλία",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form><orth>Γαλλία</orth>,  <foreign xml:lang=\"grc\">-ας,  ἡ</foreign>,  </form>\n  <sense><gloss>Gaul</gloss>: T.,  Tr.,  mg.,  for <foreign xml:lang=\"grc\">Γαλατία</foreign>,  <ref osisRef=\"2Tim.4.10\">II Ti 4:10</ref>.†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "γαμίζω",
+      "innerHTML": "\n    <note type=\"occurrencesNT\">5</note>\n    <form>*† <orth>γαμίζω</orth> </form>\n<etym>\n  <seg type=\"derivation\">(&lt; <foreign xml:lang=\"grc\">γάμος</foreign>),  </seg>\n</etym>\n    <sense><gloss>to give in marriage</gloss>,  a daughter: <ref osisRef=\"1Cor.7.38\">I Co 7:38</ref>. Pass.,  <ref osisRef=\"Matt.22.30\">Mt 22:30</ref>,  <ref osisRef=\"Matt.24.38\">24:38</ref>,  <ref osisRef=\"Mark.12.25\">Mk 12:25</ref>,  <ref osisRef=\"Luke.17.27\">Lk 17:27</ref>  <ref osisRef=\"Luke.20.35\">20:35</ref> (WH,  mg.,  <foreign xml:lang=\"grc\">γαμίσκονται</foreign>; cf. <foreign xml:lang=\"grc\">γαμίζω</foreign>).†</sense>\n",
+      "occurrences": "5",
+      "strongs": []
+    },
+    {
+      "word": "Δ",
+      "innerHTML": "\n  <form><orth>Δ</orth>,  <foreign xml:lang=\"grc\">δ,  δέλτα,  τό</foreign>,  indecl.,  </form>\n<sense>the fourth letter. As a numeral,  <foreign xml:lang=\"grc\">δʹ</foreign> = 4,  <foreign xml:lang=\"grc\">δ͵</foreign> = 4000.</sense>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Δαβίδ",
+      "innerHTML": "\n  <form><orth>Δαβίδ</orth>,  v.s. <foreign xml:lang=\"grc\">Δαυείδ</foreign>.</form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "δανείζω",
+      "innerHTML": "\n  <form><orth>δανείζω</orth>,  v. <foreign xml:lang=\"grc\">δανίζω</foreign>.</form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "δάνειον",
+      "innerHTML": "\n  <form><orth>δάνειον</orth>,  v. <foreign xml:lang=\"grc\">δάνιον</foreign>.</form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "δανειστής",
+      "innerHTML": "\n  <form><orth>δανειστής</orth>,  v. <foreign xml:lang=\"grc\">δανιστής</foreign>.</form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "δεκαέξ",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form><orth>δεκα-έξ</orth>,  = <foreign xml:lang=\"grc\">ἑκκαίδεκα</foreign>,  </form>\n  <sense><gloss>sixteen</gloss> (Jannaris,  <emph>Gr.</emph>,  § 645): <ref osisRef=\"Rev.13.18\">Re 13:18</ref>,  L,  mg. (for <foreign xml:lang=\"grc\">ἑξήκοντα ἕξ</foreign>; v. Swete,  in l.).†</sense>\n  ",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "δεκαοκτώ",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>† <orth>δεκα-οκτώ</orth>,  <foreign xml:lang=\"grc\">Τ</foreign> for <foreign xml:lang=\"grc\">δέκα ὀκτώ</foreign>,  </form>\n  <sense><gloss>eighteen</gloss>: <ref osisRef=\"Luke.13.4\">Lk 13:4</ref>.†</sense>\n  ",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "Δελματία",
+      "innerHTML": "\n  <form><orth>Δελματία</orth>,  v.s. <foreign xml:lang=\"grc\">Δαλματία</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "δεξιολάβος",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>* <orth>δεξιολάβος</orth>,  <foreign xml:lang=\"grc\">-ου,  ὁ</foreign> </form>\n  <etym>\n    <seg type=\"derivation\">(&lt; <foreign xml:lang=\"grc\">δεξιός</foreign>,  <foreign xml:lang=\"grc\">λαμβάνω</foreign>),  </seg>\n  </etym>\n  <sense>a kind of soldier,  prob. <gloss>a spearman</gloss> (Vg.,  <foreign xml:lang=\"lat\">lancearius</foreign>) or <gloss>slinger</gloss>: <ref osisRef=\"Acts.23.23\">Ac 23:23</ref>.†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "δέον",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">3</note>\n  <form><orth>δέον</orth>,  <foreign xml:lang=\"grc\">-οντος,  τό</foreign> </form>\n  <etym>\n  <seg type=\"derivation\">(neut. part. of <foreign xml:lang=\"grc\">δεῖ</foreign>,  used as subst.),  </seg>\n  <seg type=\"septuagint\">[in LXX <ref osisRef=\"Sir.0.3\">Sir prol. 3</ref>,  <ref osisRef=\"Sir.0.4\">4</ref>,  <ref osisRef=\"1Macc.12.11\">I Mac 12:11</ref>,  <ref osisRef=\"2Macc.1.18\">II Mac 1:18</ref> *; pl. <foreign xml:lang=\"grc\">τὰ δ.</foreign>,  for <foreign xml:lang=\"heb\" n=\"H3899\">לֶחֶם</foreign> <ref osisRef=\"Exod.16.22\">Ex 16:22</ref>,  <ref osisRef=\"1Kgs.4.22\">III Ki 4:22</ref> (<ref osisRef=\"1Kgs.5.2\">5:2</ref>),  <ref osisRef=\"Prov.24.31\">Pr 24:31</ref> (<ref osisRef=\"Prov.30.8\">30:8</ref>); <foreign xml:lang=\"heb\" n=\"H7607\">שְׁאֵר</foreign>,  <ref osisRef=\"Exod.21.10\">Ex 21:10</ref>; <foreign xml:lang=\"heb\" n=\"H6598\">פַּת־בַּג</foreign>,  <ref osisRef=\"Dan.11.26\">Da TH 11:26</ref>,  <ref osisRef=\"Tob.5.14\">To 5:14</ref>,  <pb n=\"102\"/> <!-- typed=\"DSAW\" checked=\"DES\" --> <ref osisRef=\"2Macc.13.20\">II Mac 13:20</ref> * ;]</seg>\n</etym>\n  <sense><gloss>that which is needful,  due,  proper</gloss>: <foreign xml:lang=\"grc\">δ. ἐστίν</foreign> (periphr. for <foreign xml:lang=\"grc\">δεῖ</foreign>,  q.v.),  <ref osisRef=\"Acts.19.36\">Ac 19:36</ref>,  with ellipse of <foreign xml:lang=\"grc\">ἐστίν</foreign>,  <ref osisRef=\"1Pet.1.6\">I Pe 1:6</ref>; <foreign xml:lang=\"grc\">τὰ μὴ δ.</foreign>,  <ref osisRef=\"1Tim.5.13\">I Ti 5:13</ref>.†</sense>",
+      "occurrences": "3",
+      "strongs": []
+    },
+    {
+      "word": "δέος",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>** <orth>δέος</orth>,  <foreign xml:lang=\"grc\">-ους,  τό</foreign> </form>\n  <etym>\n    <seg type=\"derivation\">(&lt; <foreign xml:lang=\"grc\">δείδω</foreign>),  </seg>\n    <seg type=\"septuagint\">[in LXX: <ref osisRef=\"2Macc.3.17\">II Mac 3:17</ref>,  <ref osisRef=\"2Macc.3.30\">30</ref> <ref osisRef=\"2Macc.12.22\">12:22</ref> <ref osisRef=\"2Macc.13.16\">13:16</ref> <ref osisRef=\"2Macc.15.23\">15:23</ref> * ;]</seg>\n  </etym>\n  <sense><gloss>fear,  awe,  reverence</gloss>: <foreign xml:lang=\"grc\">μετὰ εὐλαβείας καὶ δ.</foreign>,  <ref osisRef=\"Heb.12.28\">He 12:28</ref>.†</sense>\n  <re><emph>SYN.</emph>: <foreign xml:lang=\"grc\">δειλία</foreign>,  <foreign xml:lang=\"grc\">φόβος</foreign>.</re>\n  ",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "δέρρις",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form><orth>δέρρις</orth>,  <foreign xml:lang=\"grc\">-εως,  ἡ </foreign></form>\n<etym>\n  <seg type=\"derivation\">(&lt; <foreign xml:lang=\"grc\">δέρος</foreign> = <foreign xml:lang=\"grc\">δέρμα</foreign>) </seg>\n  <seg type=\"septuagint\">[in LXX: <ref osisRef=\"Exod.26.7\">Ex 26:7</ref> ff. (<foreign xml:lang=\"heb\" n=\"H3407\">יְרִיעָה</foreign>),  <ref osisRef=\"Zech.13.4\">Za 13:4</ref> (<foreign xml:lang=\"heb\" n=\"H155\">אַדֶּרֶת</foreign>),  etc. ;]</seg>\n</etym>\n  <sense><gloss>a skin</gloss>: <ref osisRef=\"Mark.1.6\">Mk 1:6</ref> (D,  from Za,  l.c.; Swete,  in l; Rec.,  Edd. <foreign xml:lang=\"grc\">τρίχας</foreign>; cf. MM,  <emph>Exp.</emph>,  x).†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "δέω_2",
+      "innerHTML": "\n  <form><orth>δέω</orth> (II) </form>\n  <etym>Attic,  </etym>\n  <sense><gloss>to want,  miss</gloss>; mid.,  <foreign xml:lang=\"grc\">δέομαι</foreign>,  q.v.</sense>\n  ",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "δηλαυγῶς",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>*† <orth>δηλαυγῶς</orth>,  </form>\n    <gramGrp><pos>adv.</pos> </gramGrp>\n<etym>\n  <seg type=\"derivation\">(&lt; <foreign xml:lang=\"grc\">δῆλος</foreign>,  <foreign xml:lang=\"grc\">αὐγή</foreign> ),  </seg>\n</etym>\n  <sense><gloss>clearly</gloss>: <ref osisRef=\"Mark.8.25\">Mk 8:25</ref>,  T,  WH,  mg. (for <foreign xml:lang=\"grc\">τηλαυγῶς</foreign>,  q.v.).†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "Δία",
+      "innerHTML": "\n  <form><orth>Δία</orth>,  acc. of <foreign xml:lang=\"grc\">Ζεύς</foreign>,  q.v. </form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "διάγε",
+      "innerHTML": "\n  <form><orth>διά-γε</orth> (WH,  <foreign xml:lang=\"grc\">διά γε</foreign>),  v.s. <foreign xml:lang=\"grc\">γέ</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "διακαθαίρω",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>* <orth>δια-καθαίρω</orth>,  </form>\n    <sense><gloss>to cleanse thoroughly</gloss>: <ref osisRef=\"Luke.3.17\">Lk 3:17</ref>.†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "διαλιμπάνω",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>**† <orth>δια-λιμπάνω</orth>,  </form>\n  <etym><seg type=\"septuagint\">[in LXX: <ref osisRef=\"Tob.10.7\">To 10:7</ref>*]; </seg></etym>\n  <sense><gloss>to intermit,  cease</gloss>: <ref osisRef=\"Acts.8.24\">Ac 8:24</ref>,  WH,  mg.† </sense>\n  ",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "διαπαρατριβή",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form><orth>δια-παρα-τριβή,  <foreign xml:lang=\"grc\">-ῆς,  ἡ</foreign> </orth></form>\n<etym>\n  <seg type=\"derivation\">(&lt; <foreign xml:lang=\"grc\">παρατριβή</foreign>,  <gloss>friction,  irritation</gloss>) </seg>\n</etym>\n  <sense><gloss>mutual irritation</gloss> (Field,  <emph>Notes</emph>,  211),  <gloss>wrangling</gloss>: <ref osisRef=\"1Tim.6.5\">I Ti 6:5</ref> (Rec. <foreign xml:lang=\"grc\">παραδιατριβή</foreign>).†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "διαφανής",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form><orth>διαφανής</orth>,  <foreign xml:lang=\"grc\">-ές</foreign> </form>\n<etym>\n  <seg type=\"derivation\">(&lt; <foreign xml:lang=\"grc\">διαφαίνω</foreign> <gloss>to show through,  shine through</gloss>) </seg>\n  <seg type=\"septuagint\">[in LXX: <ref osisRef=\"Exod.30.34\">Ex 30:34</ref> (<foreign xml:lang=\"heb\" n=\"H2134\">זַךְ</foreign>),  <ref osisRef=\"Isa.3.23\">Is 3:21(23)</ref> (<foreign xml:lang=\"heb\" n=\"H1549\">גִּלָּיוֹן</foreign>),  <ref osisRef=\"Ezra.1.6\">Es 1:6</ref> * ;]</seg>\n</etym>\n  <sense><gloss>transparent</gloss>: <ref osisRef=\"Rev.21.21\">Re 21:21</ref> (Rec.; v. <foreign xml:lang=\"grc\">διαγής</foreign>).†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "διαχλευάζω",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>* <orth>δια-χλευάζω</orth>,  intensive of <foreign xml:lang=\"grc\">χλευάζω</foreign>,  </form>\n    <sense><gloss>to scoff,  mock</gloss>: </sense>\n    <sense n=\"(a)\">c. acc; </sense>\n    <sense n=\"(b)\">absol.,  <ref osisRef=\"Acts.2.13\">Ac 2:13</ref>.†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "διενθυμέομαι",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>*† <orth>δι-ενθυμέομαι</orth>,  <foreign xml:lang=\"grc\">-οῦμαι, </foreign> depon.,  </form>\n    <sense><gloss>to consider</gloss>,  <gloss>reflect</gloss>: seq. <foreign xml:lang=\"grc\">περί</foreign>,  <ref osisRef=\"Acts.10.19\">Ac 10:19</ref>.†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "διερμηνεία",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>*† <orth>δι-ερμηνεία</orth>,  <foreign xml:lang=\"grc\">ας,  ἡ</foreign></form>\n    <sense><gloss>interpretation</gloss>: <ref osisRef=\"1Cor.12.10\">I Co 12:10</ref>,  L,  txt. (not else­where).†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "διόρθωσις",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>* <orth>διόρθωσις</orth>,  <foreign xml:lang=\"grc\">-εως,  ἡ</foreign> (v. supr.),  </form>\n  <sense>\n    <sense n=\"1.\"><gloss>a making straight</gloss>. </sense>\n    <sense n=\"2.\"><gloss>a reforming</gloss>,  <gloss>reformation</gloss> (used in late writers of laws,  etc.): <ref osisRef=\"Heb.9.10\">He 9:10</ref> (Cremer,  807).†</sense>\n  </sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "Δίς",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">6</note>\n  <form><orth>Δίς</orth>,  </form>\n    <sense>old nom. for <gloss><foreign xml:lang=\"grc\">Ζεύς</foreign></gloss> (q.v.),  whence gen. <foreign xml:lang=\"grc\">Διός</foreign>,  acc. <foreign xml:lang=\"grc\">Δία</foreign>: <ref osisRef=\"Acts.14.12\">Ac 14:12</ref>,  <ref osisRef=\"Acts.14.13\">13</ref>.†</sense>\n",
+      "occurrences": "6",
+      "strongs": []
+    },
+    {
+      "word": "δισμυριάς",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>**† <orth>δισ-μυριάς</orth>,  <foreign xml:lang=\"grc\">-άδος,  ἡ, </foreign> </form>\n<etym>\n  <seg type=\"septuagint\">[in LXX: II Mac <hi rend=\"subscript\">6</hi> * ;] </seg>\n</etym>\n  <sense><gloss>twice ten thousand</gloss>: <ref osisRef=\"Rev.9.16\">Re 9:16</ref> (LT; <foreign xml:lang=\"grc\">δὶς μυριάδες</foreign>,  WH; <foreign xml:lang=\"grc\">δύο μ.</foreign>,  Rec.).†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "δοκιμασία",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>** <orth>δοκιμασία</orth>,  <foreign xml:lang=\"grc\">-ας,  ἡ</foreign> </form>\n<etym>\n  <seg type=\"derivation\">(&lt; <foreign xml:lang=\"grc\">δοκιμάζω</foreign>),  </seg>\n  <seg type=\"septuagint\">[in LXX: <ref osisRef=\"Sir.6.21\">Si 6:21</ref> * ;] </seg>\n</etym>\n  <sense><gloss>a testing,  proving</gloss>: <ref osisRef=\"Heb.3.9\">He 3:9</ref> <hi rend=\"superscript\">(LXX)</hi>.†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "δόκιμος",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">7</note>\n  <form><orth>δόκιμος</orth>,  <foreign xml:lang=\"grc\">-ον</foreign> </form>\n<etym>\n  <seg type=\"derivation\">(&lt; <foreign xml:lang=\"grc\">δέκομαι</foreign> = <foreign xml:lang=\"grc\">δέχομαι</foreign>) </seg>\n  <seg type=\"septuagint\">[in LXX for <foreign xml:lang=\"heb\" n=\"H2212\">זקק</foreign> pu.,  etc. ;] </seg>\n</etym>\n  <sense>primarily of metals,  <gloss>tested,  accepted,  approved</gloss>: of persons,  <ref osisRef=\"Rom.14.18\">Ro 14:18</ref> <ref osisRef=\"Rom.16.10\">16:10</ref>,  <ref osisRef=\"1Cor.11.19\">I Co 11:19</ref>,  <ref osisRef=\"2Cor.10.18\">II Co 10:18</ref> <ref osisRef=\"2Cor.13.7\">13:7</ref>,  <ref osisRef=\"2Tim.2.15\">II Ti 2:15</ref>,  <ref osisRef=\"Jas.1.12\">Ja 1:12</ref> (Cremer,  212,  697).†</sense>\n",
+      "occurrences": "7",
+      "strongs": []
+    },
+    {
+      "word": "δράμω",
+      "innerHTML": "\n  <form><orth>δράμω</orth>,  obsol.,  </form>\n\t<sense><gloss>to run</gloss>,  v.s. <foreign xml:lang=\"grc\">τρέχω</foreign> </sense>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "δυσεντέριον",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>*† <orth>δυσεντέριον</orth>,  <foreign xml:lang=\"grc\">-ου,  τό</foreign> </form>\n<etym>\n  <seg type=\"derivation\">(<foreign xml:lang=\"grc\">ἔντερον</foreign>,  <gloss>intestine</gloss>),  late form of <foreign xml:lang=\"grc\">δυσεντερία</foreign> (Rec.,  l.c.),  </seg>\n</etym>\n  <sense><gloss>dysentery</gloss>: <ref osisRef=\"Acts.28.8\">Ac 28:8</ref>.†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "δύσις",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form><orth>δύσις</orth>,  <foreign xml:lang=\"grc\">-εως</foreign>,  <foreign xml:lang=\"grc\">ἡ</foreign> </form>\n<etym>\n  <seg type=\"derivation\">(&lt; <foreign xml:lang=\"grc\">δύνω</foreign>),  </seg>\n  <seg type=\"septuagint\">[in LXX: <ref osisRef=\"Ps.104.19\">Ps 103 (104):19</ref> (<foreign xml:lang=\"heb\" n=\"H3996\">מָבוֹא</foreign>) * ;]</seg>\n</etym>\n    <sense n=\"1.\"><gloss>a sinking,  setting</gloss>,  as of the sun (Æsch.): <ref osisRef=\"Mark.16.8\">Mk 16</ref> [alt. ending]. </sense>\n    <sense n=\"2.\"><gloss>the sun-setting,  the west</gloss> (Thuc.).†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "δυσφημία",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>** <orth>δυσφημία</orth>,  <foreign xml:lang=\"grc\">-ας,  ἡ</foreign> </form>\n<etym>\n  <seg type=\"derivation\">(&lt; <foreign xml:lang=\"grc\">δύσφημος</foreign>,  <gloss>slanderous</gloss>),  </seg>\n  <seg type=\"septuagint\">[in LXX: <ref osisRef=\"1Macc.7.38\">I Mac 7:38</ref>,  <ref osisRef=\"3Macc.2.20\">III Mac 2:20</ref> * ;]</seg>\n</etym>\n  <sense><gloss>evil-speaking,  defamation</gloss>: opp. to <foreign xml:lang=\"grc\">εὐφημία</foreign>,  <ref osisRef=\"2Cor.6.8\">II Co 6:8</ref>.†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "δύω",
+      "innerHTML": "\n  <form><orth>δύω</orth>,  v.s. <foreign xml:lang=\"grc\">δύνω</foreign></form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "δωροφορία",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>* <orth>δωροφορία</orth>,  <foreign xml:lang=\"grc\">-ας,  ἡ</foreign>,  </form>\n    <sense><gloss>a bringing of presents</gloss>: LTr.,  mg.,  for <foreign xml:lang=\"grc\">διακονία</foreign>,  <ref osisRef=\"Rom.15.31\">Ro 15:31</ref>.†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "Ἐ",
+      "innerHTML": "\n  <form><orth>Ε</orth>,  <foreign xml:lang=\"grc\">ε,  ἒ ψιλόν (ἐψῖλον),  τό</foreign>,  indecl.,  </form>\n  <sense><gloss>epsilon</gloss>,  ĕ,  the fifth letter. As a numeral,  <foreign xml:lang=\"grc\">εʹ</foreign> = 5,  <foreign xml:lang=\"grc\">ε͵</foreign> = 5000. </sense>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἔγγιστος",
+      "innerHTML": "\n  <form><orth>ἔγγιστος</orth>,  v.s. <foreign xml:lang=\"grc\">ἐγγύς</foreign>. </form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἐγκακέω",
+      "innerHTML": "\n  <form><orth>ἐγκακέω</orth>,  v.s. <foreign xml:lang=\"grc\">ἐνκ-</foreign>.</form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἐγκαυχάομαι",
+      "innerHTML": "\n  <form><orth>ἐγ-καυχάομαι</orth>,  v.s. <foreign xml:lang=\"grc\">ἐνκ-</foreign>.</form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἐθέλω",
+      "innerHTML": "\n  <form><orth>ἐθέλω</orth>,  v.s. <foreign xml:lang=\"grc\"><ref>θέλω</ref></foreign>. </form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "εἰδέα",
+      "innerHTML": "\n    <note type=\"occurrencesNT\">1</note>\n    <form><orth>εἰδέα</orth> (Rec. <foreign xml:lang=\"grc\">ἰδ-</foreign>,  as in cl.; v. Tdf.,  <emph>Pr.</emph>,  81),  <foreign xml:lang=\"grc\">-ας,  ἡ</foreign> (&lt; <foreign xml:lang=\"grc\">εἶδον</foreign>),  [in <pb n=\"131\"/> <!-- typed=\"DCO\" checked=\"DES\" -->LXX (v.l. <foreign xml:lang=\"grc\">ἰδ-</foreign>): <ref osisRef=\"Gen.5.3\">Ge 5:3</ref> (<foreign xml:lang=\"heb\" n=\"H1823\">דְּמוּת</foreign>),  <ref osisRef=\"DanGr.1.13\">Da TH 1:13</ref>,  <ref osisRef=\"DanGr.1.15\">15</ref> (<foreign xml:lang=\"heb\" n=\"H4758\">מַרְאֶה</foreign>),  <ref osisRef=\"EpJer.1.63\">Ep. Je 63</ref>,  <ref osisRef=\"2Macc.3.16\">II Mac 3:16</ref> * ;] </form>\n    <sense><gloss>appearance,  look</gloss>: <ref osisRef=\"Matt.28.3\">Mt 28:3</ref>.†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "εἶδον",
+      "innerHTML": "\n  <form><orth>εἶδον</orth>,  v.s. <foreign xml:lang=\"grc\"><ref>ὁράω</ref></foreign>.</form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "εἵνεκεν",
+      "innerHTML": "\n  <form><orth>εἵνεκεν</orth>,  v.s. <foreign xml:lang=\"grc\"><ref>ἕνεκα</ref></foreign>.</form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "εἴπερ",
+      "innerHTML": "\n  <form><orth>εἴ-περ</orth>,  v.s. <foreign xml:lang=\"grc\"><ref>εἰ</ref></foreign>.</form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "εἶπον",
+      "innerHTML": "\n  <form><orth>εἶπον</orth>,  2 aor. of obsol. pres. <foreign xml:lang=\"grc\">ἔπω</foreign> (cf. Veitch),  used as aor. of <foreign xml:lang=\"grc\">λέγω</foreign>,  q.v. </form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "εἴπως",
+      "innerHTML": "\n  <form><orth>εἴ-πως</orth>,  v.s. <foreign xml:lang=\"grc\">εἰ</foreign>.</form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "εἴρω",
+      "innerHTML": "\n  <form><orth>εἴρω</orth> (fut. <foreign xml:lang=\"grc\"><ref>ἐρῶ</ref></foreign>),  v.s. <foreign xml:lang=\"grc\"><ref>λέγω</ref></foreign>,  p. 496.</form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "εἶτεν",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>* <orth>εἶτεν</orth>,  </form>\n    <sense>Ion. and Hellenistic for <foreign xml:lang=\"grc\">εἶτα</foreign> (q.v.),  <gloss>then</gloss>: <ref osisRef=\"Mark.4.28\">Mk 4:28</ref>.†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "εἴωθα",
+      "innerHTML": "\n  <form><orth>εἴωθα</orth>,  v.s. <foreign xml:lang=\"grc\">ἔθω</foreign>.</form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἐκβαίνω",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form><orth>ἐκ-βαίνω</orth>,  </form>\n<etym>\n  <seg type=\"septuagint\">[in LXX for <foreign xml:lang=\"heb\" n=\"H5929\">עלח</foreign> ;] </seg>\n</etym>\n  <sense><gloss>to go out</gloss>: <ref osisRef=\"Heb.11.15\">He 11:15</ref>.†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "ἐκζήτησις",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>*† <orth>ἐκ-ζήτησις</orth>,  <foreign xml:lang=\"grc\">-εως,  ἡ</foreign> </form>\n<etym>\n  <seg type=\"derivation\">(&lt; <foreign xml:lang=\"grc\">ἐκζητέω</foreign>),  </seg>\n</etym>\n  <sense><gloss>a questioning</gloss> (RV),  <gloss>subject for dispute</gloss>: <ref osisRef=\"1Tim.1.4\">I Ti 1:4</ref>.†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "ἐκθαυμάζω",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>**† <orth>ἐκ-θαυμάζω</orth>,   </form>\n<etym>\n  <seg type=\"septuagint\">[in LXX: <ref osisRef=\"Sir.27.23\">Si 27:23</ref> <ref osisRef=\"Sir.43.18\">43:18</ref>,  <ref osisRef=\"4Macc.17.17\">IV Mac 17:17</ref> * ;] </seg>\n</etym>\n  <sense>strengthened form of <foreign xml:lang=\"grc\">θαυμ-</foreign>; <gloss>to wonder greatly</gloss>: <ref osisRef=\"Mark.12.17\">Mk 12:17</ref>.†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "ἐκκακέω",
+      "innerHTML": "\n  <form><orth>ἐκκακέω,  -ῶ</orth>,  v.s. <foreign xml:lang=\"grc\">ἐνκακέω</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἐκκόπτω",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">10</note>\n  <form><orth>ἐκ-κόπτω</orth>,  </form>\n  <etym>\n  <seg type=\"septuagint\">[in LXX for <foreign xml:lang=\"heb\" n=\"H3772\">כָּרַת</foreign>,  etc. ;]</seg>\n</etym>\n  <sense><gloss>to cut out,  cut off,  cut down</gloss>: of a hand,  foot,  <ref osisRef=\"Matt.5.30\">Mt 5:30</ref> <ref osisRef=\"Matt.18.8\">18:8</ref>; a tree,  <ref osisRef=\"Matt.3.10\">Mt 3:10</ref> <ref osisRef=\"Matt.7.19\">7:19</ref> <ref osisRef=\"Luke.3.9\">Lk 3:9</ref> <ref osisRef=\"Luke.13.7\">13:7</ref>,  <ref osisRef=\"Luke.13.9\">9</ref>; fig.,  of a branch,  <ref osisRef=\"Rom.11.22\">Ro 11:22</ref>; seq. <foreign xml:lang=\"grc\">ἐκ</foreign>,  <ref osisRef=\"Rom.11.24\">Ro 11:24</ref>; metaph.,  <foreign xml:lang=\"grc\">τ. ἀφορμήν</foreign> (cf. <ref osisRef=\"Job.19.10\">Jb 19:10</ref> <foreign xml:lang=\"grc\">ἐλπίδα</foreign>),  <ref osisRef=\"2Cor.11.12\">II Co 11:12</ref>.†</sense>\n",
+      "occurrences": "10",
+      "strongs": []
+    },
+    {
+      "word": "ἐκκρέμαννυμι",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form><orth>ἐκ-κρέμαννυμι</orth>,  </form>\n<etym>\n  <seg type=\"septuagint\">[in LXX for <foreign xml:lang=\"heb\" n=\"H7194\">קָשַׁר</foreign>,  <ref osisRef=\"Gen.44.30\">Ge 44:30</ref> * ;] </seg>\n</etym>\n  <sense><gloss>to hang from or upon</gloss>; mid.,  <foreign xml:lang=\"grc\">ἐκκρέμαμαι</foreign>: fig.,  <foreign xml:lang=\"grc\">ἐξεκρέματο αὐτοῦ άκούων</foreign> (Rec.; WH read <foreign xml:lang=\"grc\">ἐξεκρέμετο</foreign>,  which implies a Pres. <foreign xml:lang=\"grc\">ἐκκρέμομαι</foreign>,  otherwise unknown; cf. Veitch,  s.v. <foreign xml:lang=\"grc\">κρέμαμαι</foreign>),  <ref osisRef=\"Luke.19.48\">Lk 19:48</ref>.†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "ἐκπερισσῶς",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>*† <orth>ἐκ-περισσῶς</orth>,   </form>\n    <gramGrp><pos>adv.</pos>,  </gramGrp>\n    <sense><gloss>more exceedingly</gloss>: <ref osisRef=\"Mark.14.31\">Mk 14:31</ref> (of. <foreign xml:lang=\"grc\">ὑπερπερ-</foreign>).† </sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "ἐκπηδάω",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form><orth>ἐκ-πηδάω,  -ῶ</orth> </form>\n<etym>\n  <seg type=\"septuagint\">[in LXX: <ref osisRef=\"Deut.33.22\">De 33:22</ref> (<foreign xml:lang=\"heb\" n=\"H2187\">זָנַק</foreign>),  etc. ;]</seg>\n</etym>\n  <sense><gloss>to spring forth</gloss>: <foreign xml:lang=\"grc\">εἰς τ. ὄχλον</foreign> (cf. <ref osisRef=\"Judg.14.17\">Ju 14:17</ref>),  <ref osisRef=\"Acts.14.14\">Ac 14:14</ref> (for ex. in <foreign xml:lang=\"grc\">π.</foreign>,  v. MM,  <emph>Exp.</emph>,  xii).†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "ἐκσώζω",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>* <orth>ἐκ-σώζω</orth>,  </form>\n  <sense><gloss>to preserve from danger,  bring safe</gloss>: <ref osisRef=\"Acts.27.39\">Ac 27:39</ref> (ἐξῶσαι, \nWH,  mg.,  R,  txt.,  v.s. <foreign xml:lang=\"grc\">ἐξωθέω</foreign>.†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "ἔκτρομος",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>† <orth>ἔκτρομος</orth>,  <foreign xml:lang=\"grc\">-ον,  </foreign> = <foreign xml:lang=\"grc\">ἔντρομος</foreign>,  </form>\n  <sense><gloss>exceedingly terrified</gloss>: <ref osisRef=\"Heb.12.21\">He 12:21</ref> (for exx. from <foreign xml:lang=\"grc\">π.</foreign>,  v. Deiss.,  BS,  290; <emph>LAE</emph>,  254).†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "εκχύννω",
+      "innerHTML": "\n\t<note type=\"occurrencesNT\">1</note>\n<form>**† <orth>εκ-χύννω </orth></form>\n    <sense>Hellenistic form of <foreign xml:lang=\"grc\" n=\"G1632\">ἐκχέω</foreign>,  q.v. (B1.,  § 17): <ref osisRef=\"Matt.23.35\">Mt 23:35</ref> <ref osisRef=\"Matt.26.28\">26:28</ref>,  <ref osisRef=\"Mark.14.24\">Mk 14:24</ref>,  <ref osisRef=\"Luke.5.37\">Lk 5:37</ref> <ref osisRef=\"Luke.11.50\">11:50</ref> <ref osisRef=\"Luke.22.20\">22:20</ref>,  <ref osisRef=\"Acts.1.18\">Ac 1:18</ref> <ref osisRef=\"Acts.10.45\">10:45</ref> <ref osisRef=\"Acts.22.20\">22:20</ref>,  <ref osisRef=\"Rom.5.5\">Ro 5:5</ref>,  <ref osisRef=\"Jude.1.11\">Ju 11</ref>.†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "ἐλεάω",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">2</note>\n  <form>† <orth>ἐλεάω</orth>,  later form of <foreign xml:lang=\"grc\">ἐλεέω</foreign>,  q.v.,  </form>\n<etym>\n  <seg type=\"septuagint\">[in LXX as v.l. in <ref osisRef=\"Tob.13.2\">To 13:2</ref>,  <ref osisRef=\"Ps.37.26\">Ps 37:26</ref>,  al. ;] </seg>\n</etym>\n  <sense>in NT: <ref osisRef=\"Rom.9.16\">Ro 9:16</ref>,  <ref osisRef=\"Jude.1.23\">Ju 23</ref>,  WH.†</sense>\n\n",
+      "occurrences": "2",
+      "strongs": []
+    },
+    {
+      "word": "ἔλεγχος",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form><orth>ἔλεγχος</orth>,  <foreign xml:lang=\"grc\">-ου,  ὁ</foreign> </form>\n<etym>\n  <seg type=\"derivation\">(<foreign xml:lang=\"grc\">ἐλέγχω</foreign>) </seg>\n  <seg type=\"septuagint\">[in LXX: freq. in Pr,  Jb (<foreign xml:lang=\"heb\" n=\"H8433\">תּוֺכַחַת</foreign>) <ref osisRef=\"Wis.5.1-Wis.5.23\">Wi 5</ref>,  <ref osisRef=\"Sir.3.1-Sir.3.31\">Si 3</ref>,  etc. ;] </seg>\n</etym>\n  <sense>a proof,  test: <ref osisRef=\"Heb.11.1\">He 11:1</ref>.†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "ἐλεινός",
+      "innerHTML": "\n  <form><orth>ἐλεινός</orth>,  v.s. <foreign xml:lang=\"grc\">ἐλεεινός</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἕλιγμα",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>* <orth>ἕλιγμα</orth>,  <foreign xml:lang=\"grc\">-τος,  τό</foreign> </form>\n<etym>\n  <seg type=\"derivation\">(&lt; <foreign xml:lang=\"grc\">ἑλίσσω</foreign>),  </seg>\n</etym>\n  <sense><gloss>a roll</gloss>: <ref osisRef=\"John.19.39\">Jo 19:39</ref>,  WH,  txt. (<foreign xml:lang=\"grc\">μῖγμα</foreign>,  Rec.; <foreign xml:lang=\"grc\">μίγμα</foreign>,  WH,  mg.,  R,  txt.).†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "Ἐλισάβετ",
+      "innerHTML": "\n  <form><orth>Ἐλισάβετ</orth>,  v.s. <foreign xml:lang=\"grc\">Ἐλεισ-</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἐλκύω",
+      "innerHTML": "\n  <form><orth>ἐλκύω</orth>,  v.s. <foreign xml:lang=\"grc\">ἕλκω</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἐμπαιγμονή",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>*† <orth>ἐμπαιγμονή</orth>,  <foreign xml:lang=\"grc\">-ῆς,  ἡ</foreign> </form>\n<etym>\n  <seg type=\"derivation\">(&lt; <foreign xml:lang=\"grc\">ἐμπαίζω</foreign>,  q.v.),  </seg>\n</etym>\n  <sense><gloss>mockery</gloss>: <ref osisRef=\"2Pet.3.3\">II Pe 3:3</ref>.†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "ἐμπεριπατέω",
+      "innerHTML": "\n  <form><orth>ἐμ-περι-πατέω</orth>,  <foreign xml:lang=\"grc\">-ῶ</foreign>,  v.s. <foreign xml:lang=\"grc\">ἐνπ-</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἐμπνέω",
+      "innerHTML": "\n  <form><orth>ἐμ-πνέω</orth>,  <foreign xml:lang=\"grc\">-ῶ</foreign>,  v.s. <foreign xml:lang=\"grc\">ἐνπ-</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἐμπρήθω",
+      "innerHTML": "\n  <form><orth>ἐμ-πρήθω</orth>,  v.s. <foreign xml:lang=\"grc\">ἐμπίπρημι</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἔνατος",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">10</note>\n  <form><orth>ἔνατος</orth>,  (Rec. <foreign xml:lang=\"grc\">ἔνν-</foreign>),  <foreign xml:lang=\"grc\">-η,  -ον</foreign> </form>\n  <sense><gloss>ninth</gloss>: <ref osisRef=\"Rev.21.20\">Re 21:20</ref>; of the ninth hour (3 o'clock,  p.m.),  <ref osisRef=\"Matt.20.5\">Mt 20:5</ref> <ref osisRef=\"Matt.27.45\">27:45</ref>,   <ref osisRef=\"Matt.27.46\">46</ref>,  <ref osisRef=\"Mark.15.33\">Mk 15:33</ref>,  <ref osisRef=\"Mark.15.34\">34</ref>,  <ref osisRef=\"Luke.23.44\">Lk 23:44</ref>,  <ref osisRef=\"Acts.3.1\">Ac 3:1</ref> <ref osisRef=\"Acts.10.3\">10:3</ref>,  <ref osisRef=\"Acts.10.30\">30</ref>.†</sense>\n",
+      "occurrences": "10",
+      "strongs": []
+    },
+    {
+      "word": "ἐνδόμησις",
+      "innerHTML": "\n  <form><orth>ἐν-δόμησις</orth>,  <foreign xml:lang=\"grc\">-εως,  ἡ</foreign>,  v.s. <foreign xml:lang=\"grc\">ἐνδώμ-</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἐνενήκοντα",
+      "innerHTML": "\n\t<note type=\"occurrencesNT\">5</note>\n<form><orth>ἐνενήκοντα</orth> (Rec. <foreign xml:lang=\"grc\">ἐννεν-</foreign>),  <foreign xml:lang=\"grc\">οἱ,  αἱ,  τά</foreign> indecl.,  </form>\n  <sense><gloss>ninety</gloss>: <ref osisRef=\"Matt.18.12\">Mt 18:12</ref>,  <ref osisRef=\"Matt.18.13\">13</ref>,  <ref osisRef=\"Luke.15.4\">Lk 15:4</ref>,  <ref osisRef=\"Luke.15.7\">7</ref>.†</sense>\n",
+      "occurrences": "5",
+      "strongs": []
+    },
+    {
+      "word": "ἐνκαίνια",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>† <foreign xml:lang=\"grc\">ἐνκαίνια</foreign> (Rec. <foreign xml:lang=\"grc\">ἐγκ-</foreign>),  <foreign xml:lang=\"grc\">-ων,  τά</foreign> (&lt; <foreign xml:lang=\"grc\">ἐν,  καινός</foreign>),  </form>\n<etym>[in LXX for <foreign xml:lang=\"heb\" n=\"H2598\">חֲנֻכָּה</foreign>,  \n<ref osisRef=\"2Esd.6.16-2Esd.6.17\">II Es 6:16,  17</ref>,  <ref osisRef=\"Neh.12.27\">Ne 12:27</ref>,  <ref osisRef=\"Dan.3.2\">Da TH 3:2</ref> (and cf. <foreign xml:lang=\"grc\">ἐγκαινισμός</foreign>,  <ref osisRef=\"Num.7.10\">Nu 7:10</ref>,  al.,  <foreign xml:lang=\"grc\">-ισις</foreign>,  <ref osisRef=\"Num.7.88\">Nu 7:88</ref>) *;] </etym>\n<sense><gloss>dedication</gloss> (anniversary of the cleansing of the Temple from the defilements of Antiochus Epiphanes) : <ref osisRef=\"John.10.22\">Jo 10:22</ref>.†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "ἐνκαινίζω",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">2</note>\n  <form>† <foreign xml:lang=\"grc\">ἐν-καινίζω</foreign> (Rec. <foreign xml:lang=\"grc\">ἐγκ-</foreign>,  v.s. <foreign xml:lang=\"grc\">ἐν</foreign>),  </form>\n  <etym>[in LXX: (<gloss>to renew</gloss>) <ref osisRef=\"1Kgs.11.14\">I Ki 11:14</ref>,  <ref osisRef=\"2Chr.15.8\">II Ch 15:8</ref>,  <ref osisRef=\"Ps.51.10\">Ps 50(51):10</ref> (<foreign xml:lang=\"heb\" n=\"H2318\">חדשׁ</foreign> pi.); (<gloss>to dedicate</gloss>) <ref osisRef=\"Deut.20.5\">De 20:5</ref>,  <ref osisRef=\"2Chr.7.5\">II Ch 7:5</ref> (<foreign xml:lang=\"heb\" n=\"H2596\">חנךְ</foreign>); <ref osisRef=\"Isa.16.11\">Is 16:11</ref> <ref osisRef=\"Isa.41.1\">41:1</ref> <ref osisRef=\"Isa.45.16\">45:16</ref> (aliter in Heb.),  <ref osisRef=\"Sir.36.6\">Si 33(36):6</ref>,  <ref osisRef=\"1Macc.4.36\">I Mac 4:36</ref>,  <ref osisRef=\"1Macc.4.54\">54</ref>,  <ref osisRef=\"1Macc.4.57\">57</ref> <ref osisRef=\"1Macc.5.1\">5:1</ref>,  <ref osisRef=\"2Macc.2.29\">II Mac 2:29</ref> *;] </etym>\n  <sense n=\"1\">. <gloss>to innovate</gloss> (Eust.).</sense>\n  <sense n=\"2.\"><gloss>to renew</gloss> (LXX ut supr.).</sense>\n  <sense n=\"3.\"><gloss>to initiate,  inaugurate,  dedicate</gloss> (LXX ut supr.) : <foreign xml:lang=\"grc\">διαθήκην</foreign>,  <ref osisRef=\"Heb.9.18\">He 9:18</ref> ; <foreign xml:lang=\"grc\">ὁδόν</foreign>,  ib. <ref osisRef=\"Heb.10.20\">10:20</ref> (Cremer,  323).†</sense>\n",
+      "occurrences": "2",
+      "strongs": []
+    },
+    {
+      "word": "ἐνκακέω",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">6</note>\n  <form>**† <foreign xml:lang=\"grc\">ἐν-κακέω,  -ῶ</foreign> (LTr.,  <foreign xml:lang=\"grc\">ἐγκ-</foreign>; Rec. <foreign xml:lang=\"grc\">ἐκκ-</foreign>; cf. WH,  <emph>Notes</emph>,  157 f.; &lt; <foreign xml:lang=\"grc\">κακός</foreign>,  <gloss>cowardly</gloss>),  </form>\n<etym>[in Sm.: <ref osisRef=\"Gen.27.46\">Ge 27:46</ref>,  <ref osisRef=\"Num.21.5\">Nu 21:5</ref>,  <ref osisRef=\"Prov.3.11\">Pr 3:11</ref>,  <ref osisRef=\"Isa.7.16\">Is 7:16</ref> *;] </etym>\n<sense><gloss>to lose heart</gloss>: <ref osisRef=\"Luke.18.1\">Lk 18:1</ref>,  <ref osisRef=\"2Cor.4.1\">II Co 4:1</ref>,  <ref osisRef=\"2Cor.4.16\">16</ref>,  <ref osisRef=\"Gal.6.9\">Ga 6:9</ref>,  <ref osisRef=\"Eph.3.13\">Eph 3:13</ref>,  <ref osisRef=\"2Thess.3.13\">II Th 3:13</ref> (Cremer,  330).†</sense>\n",
+      "occurrences": "6",
+      "strongs": []
+    },
+    {
+      "word": "ἐνκατοικέω",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>* <foreign xml:lang=\"grc\">ἐν-κατοικέω,  -ῶ</foreign> (Rec. <foreign xml:lang=\"grc\">ἐγκ-</foreign>,  v.s. <foreign xml:lang=\"grc\">ἐν</foreign>),  </form>\n  <sense><gloss>to dwell among</gloss>: seq. <foreign xml:lang=\"grc\">ἐν</foreign>,  <ref osisRef=\"2Pet.2.8\">II Pe 2:8</ref>.†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "ἐνκαυκάομαι",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>† <orth>ἐν-καυκάομαι</orth> </form>\n<etym>\n  <seg type=\"derivation\">(Rec. <foreign xml:lang=\"grc\">ἐγκ-</foreign>,  v.s. <foreign xml:lang=\"grc\">ἐν</foreign>),  <foreign xml:lang=\"grc\">-ῶμαι</foreign> </seg>\n  <seg type=\"septuagint\">[in LXX: <ref osisRef=\"Ps.52.1\">51(52):1</ref> <ref osisRef=\"Ps.97.7\">96(97):7</ref> (<foreign xml:lang=\"heb\" n=\"H1984\">הָלַל</foreign> hithp.); <ref osisRef=\"Ps.74.4\">Ps 73(74):4</ref> (<foreign xml:lang=\"heb\" n=\"H7580\">שָׁאַג</foreign>); <ref osisRef=\"Ps.106.47\">Ps 105(106):47</ref> (<foreign xml:lang=\"heb\" n=\"H7623\">שָׁבַח</foreign>)* ;] </seg>\n</etym>\n    <sense><gloss>to take pride in,  glory in</gloss>: seq. <foreign xml:lang=\"grc\">ἐν</foreign>,  <ref osisRef=\"2Thess.1.4\">II Th 1:4</ref>.†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "ἐνκεντρίζω",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">4</note>\n  <form>** <foreign xml:lang=\"grc\">ἐν-κεντρίζω</foreign> (Rec. <foreign xml:lang=\"grc\">ἐγρ-</foreign>,  v.s. <foreign xml:lang=\"grc\">ἐν</foreign>; &lt; <foreign xml:lang=\"grc\">κεντρίζω</foreign>,  <gloss>to graft</gloss>),  </form>\n<etym>[in LXX: \n<ref osisRef=\"Wis.16.11\">Wi 16:11</ref>\n *;] </etym>\n  <sense><gloss>to ingraft,  graft in</gloss>. fig.,  c. acc. pers.,  <ref osisRef=\"Rom.11.17\">Ro 11:17</ref>,  <ref osisRef=\"Rom.11.19\">19</ref>,  <ref osisRef=\"Rom.11.23\">23</ref>,  <ref osisRef=\"Rom.11.24\">24</ref>.†</sense>\n",
+      "occurrences": "4",
+      "strongs": []
+    },
+    {
+      "word": "ἐνκοπή",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>*† <foreign xml:lang=\"grc\">ἐν-κοπή</foreign> (Rec. <foreign xml:lang=\"grc\">ἐγκ-</foreign>,  v.s. <foreign xml:lang=\"grc\">ἐν</foreign>; T,  <foreign xml:lang=\"grc\">ἐκκ-</foreign>),  <foreign xml:lang=\"grc\">-ῆς,  ἡ</foreign> (&lt; <foreign xml:lang=\"grc\">ἐγκόπτω</foreign>) ; </form>\n  <sense n=\"1.\"><gloss>an incision,  a cutting,  break</gloss>.</sense> <sense n=\"2.\">Metaph.,  <gloss>an interruption,  a hindrance</gloss>: <ref osisRef=\"1Cor.9.12\">I Co 9:12</ref>.†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "ἐνκόπτω",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">5</note>\n  <form>* <foreign xml:lang=\"grc\">ἐν-κόπτω</foreign> (Rec. <foreign xml:lang=\"grc\">ἐγκ-</foreign>,  v.s. <foreign xml:lang=\"grc\">ἐν</foreign>; and in I Pe,  l.c.,  <foreign xml:lang=\"grc\">ἐκκ-</foreign>); </form>\n  <sense n=\"1.\"><gloss>to cut into</gloss> (as in breaking up a road),  hence, </sense> <sense n=\"2.\"><gloss>to hinder</gloss>: c. acc. <ref osisRef=\"Acts.24.4\">Ac 24:4</ref>,  <ref osisRef=\"1Thess.2.18\">I Th 2:18</ref>; c. inf.,  <ref osisRef=\"Gal.5.7\">Ga 5:7</ref>; seq. <foreign xml:lang=\"grc\">τοῦ</foreign>,  c. inf.,  <ref osisRef=\"Rom.15.22\">Ro 15:22</ref>; <foreign xml:lang=\"grc\">εἰς τό</foreign>,  c. inf,  <ref osisRef=\"1Pet.3.7\">I Pe 3:7</ref>.†</sense>\n",
+      "occurrences": "5",
+      "strongs": []
+    },
+    {
+      "word": "ἐνκρίνω",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>* <foreign xml:lang=\"grc\">ἐν-κρίνω</foreign> (Rec. <foreign xml:lang=\"grc\">ἐγκ-</foreign>,  v.s. <foreign xml:lang=\"grc\">ἐν</foreign>),  </form>\n  <sense><gloss>to reckon among</gloss>: <foreign xml:lang=\"grc\">ἑαυτούς</foreign>,  <ref osisRef=\"2Cor.10.12\">II Co 10:12</ref>.†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "ἔνκυος",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>** <foreign xml:lang=\"grc\">ἔνκυος</foreign> (Rec. <foreign xml:lang=\"grc\">ἐγκ-</foreign>,  v.s. <foreign xml:lang=\"grc\">ἐν</foreign>),  <foreign xml:lang=\"grc\">-ον</foreign> </form>\n  <etym>(&lt; <foreign xml:lang=\"grc\">κύω</foreign>,  <gloss>to conceive</gloss>),  [in LXX: <ref osisRef=\"Sir.42.10\">Si 42:10</ref> * ;] </etym>\n  <sense><gloss>pregnant,  big with child</gloss>: <ref osisRef=\"Luke.2.5\">Lk 2:5</ref>.†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "ἐννεός",
+      "innerHTML": "\n  <form><orth>ἐννεός</orth>,  v.s. <foreign xml:lang=\"grc\">ἐνεός</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἔννυχα",
+      "innerHTML": "\n  <form>*† <orth>ἔννυχα</orth>,  v.s. <foreign xml:lang=\"grc\">ἔννυχος</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἐνορκίζω",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>† <orth>ἐν-ορκίζω</orth>,   </form>\n<etym>\n  <seg type=\"septuagint\">[in LXX: <ref osisRef=\"Neh.13.25\">Ne 13:25</ref> A (<foreign xml:lang=\"heb\" n=\"H7650\">שָׁבַע</foreign> hi.)* ;] </seg>\n</etym>\n  <sense><gloss>to adjure</gloss>: c. dupl. acc (like <foreign xml:lang=\"grc\">ορκίζω</foreign>,  q.v.),  <foreign xml:lang=\"grc\">ὑμᾶς τ. κῦριον</foreign>,  <ref osisRef=\"1Thess.5.27\">I Th 5:27</ref>.†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "ἐξ",
+      "innerHTML": "\n  <form><orth>ἐξ</orth>,  v.s. <foreign xml:lang=\"grc\">ἐκ</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἔξειμι_2",
+      "innerHTML": "\n  <form><orth>ἔξ-ειμι</orth> (&lt; <foreign xml:lang=\"grc\">εἰμί</foreign>),  v.s. <foreign xml:lang=\"grc\">ἔξεστι</foreign>.</form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἐξερευνάω",
+      "innerHTML": "\n  <form><orth>ἐξερευνάω</orth>,  v.s,  <foreign xml:lang=\"grc\">ἐξεραυνάω</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἐξέφνης",
+      "innerHTML": "\n  <form><orth>ἐξέφνης</orth>,  v.s. <foreign xml:lang=\"grc\">ἐξαίφνης</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἐξόν",
+      "innerHTML": "\n  <form><orth>ἐξ-όν</orth>,  v.s. <foreign xml:lang=\"grc\">ἔξστι</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἐξουδενόω",
+      "innerHTML": "\n  <form><orth>ἐξ-ουδενόω</orth>,  v.s. <foreign xml:lang=\"grc\">ἐξουδενέω</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἐξουθενόω",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>† <orth>ἐξουθενόω</orth>,  <foreign xml:lang=\"grc\">-ῶ, </foreign> </form>\n    <sense>v.l. for <foreign xml:lang=\"grc\">-έω</foreign> (q.v.): <ref osisRef=\"Mark.9.12\">Mk 9:12</ref> T.†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "ἐπάρατος",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>* <orth>ἐπ-άρατος</orth>,  <foreign xml:lang=\"grc\">-ον</foreign> </form>\n<etym>\n  <seg type=\"derivation\">(&lt; <foreign xml:lang=\"grc\">ἐπαράομαι</foreign>,  <gloss>to imprecate</gloss>),  </seg>\n</etym>\n  <sense><gloss>accursed</gloss>: <ref osisRef=\"John.7.49\">Jo 7:49</ref> (for exx. from <foreign xml:lang=\"grc\">π.</foreign>,  v. MM,  <emph>Exp.</emph>,  xiv; cf. Cremer,  108).†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "ἐπέρχομαι",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">9</note>\n  <form><gloss><foreign xml:lang=\"grc\">ἐπ-έρχομαι</foreign></gloss>,  </form>\n<etym>\n  <seg type=\"septuagint\">[in LXX for <foreign xml:lang=\"heb\" n=\"H935\">בּוֹא</foreign>,  <foreign xml:lang=\"heb\" n=\"H5674\">עָבַר</foreign>,  etc. ;]</seg>\n</etym>\n  <sense n=\"1.\"><gloss>to come to,  arrive,  come on</gloss>: seq. <foreign xml:lang=\"grc\">ἀπό</foreign>,  c. gen. loc.,  <ref osisRef=\"Acts.14.19\">Ac 14:19</ref> (<foreign xml:lang=\"grc\">ἐπῆλθαν</foreign>; cf. M,  <emph>Pr.</emph>,  65; Deiss.,  BS,  191); of time,  <ref osisRef=\"Eph.2.7\">Eph 2:7</ref>. </sense>\n  <sense n=\"2.\"><gloss>to come upon</gloss> (as in Hom.): of calamities,  <ref osisRef=\"Luke.21.26\">Lk 21:26</ref>,  <ref osisRef=\"Acts.8.24\">Ac 8:24</ref> <ref osisRef=\"Acts.13.40\">13:40</ref>,  <ref osisRef=\"Jas.5.1\">Ja 5:1</ref>; of an enemy,  <ref osisRef=\"Luke.11.22\">Lk 11:22</ref>; of the Holy Spirit,  <ref osisRef=\"Luke.1.35\">Lk 1:35</ref>,  <ref osisRef=\"Acts.1.8\">Ac 1:8</ref>,  [in LXX: <foreign xml:lang=\"grc\">γίγνομαι ἐπί</foreign>,  <ref osisRef=\"Judg.14.6\">Jg 14:6</ref>,  <ref osisRef=\"1Kgs.11.6\">III Ki 11:6</ref>,  al.].†</sense>\n",
+      "occurrences": "9",
+      "strongs": []
+    },
+    {
+      "word": "ἐπιείκεια",
+      "innerHTML": "\n  <form><orth>ἐπιείκεια</orth>,  v.s. <foreign xml:lang=\"grc\">ἐπιεικία</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἐπικεφάλαιον",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>* <orth>ἐπι-κεφάλαιον</orth>,  <foreign xml:lang=\"grc\">-ου,  τό, </foreign> </form>\n  <sense><gloss>a poll-tax</gloss>: <ref osisRef=\"Mark.12.14\">Mk 12:14</ref> (WH,  mg.,  for <foreign xml:lang=\"grc\">κῆνσον</foreign>,  as in D,  Syrr. <hi rend=\"superscript\">Sin. pesh.</hi>,  124,  etc.).†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "ἐπιλείχω",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>† <orth>ἐπι-λείχω</orth> </form>\n  <sense><gloss>to lick over</gloss>: c. acc,  <ref osisRef=\"Luke.16.21\">Lk 16:21</ref> (of. MM,  <emph>Exp.</emph>,  xiv).†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "ἐπιοῦσα",
+      "innerHTML": "\n  <form><orth>ἐπιοῦσα</orth>,  v.s. <foreign xml:lang=\"grc\">ἔπειμι</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἐπισπείρω",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>* <orth>ἐπι-σπείρω</orth>,   </form>\n  <sense><gloss>to sow upon</gloss> or <gloss>besides</gloss>: <foreign xml:lang=\"grc\">ἀνὰ μέσον</foreign>,  <ref osisRef=\"Matt.13.25\">Mt 13:25</ref>.†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "ἐπίστασις",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">2</note>\n  <form>** <orth>ἐπί-στασις</orth>,  <foreign xml:lang=\"grc\">-εως,  ἡ</foreign> </form>\n<etym>\n  <seg type=\"derivation\">(&lt; <foreign xml:lang=\"grc\">ἐφίστημι</foreign>),  </seg>\n  <seg type=\"septuagint\">[in LXX: <ref osisRef=\"2Macc.6.3\">II Mac 6:3</ref> * ;]</seg>\n</etym>\n    <sense n=\"1.\"><gloss>a stopping</gloss>,  <gloss>halting</gloss> (as of soldiers): <foreign xml:lang=\"grc\">ὄχλου</foreign>,  <gloss>collecting a crowd</gloss> (v. Rack-ham,  <emph>Acts</emph>,  l.c.): <ref osisRef=\"Acts.24.12\">Ac 24:12</ref> (WH,  Rec. <foreign xml:lang=\"grc\">ἐπισύστασις</foreign>). </sense>\n    <sense n=\"2.\"><gloss>superintendence</gloss>,  <gloss>attention</gloss> (but v. Thayer,  s.v.; Field,  <emph>Notes</emph>,  185 f.): <ref osisRef=\"2Cor.11.28\">II Co 11:28</ref> (WH,  Rec. ut supr.).†</sense>\n",
+      "occurrences": "2",
+      "strongs": []
+    },
+    {
+      "word": "ἐπιτροπεύω",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>* <orth>ἐπιτροπεύω</orth> </form>\n<etym>\n  <seg type=\"derivation\">(&lt; <foreign xml:lang=\"grc\">ἐπίτροπος</foreign>,  <gloss>a procurator</gloss>),  </seg>\n</etym>\n  <sense><gloss>to govern</gloss>: <ref osisRef=\"Luke.3.1\">Lk 3:1</ref> (WH,  mg.,  for <foreign xml:lang=\"grc\">ἡγεμονεύοντος</foreign>,  an obvious correction for precision).†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "ἐρευνάω",
+      "innerHTML": "\n  <form><orth>ἐρευνάω</orth>,  <foreign xml:lang=\"grc\">-ῶ</foreign>,  v.s. <foreign xml:lang=\"grc\">ἐραυνάω</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἑρμηνία",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">2</note>\n  <form><orth>ἑρμηνία</orth> (T,  cl.,  <foreign xml:lang=\"grc\">-εία</foreign>),  <foreign xml:lang=\"grc\">-ας,  ἡ</foreign>,  </form>\n<etym>\n  <seg type=\"derivation\">(&lt; <foreign xml:lang=\"grc\">ἑρμηνεύω</foreign>),  </seg>\n  <seg type=\"septuagint\">[in LXX (<foreign xml:lang=\"grc\">-εία</foreign>),  <ref>Si,  prol. <hi rend=\"superscript\">14</hi></ref> <ref osisRef=\"Sir.47.17\">47:17</ref>,   <ref osisRef=\"Dan.5.1\">Da LXX 5:1</ref> * ;] </seg>\n</etym>\n    <sense><gloss>interpretation</gloss>: <ref osisRef=\"1Cor.12.10\">I Co 12:10</ref> <ref osisRef=\"1Cor.14.26\">14:26</ref>.†</sense>\n",
+      "occurrences": "2",
+      "strongs": []
+    },
+    {
+      "word": "ἑσπερινός",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form><orth>ἑσπερινός</orth>,  <foreign xml:lang=\"grc\">-ή,  -όν</foreign></form>\n<etym>\n  <seg type=\"derivation\">(= the more freq. <foreign xml:lang=\"grc\">ἑσπέριος,  -α,  -ον</foreign>),  </seg>\n  <seg type=\"septuagint\">[in LXX for <foreign xml:lang=\"heb\" n=\"H6153\">עֶרֶב</foreign>,  <ref osisRef=\"2Kgs.16.15\">IV Ki 16:15</ref>,  <ref osisRef=\"Ps.141.2\">Ps 140(141):2</ref>,  al. ;] </seg>\n</etym>\n  <sense><gloss>of the evening,  evening</gloss>: <ref osisRef=\"Luke.12.38\">Lk 12:38</ref> (WH,  - mg. -).†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "Ἑσρών",
+      "innerHTML": "\n  <form><orth>Ἑσρών</orth>,  <foreign xml:lang=\"grc\">Ἐσρ-</foreign>,  v.s. <foreign xml:lang=\"grc\">Ἑσρώμ</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "εὐθύμως",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>* <orth>εὐθύμως</orth>,   </form>\n    <gramGrp><pos>adv.</pos>,  </gramGrp>\n  <sense><gloss>cheerfully</gloss>: <ref osisRef=\"Acts.24.10\">Ac 24:10</ref>.†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "εὐπάρεδρος",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>*† <orth>εὐ-πάρ-εδρος</orth>,  <foreign xml:lang=\"grc\">-ον</foreign> </form>\n<etym>\n  <seg type=\"derivation\">(&lt; <foreign xml:lang=\"grc\">εὖ</foreign>,  <foreign xml:lang=\"grc\">πάρεδρος</foreign>,  <gloss>sitting near</gloss>; cf. <ref osisRef=\"Wis.9.4\">Wi 9:4</ref>) </seg>\n</etym>\n  <sense><gloss>constantly attendant</gloss> or <gloss>waiting on</gloss>: <foreign xml:lang=\"grc\">τ. κυρίῳ</foreign>,  <ref osisRef=\"1Cor.7.35\">I Co 7:35</ref> (Rec. <foreign xml:lang=\"grc\">εὐπρόσ-</foreign>).†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "εὐποιέω",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>† <orth>εὐ-ποιέω</orth>,  <foreign xml:lang=\"grc\">ῶ</foreign>,   = <foreign xml:lang=\"grc\">εὖ ποιέω</foreign>,  </form>\n    <sense><gloss>to do good</gloss> (whence <foreign xml:lang=\"grc\">εὐποιία</foreign>,  q.v.): <foreign xml:lang=\"grc\">εὐποιῆσαι</foreign>,  <ref osisRef=\"Mark.14.7\">Mk 14:7</ref> B (also <ref osisRef=\"Isa.41.23\">Is 41:23</ref> B,  al.; v. Nestle,  in <emph>Exp. T</emph>.,  xxiii,  7).†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "εὐροκλύδων",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>† <orth>εὐρο-κλύδων</orth> (G,  <foreign xml:lang=\"grc\">εὐροκλ-</foreign>),  <foreign xml:lang=\"grc\">-ωνος,  ὁ</foreign> </form>\n<etym>\n  <seg type=\"derivation\">(&lt; <foreign xml:lang=\"grc\">Εὖρος</foreign> (v.l. &lt; <foreign xml:lang=\"grc\">εὐρύς</foreign>,  <gloss>broad</gloss>),  <foreign xml:lang=\"grc\">κλύδων</foreign>),  </seg>\n</etym>\n  <sense><gloss>Euroclydon</gloss> (prob. a sailor's corruption of <foreign xml:lang=\"grc\">Εὐρακύλων</foreign>,  q.v.): <ref osisRef=\"Acts.17.14\">Ac 17:14</ref>,  Rec, †</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "Εὐωδία",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form><orth>Εὐωδία</orth>,  <foreign xml:lang=\"grc\">-ας,  ἡ</foreign>,  <ref osisRef=\"Phil.4.2\">Phl 4:2</ref>,  Rec. (for <foreign xml:lang=\"grc\" n=\"G2136\">Εὐοδία</foreign>,  q.v.).†</form>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "ἐφεῖδον",
+      "innerHTML": "\n  <form><orth>ἐφεῖδον</orth>,  v.s. <foreign xml:lang=\"grc\">ἐπεῖδον</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἔφιδε",
+      "innerHTML": "\n  <form><orth>ἔφιδε</orth>,  v.s. <foreign xml:lang=\"grc\">ἐπεῖδον</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἐφνίδιος",
+      "innerHTML": "\n  <form><orth>ἐφνίδιος</orth>,  v.s. <ref><foreign xml:lang=\"grc\">αἰφνίδιος</foreign></ref>.</form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ζαφθανεί",
+      "innerHTML": "\n    <form><orth>ζαφθανεί</orth> (cf. Heb. <foreign xml:lang=\"heb\" n=\"H5800\">עֲזַבְתַּנִי</foreign>),  </form>\n    <sense><gloss>zaphthanei</gloss>: <ref osisRef=\"Matt.27.46\">Mt 27:46</ref> (WH,  mg.,  for Rec. <foreign xml:lang=\"grc\">σεβαχθανεί</foreign>,  q.v.; \"probably an attempt to reproduce the Heb. as disting from Aram. forms, \" WH,  <emph>Notes</emph>,  21; cf. also Dalman,  <emph>Words</emph>,  53 f.).†</sense>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ζβέννυμι",
+      "innerHTML": "\n  <form><orth>ζβέννυμι</orth>,  for <foreign xml:lang=\"grc\">σβ-</foreign>, </form>\n  <sense><ref osisRef=\"1Thess.5.19\">I Th 5:19</ref> T (v. WH,  <emph>Notes</emph>,  148).†</sense>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ζηλεύω",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>* <orth>ζηλεύω</orth>, </form>\n<etym>\n  <seg type=\"derivation\">late and rare form of <foreign xml:lang=\"grc\">ζηλόω</foreign>,  q.v.;</seg>\n</etym>\n    <sense n=\"1.\"><gloss>to envy</gloss>,  <gloss>be jealous</gloss>.</sense>\n    <sense n=\"2.\"><gloss>to be zealous</gloss>: <ref osisRef=\"Rev.3.19\">Re 3:19</ref>.†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "Ζμύρνα",
+      "innerHTML": "\n<form><orth>Ζμύρνα</orth>,  <foreign xml:lang=\"grc\">-ης,  -ἡ</foreign>, </form>\n    <sense><ref osisRef=\"Rev.1.11\">Re 1:11</ref> <ref osisRef=\"Rev.2.8\">2:8</ref> T,  for <foreign xml:lang=\"grc\">Σμ-</foreign>,  q.v. (cf. Bl.,  § 3,  9; Mayser,  204).†</sense>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Η",
+      "innerHTML": "\n  <form><orth>Η</orth>,  <foreign xml:lang=\"grc\">η,  ἦτα,  τό</foreign>,  indecl., </form>\n  <sense><gloss>eta</gloss>,  the seventh letter. As a numeral,  <foreign xml:lang=\"grc\">ηʹ</foreign> = 8; <foreign xml:lang=\"grc\">η͵</foreign> = 8000.</sense>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἡμεῖς",
+      "innerHTML": "\n  <form><orth>ἡμεῖς</orth>,  v.s. <foreign xml:lang=\"grc\">ἐγώ</foreign>.</form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἦμήν",
+      "innerHTML": "\n\t<note type=\"occurrencesNT\">15 (KJV)</note>\n<form><orth>ἦ μήν</orth>,  v.s. <foreign xml:lang=\"grc\">ἦ</foreign>.</form>\n",
+      "occurrences": "15 (KJV)",
+      "strongs": []
+    },
+    {
+      "word": "ἡσσάομαι",
+      "innerHTML": "\n  <form><orth>ἡσσάομαι</orth>,  v.s. <foreign xml:lang=\"grc\">ἡττάω</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἥττων",
+      "innerHTML": "\n  <form><orth>ἥττων</orth>,  v.s. <foreign xml:lang=\"grc\">ἥσσων</foreign>.</form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "θεολὸγος",
+      "innerHTML": "\n  <form>* <orth>θεο-λόγος</orth>,  <foreign xml:lang=\"grc\">-ου,  ὁ</foreign>, </form>\n    <sense n=\"1.\"><gloss>one who treats of the Divine nature</gloss> (applied in cl. to the old poets and philosophers).</sense>\n    <sense n=\"2.\">In eccl.,  <gloss>a theologian</gloss>,  <gloss>divine</gloss>: Re,  <emph>tit</emph>.,  Rec.†</sense>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "θορυβάζω",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>*† <orth>θορυβάζω</orth></form>\n<etym>\n  <seg type=\"derivation\">(&lt; <foreign xml:lang=\"grc\">θόρυβος</foreign>),  = <foreign xml:lang=\"grc\">τυρβάζω</foreign> (q.v.), </seg>\n</etym>\n  <sense><gloss>to disturb</gloss>,  <gloss>trouble</gloss>: pass.,  <ref osisRef=\"Luke.10.41\">Lk 10:41</ref>.†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "Ι",
+      "innerHTML": "\n  <form><orth>Ι</orth>,  <foreign xml:lang=\"grc\">ι,  ἰοτα</foreign>,  <foreign xml:lang=\"grc\">τό</foreign>,  indecl., </form>\n  <sense><gloss>iota</gloss>,  the ninth letter. As a numeral,  <foreign xml:lang=\"grc\">ιʹ</foreign> = 10,  <foreign xml:lang=\"grc\">ι͵</foreign> = 10, 000.</sense>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Ἱεριχώ",
+      "innerHTML": "\n  <form><orth>Ἱεριχώ</orth>,  v.s. <foreign xml:lang=\"grc\">Ἱερειχώ</foreign>.</form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ἱερόθυτος",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n\t<form>* <orth>ἱερόθυτος</orth>,  <foreign xml:lang=\"grc\">-ον</foreign> (&lt; <foreign xml:lang=\"grc\">ἱερός</foreign>,  <foreign xml:lang=\"grc\">θύω</foreign>), </form>\n\t<sense><gloss>offered in sacrifice</gloss>: <ref osisRef=\"1Cor.10.28\">I Co 10:28</ref> (Rec. <foreign xml:lang=\"grc\">εἰδωλοθ-</foreign>).†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "Ἰσασχάρ",
+      "innerHTML": "\n  <form><orth>Ἰσασχάρ</orth>,  <foreign xml:lang=\"grc\">Ἰσαχάρ</foreign>,  v.s. <foreign xml:lang=\"grc\">Ἰσσαχάρ</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Ἰτουραία",
+      "innerHTML": "\n  <form><orth>Ἰτουραία</orth>,  v.s. <foreign xml:lang=\"grc\">Ἰτουραῖος</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Ἰωάννης",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">3</note>\n  <form><orth>Ἰωάννης</orth> (D. <foreign xml:lang=\"grc\">Ἰωάθας</foreign>; v. MM,  <emph>Exp.</emph>,  xᴠ; Bl.,  § 10,  2),  <foreign xml:lang=\"grc\">ὁ</foreign>, </form>\n  <sense><gloss>John</gloss>: <ref osisRef=\"Acts.4.6\">Ac 4:6</ref> <ref osisRef=\"Acts.13.5\">13:5</ref>,  Tr.,  WH,  <ref osisRef=\"Rev.22.8\">Re 22:8</ref> (cf. <foreign xml:lang=\"grc\">Ἰωάνης</foreign>).†</sense>\n",
+      "occurrences": "3",
+      "strongs": []
+    },
+    {
+      "word": "Ἰωβήδ",
+      "innerHTML": "\n\t<note type=\"occurrencesNT\">3</note>\n<form><orth>Ἰωβήδ</orth> (WH,  <foreign xml:lang=\"grc\">-βήλ</foreign>,  <ref osisRef=\"Luke.3.32\">Lk 3:32</ref>; Rec.,  RV,  <foreign xml:lang=\"grc\">Ὠβήδ</foreign>),  <foreign xml:lang=\"grc\">ὁ</foreign>,  indecl., </form>\n    <sense><gloss>Jobed</gloss> (<gloss>Obed</gloss>): <ref osisRef=\"Matt.1.5\">Mt 1:5</ref>,  <ref osisRef=\"Luke.3.32\">Lk 3:32</ref>.†</sense>\n",
+      "occurrences": "3",
+      "strongs": []
+    },
+    {
+      "word": "Ἰωβήλ",
+      "innerHTML": "\n  <form><orth>Ἰωβήλ</orth>,  v.s. <foreign xml:lang=\"grc\">Ἰωβήδ</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Ἰώδα",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form><orth>Ἰωδά</orth> (Rec. <foreign xml:lang=\"grc\">Ἰούδα</foreign>), </form>\n  <sense><gloss>Joda</gloss>: <ref osisRef=\"Luke.3.26\">Lk 3:26</ref>.†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "Ἰωνάθας",
+      "innerHTML": "\n  <form><orth>Ἰωνάθας</orth>,  v.s. <foreign xml:lang=\"grc\">Ἰώαννης</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Ἰωσήχ",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form><orth>Ἰωσήχ</orth>, </form>\n    <sense><gloss>Josech</gloss>: <ref osisRef=\"Luke.3.26\">Lk 3:26</ref>.†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "Ἰωσίας",
+      "innerHTML": "\n  <form><orth>Ἰωσίας</orth>,  v.s. <foreign xml:lang=\"grc\">Ἰωσείας</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Κ",
+      "innerHTML": "\n  <form><orth>Κ</orth>,  <foreign xml:lang=\"grc\">κ</foreign>,  <foreign xml:lang=\"grc\">κάππα</foreign>,  <foreign xml:lang=\"grc\">τό</foreign>,  indecl., </form>\n  <sense><gloss>kappa</gloss>,  <gloss>k</gloss>,  the tenth letter. As a numeral,  <foreign xml:lang=\"grc\">κʹ</foreign> = 20; <foreign xml:lang=\"grc\">κ͵</foreign> = 20, 000.</sense>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "καθ᾽ εἶς",
+      "innerHTML": "\n  <form><orth>καθ᾽ εἶς</orth></form>,  v.s. <foreign xml:lang=\"grc\">εἶς</foreign>.\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "καθολικός",
+      "innerHTML": "\n  <form>* <orth>καθολικός</orth>,  <foreign xml:lang=\"grc\">-ή,  -όν</foreign></form>\n<etym>\n  <seg type=\"derivation\">(&lt; <foreign xml:lang=\"grc\">καθόλου</foreign>), </seg>\n  </etym>\n  <sense><gloss>catholic</gloss>,  <gloss>general</gloss>: tit. Ja,  Pe,  Jo,  Ju (Rec.) (v. Mayor,  <emph>Ja.</emph>,  ccxc).†</sense>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "καθώσπερ",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>* <orth>καθώσπερ</orth> (Tr. <foreign xml:lang=\"grc\">καθώς περ</foreign>), </form>\n  <gramGrp><pos>adv.</pos> (v.s. <foreign xml:lang=\"grc\">καθώς</foreign>), </gramGrp>\n  <sense><gloss>even as</gloss>: <ref osisRef=\"2Cor.3.8\">II Co 3:8</ref> (WH,  mg.),  <ref osisRef=\"Heb.5.4\">He 5:4</ref>.†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "Καΐφaς",
+      "innerHTML": "\n  <form><orth>Καΐφaς</orth>, </form> for <foreign xml:lang=\"grc\">Καιάφας</foreign>,  q.v.: <ref osisRef=\"Luke.3.2\">Lk 3:2</ref> (L).\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "κἀμέ",
+      "innerHTML": "\n  <form><orth>κἀμέ</orth> = <foreign xml:lang=\"grc\">καὶ ἐμέ</foreign>,  v.s. <foreign xml:lang=\"grc\">ἐγώ</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "κάμιλος",
+      "innerHTML": "\n  <form><orth>κάμιλος</orth>,  v.s. <foreign xml:lang=\"grc\">κάμηλος</foreign>,  and cf. Thayer; LS,  s.v.</form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "κἀμοι",
+      "innerHTML": "\n  <form><orth>κἀμοι</orth> = <foreign xml:lang=\"grc\">καὶ ἐμοί</foreign>,  v.s. <foreign xml:lang=\"grc\">ἐγώ</foreign></form>.",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Κανανίτης",
+      "innerHTML": "\n  <form><orth>Κανανίτης</orth>,  v.s. <foreign xml:lang=\"grc\">Καναναῖος</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Καπερναούμ",
+      "innerHTML": "\n  <form><orth>Καπερναούμ</orth>,  v.s. <foreign xml:lang=\"grc\">Καφαρναούμ</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "καταγράφω",
+      "innerHTML": "\n  <form><orth>κατα-γράφω</orth>, </form>\n<etym>\n  <seg type=\"septuagint\">[in LXX chiefly for <foreign xml:lang=\"heb\" n=\"H3789\">כּתב</foreign>;]</seg>\n</etym>\n  <sense><gloss>to trace</gloss>,  <gloss>draw in outline</gloss> (= Att. <foreign xml:lang=\"grc\">ἀναγρ-</foreign>): <ref osisRef=\"John.8.6\">Jo 8:[6]</ref> (<foreign xml:lang=\"grc\">ἔγραφεν</foreign>,  Rec.).†</sense>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "καταδίκη",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>** <orth>κατα-δίκη</orth>,  <foreign xml:lang=\"grc\">-ης,  ἡ</foreign>, </form>\n<etym>\n  <seg type=\"septuagint\">[in LXX: <ref osisRef=\"Wis.12.27\">Wi 12:27</ref>*;]</seg>\n</etym>\n  <sense><gloss>sentence</gloss>,  <gloss>condemnation</gloss>: <ref osisRef=\"Acts.25.15\">Ac 25:15</ref>.†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "κατάθεμα",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>*† <orth>κατά-θεμα</orth>,  <foreign xml:lang=\"grc\">-τος,  τό</foreign>, </form>\n    <sense><gloss>a curse</gloss> (\"perh. somewhat stronger than <foreign xml:lang=\"grc\">ἀνάθεμα</foreign>, \" Swete,  <ref osisRef=\"Rev.22.3\"><emph>Re</emph> 22:3</ref>): <ref osisRef=\"Rev.22.3\">Re 22:3</ref> (cf. <foreign xml:lang=\"grc\">ἀνάθεμα</foreign>).†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "κατακληροδοτέω",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>† <orth>κατα-κληροδοτέω</orth>,  <foreign xml:lang=\"grc\">ῶ</foreign>, </form>\n<etym>\n  <seg type=\"septuagint\">[in LXX: <ref osisRef=\"Deut.1.38\">De 1:38</ref> <ref osisRef=\"Deut.21.16\">21:16</ref> A (<foreign xml:lang=\"grc\">-νομέω</foreign>,  B),  (<foreign xml:lang=\"heb\" n=\"H5157\">נחל</foreign>),  <ref osisRef=\"1Macc.3.36\">I Mac 3:36</ref> <foreign xml:lang=\"heb\">א</foreign> R (<foreign xml:lang=\"grc\">-νομέω</foreign>,  A)*;]</seg>\n</etym>\n  <sense><ref osisRef=\"Acts.13.19\">Ac 13:19</ref>,  Rec.,  = <foreign xml:lang=\"grc\">-νομέω</foreign>,  q.v.†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "κατακύπτω",
+      "innerHTML": "\n  <form><orth>κατα-κύπτω</orth>, </form>\n<etym>\n  <seg type=\"septuagint\">[in LXX: <ref osisRef=\"2Kgs.9.32\">IV Ki 9:32</ref> (<foreign xml:lang=\"heb\" n=\"H8259\">שׁקף</foreign> hi.)*;]</seg>\n</etym>\n  <sense><gloss>to bend down</gloss>,  <gloss>stoop</gloss>: <ref osisRef=\"John.8.8\">Jo 8:[8]</ref> (<foreign xml:lang=\"grc\">κάτω κύψας</foreign>,  Rec.,  WH,  mg.).†</sense>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "καταναθεματίζω",
+      "innerHTML": "\n  <form>† <orth>κατ-ανα-θεματίζω</orth>,  Rec. for <foreign xml:lang=\"grc\">καταθεματίζω</foreign>,  q.v.</form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "καταυγάζω",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>**† <orth>κατ-αυγάζω</orth>, </form>\n<etym>\n  <seg type=\"septuagint\">[in LXX: <ref osisRef=\"Wis.17.5\">Wi 17:5</ref>,  <ref osisRef=\"1Macc.6.39\">I Mac 6:39</ref>*;]</seg>\n  <seg type=\"derivation\">(for <foreign xml:lang=\"grc\">αὐγάζω</foreign>,  L,  mg.,  Tr.,  mg.), </seg>\n</etym>\n  <sense><gloss>to shine down</gloss>: <ref osisRef=\"2Cor.4.4\">II Co 4:4</ref>.†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "καταφάγω",
+      "innerHTML": "\n  <form><orth>κατα-φάγω</orth>,  v.s. <foreign xml:lang=\"grc\" n=\"G2719\">κατεσθίω</foreign>.</form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "κατευλογέω",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>**† <orth>κατ-ευλογέω</orth>,  <foreign xml:lang=\"grc\">-ῶ</foreign>, </form>\n<etym>\n  <seg type=\"septuagint\">[in LXX: <ref osisRef=\"Tob.11.1\">To 11:1</ref>,  <ref osisRef=\"Tob.11.17\">17</ref>*;]</seg>\n</etym>\n  <sense><gloss>to bless fervently</gloss>: <ref osisRef=\"Mark.10.16\">Mk 10:16</ref> (v. Swete,  in l.).†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "κατήγωρ",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>† <orth>κατήγωρ</orth>,  <foreign xml:lang=\"grc\">ὁ</foreign>  (Aram. <foreign xml:lang=\"arc\" n=\"????\">קָטִיגוֺר</foreign>; Dalman,  <emph>Gr.</emph>,  185; but v. Deiss.,  <emph>LAE</emph>,  90 f.), </form>\n    <sense>= <foreign xml:lang=\"grc\">κατήγορος</foreign>,  <gloss>an accuser</gloss>: <ref osisRef=\"Rev.12.10\">Re 12:10</ref>.†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "κατοικίζω",
+      "innerHTML": "\n<form><orth>κατοικίζω</orth>, </form>\n<etym>\n  <seg type=\"septuagint\">[in LXX for <foreign xml:lang=\"heb\" n=\"H3427\">ישׁב</foreign> hi.,  etc.;]</seg>\n</etym>\n  <sense><gloss>to cause to dwell</gloss>: metaph.,  c. acc.,  <foreign xml:lang=\"grc\">τὸ πνεῦμα</foreign>,  <ref osisRef=\"Jas.4.5\">Ja 4:5</ref> (Rec.,  R,  mg.,  <foreign xml:lang=\"grc\">κατῴκησεν</foreign>).†</sense>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "κατωτέρω",
+      "innerHTML": "\n  <form><orth>κατωτέρω</orth>,  v.s. <foreign xml:lang=\"grc\">κάτω</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "καυτηριάζω",
+      "innerHTML": "\n  <form><orth>καυτηριάζω</orth>,  Rec. for <foreign xml:lang=\"grc\">καυστηριάζω</foreign>,  q.v.</form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Κεγχρεαί",
+      "innerHTML": "\n  <form><orth>Κεγχρεαί</orth>,  v.s. <foreign xml:lang=\"grc\">Κενχρεαί</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "κέδρος",
+      "innerHTML": "\n<form><orth>κέδρος</orth>,  <foreign xml:lang=\"grc\">-ου,  ἡ</foreign>, </form>\n<etym>\n  <seg type=\"septuagint\">[in LXX chiefly for <foreign xml:lang=\"heb\" n=\"H730\">אֶרֶז</foreign>,  <ref osisRef=\"Num.24.6\">Nu 24:6</ref>,  al.; <foreign xml:lang=\"grc\">χειμάρρους τῶν Κέδρων</foreign>,  <ref osisRef=\"2Sam.15.23\">II Ki 15:23</ref>,  <ref osisRef=\"1Kgs.15.13\">III Ki 15:13</ref> (<foreign xml:lang=\"heb\" n=\"H6939\">קִדְרוֹן</foreign>);]</seg>\n</etym>\n    <sense><gloss>a cedar</gloss>: <foreign xml:lang=\"grc\">χείμαρρος τῶν Κ.</foreign> (as in <ref osisRef=\"2Sam.15.23\">II Ki 15:23</ref>,  <ref osisRef=\"1Kgs.15.13\">III Ki 15:13</ref>),  <ref osisRef=\"John.18.1\">Jo 18:1</ref> (Rec. Tr.,  WH,  R,  mg.; <foreign xml:lang=\"grc\">τοῦ Κέδρου</foreign>,  T,  WH,  mg.,  v.s. <foreign xml:lang=\"grc\">Κεδρών</foreign>,  and cf. Westc.,  in l.; WH,  <emph>App.</emph>,  89 f.; Abbott,  <emph>JG</emph>,  513 ff).†</sense>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "κενεμβατεύω",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>*† <orth>κενεμβατεύω</orth></form>\n<etym>\n  <seg type=\"derivation\">(not elsew.,  but perh. = <foreign xml:lang=\"grc\">-έω</foreign>,  Plut.,  al.), </seg>\n</etym>\n  <sense><gloss>to tread on emptiness</gloss>: <foreign xml:lang=\"grc\">ἐώρᾳ</foreign> (<foreign xml:lang=\"grc\">αἰώρα</foreign>) <foreign xml:lang=\"grc\">κ.</foreign> (conjec. for <foreign xml:lang=\"grc\">ἃ ἑόρακμν ἐμβ.</foreign>,  Lft.,  in l.),  <ref osisRef=\"Col.2.18\">Col 2:18</ref> (cf. also <emph>ICC</emph>,  in l.).†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "κερέα",
+      "innerHTML": "\n  <form><orth>κερέα</orth>,  v.s. <foreign xml:lang=\"grc\">κεραία</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "κεφαλαιόω",
+      "innerHTML": "\n  <form><orth>κεφαλαιόω</orth>,  <foreign xml:lang=\"grc\">-ῶ</foreign>,  v.s. <foreign xml:lang=\"grc\">κεφαλιόω</foreign>.</form>\n  <!-- typed=\"DSAW\" checked=\"BVDH\" -->\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "κημόω",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>* <orth>κημόω</orth>,  <foreign xml:lang=\"grc\">-ῶ</foreign></form>\n<etym>\n  <seg type=\"derivation\">(&lt; <foreign xml:lang=\"grc\">κημός</foreign>,  <emph>a muzzle</emph>), </seg>\n</etym>\n  <sense><gloss>to muzzle</gloss>: <ref osisRef=\"1Cor.9.9\">I Co 9:9</ref> (TTr.,  WH,  mg.) (cf. <foreign xml:lang=\"grc\">φιμόω</foreign>).†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "κινάμωμον",
+      "innerHTML": "\n  <form><orth>κινάμωμον</orth>,  v.s. <foreign xml:lang=\"grc\">κιννάμωμον</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Κίς",
+      "innerHTML": "\n  <form><orth>Κίς</orth>,  v.s. <foreign xml:lang=\"grc\">Κείς</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "κίχρημι",
+      "innerHTML": "\n  <form><orth>κίχρημι</orth>,  v.s. <foreign xml:lang=\"grc\">χράω</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Κλαῦδα",
+      "innerHTML": "\n  <form><orth>Κλαῦδα</orth>,  v.s. <foreign xml:lang=\"grc\">Καῦδα</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "κλινάριον",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>* <orth>κλινάριον</orth>,  <foreign xml:lang=\"grc\">-ου,  τό</foreign>, </form>\n    <seg type=\"derivation\">dimin,  of <foreign xml:lang=\"grc\">κλίνη</foreign>, </seg>\n    <sense><gloss>a couch</gloss>: <ref osisRef=\"Acts.5.15\">Ac 5:15</ref> (cf. <foreign xml:lang=\"grc\">κλινίδιον</foreign>).†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "Κολασσαί",
+      "innerHTML": "\n  <form><orth>Κολασσαί</orth>,  v.s. <foreign xml:lang=\"grc\">Κολοσσαί</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "κολλύριον",
+      "innerHTML": "\n  <form><orth>κολλύριον</orth>,  v.s. <foreign xml:lang=\"grc\">κολλούριον</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Κολοσσαεύς",
+      "innerHTML": "\n  <form><orth>Κολοσσαεύς</orth>,  v.s. <foreign xml:lang=\"grc\">Κολασσαεύς</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "κόπριον",
+      "innerHTML": "\n  <form><orth>κόπριον</orth>,  <foreign xml:lang=\"grc\">-ου,  τό</foreign>, </form>\n<etym>\n  <seg type=\"septuagint\">[in LXX (pl.): <ref osisRef=\"Jer.25.33\">Je 32 (25):33</ref> (<foreign xml:lang=\"heb\" n=\"H1828\">דֹּמֶן</foreign>),  <ref osisRef=\"Sir.22.2\">Si 22:2</ref>,  <ref osisRef=\"1Macc.2.62\">I Mac 2:62</ref>*;]</seg>\n</etym>\n  <sense>= <foreign xml:lang=\"grc\">κόπρος</foreign>,  <gloss>dung</gloss>: pl.,  <ref osisRef=\"Luke.13.8\">Lk 13:8</ref> (WH,  mg.,  <foreign xml:lang=\"grc\">κόφινον κοπρίων</foreign>).†</sense>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "κορβανᾶς",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>*† <orth>κορβανᾶς</orth>,  <foreign xml:lang=\"grc\">-ᾶ,  ὁ</foreign></form>\n  <seg type=\"derivation\">(Heb. <foreign xml:lang=\"heb\" n=\"H7133\">קׇרְבָּן</foreign>), </seg>\n  <sense>the Temple <gloss>treasury</gloss>: <ref osisRef=\"Matt.27.6\">Mt 27:6</ref> (cf. <foreign xml:lang=\"grc\">κορβάν</foreign>).†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "κοσμίως",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>* <orth>κοσμίως</orth>, </form>\n    <gramGrp><pos>adv.</pos></gramGrp>\n<etym>\n  <seg type=\"derivation\">(&lt; <foreign xml:lang=\"grc\">κόσμος</foreign>), </seg>\n</etym>\n  <sense><gloss>decently</gloss>,  <gloss>fittingly</gloss>: <ref osisRef=\"1Tim.2.9\">I Ti 2:9</ref> (WH,  mg.).†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "κρέμαμαι",
+      "innerHTML": "\n  <form><orth>κρέμαμαι</orth>,  v.s. <foreign xml:lang=\"grc\">κρεμάννυμι</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "κρεπάλη",
+      "innerHTML": "\n  <form><orth>κρεπάλη</orth>,  v.s. <foreign xml:lang=\"grc\">κραιπάλη</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "κρύβω",
+      "innerHTML": "\n  <form><orth>κρύβω</orth>,  v.s. <foreign xml:lang=\"grc\">κρύπτω</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "κρυφαῖος",
+      "innerHTML": "\n\t<form><orth>κρυφαῖος</orth>,  <foreign xml:lang=\"grc\">-αία</foreign>,  <foreign xml:lang=\"grc\">-αῖον</foreign></form>\n  <etym><seg type=\"derivation\">(&lt; <foreign xml:lang=\"grc\">κρύφα</foreign> = <foreign xml:lang=\"grc\">κρυφῆ</foreign>), </seg>\n    <seg type=\"septuagint\">[in LXX for <foreign xml:lang=\"heb\" n=\"H4565\">מִסְתָּר</foreign>,  <ref osisRef=\"Jer.23.24\">Je 23:24</ref>,  al.;]</seg>\n    </etym>\n  <sense><gloss>hidden</gloss>,  <gloss>secret</gloss>: <foreign xml:lang=\"grc\">ἐν τῷ κ.</foreign>,  <ref osisRef=\"Matt.6.18\">Mt 6:18</ref>.†</sense>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "κυβεία",
+      "innerHTML": "\n  <form><orth>κυβεία</orth>,  v.s. <foreign xml:lang=\"grc\">κυβία</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "κυκλεύω",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">2</note>\n  <form><orth>κυκλεύω</orth></form>\n<etym>\n  <seg type=\"derivation\">(&lt; <foreign xml:lang=\"grc\">κύκλος</foreign>), </seg>\n  <seg type=\"septuagint\">[in LXX: <ref osisRef=\"2Kgs.3.25\">IV Ki 3:25</ref> B (<foreign xml:lang=\"heb\" n=\"H5437\">סבב</foreign>)*;]</seg>\n</etym>\n    <sense n=\"1.\"><gloss>to make a circle</gloss>,  <gloss>go round</gloss>.</sense>\n    <sense n=\"2.\"><gloss>to encircle</gloss>,  <gloss>surround</gloss>: c. acc. pers.,  <ref osisRef=\"John.10.24\">Jo 10:24</ref> (Tr.,  WH,  mg.); c. acc. rei,  <ref osisRef=\"Rev.20.9\">Re 20:9</ref>.†</sense>\n",
+      "occurrences": "2",
+      "strongs": []
+    },
+    {
+      "word": "κυλισμός",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>**† <orth>κυλισμός</orth>,  <foreign xml:lang=\"grc\">-οῦ,  ὁ</foreign></form>\n<etym>\n  <seg type=\"derivation\">(&lt; <foreign xml:lang=\"grc\">κυλίω</foreign>), </seg>\n  <seg type=\"septuagint\">[in Th.: <ref osisRef=\"Prov.2.18\">Pr 2:18</ref>*;]</seg>\n</etym>\n  <sense>= cl. <foreign xml:lang=\"grc\">κύλισις</foreign>,  <gloss>a rolling</gloss>,  <gloss>wallowing</gloss>: <ref osisRef=\"2Pet.2.22\">II Pe 2:22</ref> (cf. <foreign xml:lang=\"grc\">κύλισμα</foreign>).†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "Λ",
+      "innerHTML": "\n  <form><orth>Λ</orth>,  <foreign xml:lang=\"grc\">λ,  λάμβδα,  τό</foreign>,  indecl., </form>\n  <sense><gloss>lambda</gloss>,  <gloss>l</gloss>,  the eleventh letter. As a numeral,  <foreign xml:lang=\"grc\">λʹ</foreign> = 30; <foreign xml:lang=\"grc\">λ͵</foreign> = 30, 000.</sense>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "λακέω",
+      "innerHTML": "\n  <form><orth>λακέω</orth>,  Dor. for <foreign xml:lang=\"grc\">ληκὲω</foreign> = <foreign xml:lang=\"grc\">λάσκω</foreign>,  q.v.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "λαμμᾶ",
+      "innerHTML": "\n  <form><orth>λαμμᾶ</orth>,  v.s. <foreign xml:lang=\"grc\">λαμά</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Λαοδικεία",
+      "innerHTML": "\n  <form><orth>Λαοδικεία</orth>,  v.s. <foreign xml:lang=\"grc\">Λαοδικία</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "λεμά",
+      "innerHTML": "\n  <form><orth>λεμά</orth>,  v.s. <foreign xml:lang=\"grc\">λαμά</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "λευκοβύσσινος",
+      "innerHTML": "\n<form>*† <orth>λευκο-βύσσινος</orth>,  <foreign xml:lang=\"grc\">-ον</foreign></form>\n<etym>\n  <seg type=\"derivation\">(cf. <foreign xml:lang=\"grc\">λευκολινής</foreign>,  <emph>a robe of white flax</emph>,  <emph>C.I.</emph>,  155,  17), </seg>\n</etym>\n    <sense><gloss>white linen</gloss>: <ref osisRef=\"Rev.19.14\">Re 19:14</ref> (WH,  mg.).†</sense>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "λημά",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form><orth>λημά</orth>,  T,  for <foreign xml:lang=\"grc\">λαμά</foreign>,  q.v.,  in <ref osisRef=\"Matt.27.46\">Mt 27:46</ref>.†</form>",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "λῆψις",
+      "innerHTML": "\n  <form><orth>λῆψις</orth>,  v.s. <foreign xml:lang=\"grc\">λῆμψις</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "λιμά",
+      "innerHTML": "\n  <form><orth>λιμά</orth>,  T<hi rend=\"superscript\">7</hi>,  for <foreign xml:lang=\"grc\">λαμά</foreign>,  q.v.</form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "λίμμα",
+      "innerHTML": "\n  <form><orth>λίμμα</orth>,  v.s. <foreign xml:lang=\"grc\">λεῖμμα</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "λογία",
+      "innerHTML": "\n  <form>*† <orth>λογία</orth></form>\n<etym>\n  <seg type=\"derivation\">(prop.,  <foreign xml:lang=\"grc\">-εία</foreign>,  v. <emph>BS</emph>,  142 ff.),  <foreign xml:lang=\"grc\">-ας,  ἡ</foreign></seg>\n  <seg type=\"derivation\">(&lt; <foreign xml:lang=\"grc\">λογεύω</foreign>,  <emph>to collect</emph>,  a word found in <foreign xml:lang=\"grc\">π.</foreign>,  v. Deiss.,  <emph>BS</emph>,  142 ff.; <emph>LAE</emph>,  70,  103; MM,  xvi), </seg>\n</etym>\n  <sense><gloss>a collection</gloss>: <ref osisRef=\"1Cor.16.1\">I Co 16:1</ref>,  <ref osisRef=\"1Cor.16.2\">2</ref>.†</sense>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Μ",
+      "innerHTML": "\n  <form><orth>Μ</orth>,  <foreign xml:lang=\"grc\">μ,  μῦ,  τό</foreign>,  indecl., </form>\n  <sense><gloss>mu</gloss>,  <gloss>m</gloss>,  the twelfth letter. As a numeral,  <foreign xml:lang=\"grc\">μʹ</foreign> = 40; <foreign xml:lang=\"grc\">m͵</foreign> = 40, 000.</sense>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Μαγαδάν",
+      "innerHTML": "\n\t<note type=\"occurrencesNT\">1 (KJV)</note>\n<form><orth>Μαγαδάν</orth>, </form>\n  <sense><gloss>Magadan</gloss>,  an unidentified place on the coast of the Sea of Galilee: <ref osisRef=\"Matt.15.39\">Mt 15:39</ref> (Rec. <foreign xml:lang=\"grc\">Μαγδαλά</foreign>; cf. <ref osisRef=\"Mark.8.10\">Mk 8:10</ref>,  where for <foreign xml:lang=\"grc\">Δαλμανουθά</foreign>,  D* has <foreign xml:lang=\"grc\">Μελεγαδά</foreign>,  D<hi rend=\"superscript\">1</hi> <foreign xml:lang=\"grc\">Μαγαιδά</foreign>,  some cursives <foreign xml:lang=\"grc\">Μαγαδά</foreign>,  and Euseb. <emph>Onomast</emph>. <foreign xml:lang=\"grc\">Μεγαιδάν</foreign>; cf. <emph>DB</emph>,  iii,  s.v.).†</sense>\n",
+      "occurrences": "1 (KJV)",
+      "strongs": []
+    },
+    {
+      "word": "Μαγεδών",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form><orth>Μαγεδών</orth>, </form>\n  <sense><gloss>Magedon</gloss> : <ref osisRef=\"Rev.16.16\">Re 16:16</ref> (WH,  <foreign xml:lang=\"grc\">Ἅρ Μ.</foreign> for <foreign xml:lang=\"grc\">Ἁρμαγεδών</foreign>,  q.v.).†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "μαγεία",
+      "innerHTML": "\n  <form><orth>μαγεία</orth>,  v.s. <foreign xml:lang=\"grc\">μαγία</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "μαζός",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>* <orth>μαζός</orth>,  <foreign xml:lang=\"grc\">-οῦ,  ὁ</foreign>, </form>\n    <sense><gloss>the breast</gloss>: <ref osisRef=\"Rev.1.13\">Re 1:13</ref> (L for <foreign xml:lang=\"grc\">μαστός</foreign>,  q.v.).†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "Μαθθαθίας",
+      "innerHTML": "\n  <form><orth>Μαθθαθίας</orth>,  v.s. <foreign xml:lang=\"grc\">Ματταθίας</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Μαϊνάν",
+      "innerHTML": "\n  <form><orth>Μαϊνάν</orth>,  v.s. <foreign xml:lang=\"grc\">Μεννά</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "μᾶλλον",
+      "innerHTML": "\n  <form><orth>μᾶλλον</orth>,  v.s. <foreign xml:lang=\"grc\">μάλα</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "μάρτυρ",
+      "innerHTML": "\n  <form><orth>μάρτυρ</orth>,  v.s. <foreign xml:lang=\"grc\">μάρτυς</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "μασθός",
+      "innerHTML": "\n  <form><orth>μασθός</orth>,  v.s. <foreign xml:lang=\"grc\">μαστός</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "μεῖγμα",
+      "innerHTML": "\n\t<note type=\"occurrencesNT\">1</note>\n<form><orth>μεῖγμα</orth>,  <foreign xml:lang=\"grc\">-τος,  τό</foreign>,  v.s. <foreign xml:lang=\"grc\">μίγμα</foreign>,  and cf. Bl.,  § 3,  5.</form>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "μείγνυμι",
+      "innerHTML": "\n  <form><orth>μείγνυμι</orth>,  v.s. <foreign xml:lang=\"grc\">μίγνυμι</foreign>,  and cf. Bl.,  § 3,  5.</form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "μέλει",
+      "innerHTML": "\n  <form><orth>μέλει</orth>,  v.s. <foreign xml:lang=\"grc\">μέλω</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Μελελεήλ",
+      "innerHTML": "\n  <form><orth>Μελελεήλ</orth>,  v.s. <foreign xml:lang=\"grc\">Μελ-</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "μενοῦν",
+      "innerHTML": "\n  <form><orth>μεν-οῦν</orth> = <foreign xml:lang=\"grc\">μὲν οὖν</foreign>,  v.s. <foreign xml:lang=\"grc\">μέν</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "μεσανύκτιον",
+      "innerHTML": "\n  <form><orth>μεσανύκτιον</orth>,  v.s. <foreign xml:lang=\"grc\">μεσανύκτιος</foreign>.</form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "μετάληψις",
+      "innerHTML": "\n  <form><orth>μετά-ληψις</orth>,  v.s. <foreign xml:lang=\"grc\">μεάλημψις</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "μετατρέπω",
+      "innerHTML": "\n  <form><orth>μετα-τρέπω</orth>, </form>\n  <etym>\n  <seg type=\"septuagint\">[in LXX: <ref osisRef=\"4Macc.6.5\">IV Mac 6:5</ref> <ref osisRef=\"4Macc.7.3\">7:3</ref>,  <ref osisRef=\"4Macc.7.12\">12</ref> <ref osisRef=\"4Macc.15.11\">15:11</ref>,  <ref osisRef=\"4Macc.15.18\">18</ref>*;]</seg>\n</etym>\n  <sense><gloss>to turn about</gloss>,  <gloss>turn</gloss> (Hom.,  al.,  but not found in Att.) : c. acc.,  <ref osisRef=\"Jas.4.9\">Ja 4:9</ref> (WH,  txt.; cf. <foreign xml:lang=\"grc\">μεταστρέφω</foreign>).†</sense>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "μήγε",
+      "innerHTML": "\n  <form><orth>μήγε</orth>,  v.s. <foreign xml:lang=\"grc\">γε</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "μηθείς",
+      "innerHTML": "\n  <form><orth>μηθείς</orth>,  v.s. <foreign xml:lang=\"grc\">μηδείς</foreign>.</form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "μήπου",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form><orth>μήπου</orth> (WH,  <foreign xml:lang=\"grc\">μή που</foreign>), </form>\n\t<sense><gloss>lest anywhere</gloss>,  <gloss>lest haply</gloss>: <ref osisRef=\"Luke.27.29\">Ac 27:29</ref>.†</sense>\n  ",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "μογγιλάλος",
+      "innerHTML": "\n  <form><orth>μογγι-λάλος</orth>,  v.s. <foreign xml:lang=\"grc\">μογιλάλος</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "μύλινος",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>*† <orth>μύλινος</orth>,  <foreign xml:lang=\"grc\">-η,  -ον</foreign></form>\n<etym>\n  <seg type=\"derivation\">(&lt; <foreign xml:lang=\"grc\">μύλος</foreign>), </seg>\n</etym>\n    <sense n=\"1.\"><gloss>made of mill-stone</gloss> (<emph>C.I.</emph> 3371).</sense>\n    <sense n=\"2.\">= <foreign xml:lang=\"grc\">μυλικός</foreign>: <ref osisRef=\"Rev.18.21\">Re 18:21</ref> (<foreign xml:lang=\"grc\">μύλον</foreign>,  T).†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "Μύρρα",
+      "innerHTML": "\n  <form><orth>Μύρρα</orth>,  v.s. <foreign xml:lang=\"grc\">Μύρα</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Μυτιλήνη",
+      "innerHTML": "\n  <form><orth>Μυτιλήνη</orth>,  v.s. <foreign xml:lang=\"grc\">Μιτυλήνη</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Ν",
+      "innerHTML": "\n  <form><orth>Ν</orth>,  <foreign xml:lang=\"grc\">ν,  Νῦ, </foreign></form>\n  <sense><gloss>Nu</gloss>,  <gloss>n</gloss>,  the thirteenth letter. As a numeral,  <foreign xml:lang=\"grc\">νʹ</foreign> = 50; <foreign xml:lang=\"grc\">ν͵</foreign> = 50, 000.</sense>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Νεεμάν",
+      "innerHTML": "\n  <form><orth>Νεεμάν</orth>,  v.s. <foreign xml:lang=\"grc\">Ναιμάν</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "νεοσσός",
+      "innerHTML": "\n  <form><orth>νεοσσός</orth>,  v.s. <foreign xml:lang=\"grc\">νοσσός</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "νεώτερος",
+      "innerHTML": "\n  <form><orth>νεώτερος</orth>,  v.s. <foreign xml:lang=\"grc\">νέος</foreign>.</form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "νίζω",
+      "innerHTML": "\n  <form><orth>νίζω</orth>,  v.s. <foreign xml:lang=\"grc\">νίπτω</foreign>.</form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "νόος",
+      "innerHTML": "\n  <form><orth>νόος</orth>,  v.s. <foreign xml:lang=\"grc\">νοῦς</foreign>.</form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "νουμηνία",
+      "innerHTML": "\n  <form><orth>νουμηνία</orth>,  v.s. <foreign xml:lang=\"grc\">νεομηνία</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Νυμφᾶς",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form><orth>Νυμφᾶς</orth>,  <foreign xml:lang=\"grc\">-ᾶ</foreign>,  <foreign xml:lang=\"grc\">ὁ</foreign> (WH,  R,  mg.,  <foreign xml:lang=\"grc\">Νύμφα</foreign>,  q.v.), </form>\n  <sense><gloss>Nymphas</gloss>: <ref osisRef=\"Col.4.15\">Col 4:15</ref>,  R,  txt. (cf. <emph>ICC</emph>,  Lft.,  in l.).†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "Ξ",
+      "innerHTML": "\n  <form><orth>Ξ</orth>,  <foreign xml:lang=\"grc\">ξ</foreign>,  <foreign xml:lang=\"grc\">ξῖ</foreign>,  <foreign xml:lang=\"grc\">τό</foreign>,  indecl., </form>\n  <sense><gloss>Xi</gloss>,  <gloss>x</gloss>,  the fourteenth letter. As a numeral,  <foreign xml:lang=\"grc\">ξʹ</foreign> = 60,  <foreign xml:lang=\"grc\">ξ͵</foreign> = 60, 000.</sense>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Ο",
+      "innerHTML": "\n  <form><orth>Ο</orth>,  <foreign xml:lang=\"grc\">ο</foreign>,  <foreign xml:lang=\"grc\">ὂ</foreign>,  <foreign xml:lang=\"grc\">μικρόν</foreign>, </form>\n  <sense><gloss>omicron</gloss>,  short <gloss>o</gloss>,  the fifteenth letter. As a numeral,  <foreign xml:lang=\"grc\">οʹ</foreign> = 70,  <foreign xml:lang=\"grc\">ο͵</foreign> = 70, 000.</sense>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ὁδοποιέω",
+      "innerHTML": "\n  <form><orth>ὁδο-ποιέω</orth>,  <foreign xml:lang=\"grc\">-ῶ</foreign>, </form>\n<etym>\n  <seg type=\"septuagint\">[in LXX: <ref osisRef=\"Job.30.12\">Jb 30:12</ref>,  <ref osisRef=\"Ps.68.4\">Ps 67 (68):4</ref> (<foreign xml:lang=\"heb\" n=\"H5549\">סלל</foreign>) <ref osisRef=\"Ps.78.50\">77 (78):50</ref> (<foreign xml:lang=\"heb\" n=\"H6424\">פּלס</foreign> pi.) <ref osisRef=\"Ps.80.9\">79 (80):9</ref>,  <ref osisRef=\"Isa.62.10\">Is 62:10</ref> (<foreign xml:lang=\"heb\" n=\"H6437\">פּנה</foreign> pi.)*;]</seg>\n</etym>\n  <sense><gloss>to make a road</gloss> or <gloss>path</gloss>: <ref osisRef=\"Mark.2.23\">Mk 2:23</ref>(WH,  mg.).†</sense>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Ὀζίας",
+      "innerHTML": "\n  <form><orth>Ὀζίας</orth>,  v.s. <foreign xml:lang=\"grc\">Ὀζείας</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "οἰκειακός",
+      "innerHTML": "\n  <form><orth>οἰκειακός</orth>,  v.s. <foreign xml:lang=\"grc\">οἰκιακός</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "οἰκετεία",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>*† <orth>οἰκετεία</orth>,  <foreign xml:lang=\"grc\">-ας,  ἡ</foreign></form>\n<etym>\n  <seg type=\"derivation\">(&lt; <foreign xml:lang=\"grc\">οἰκέτης</foreign>), </seg>\n</etym>\n  <sense><gloss>a household</gloss> (of servants): <ref osisRef=\"Matt.24.45\">Mt 24:45</ref>.†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "οἰκοδόμος",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n\t<form><orth>οἰκο-δόμος</orth>,  <foreign xml:lang=\"grc\">οὐ,  ὁ</foreign></form>\n\t<etym>(&lt; <foreign xml:lang=\"grc\">οἶκος</foreign> + <foreign xml:lang=\"grc\">δέμω</foreign>,  <emph>to build</emph>),  [in LXX for <foreign xml:lang=\"heb\" n=\"H1129\">בּנה</foreign>,  etc.;]</etym>\n\t<sense><gloss>a builder</gloss>: <ref osisRef=\"Acts.4.11\">Ac 4:11</ref>.†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "οἰκουργός",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>*† <orth>οἰκουργός</orth>,  <foreign xml:lang=\"grc\">-όν</foreign></form>\n<etym>\n  <seg type=\"derivation\">(&lt; <foreign xml:lang=\"grc\">οἶκος</foreign> + root of <foreign xml:lang=\"grc\">ἔργον</foreign>), </seg>\n</etym>\n  <sense><gloss>working at home</gloss>: <ref osisRef=\"Titus.2.5\">Tit 2:5</ref> (Rec. <foreign xml:lang=\"grc\">οἰκουρός</foreign>,  q.v.).†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "οἶμαι",
+      "innerHTML": "\n  <form><orth>οἶμαι</orth>,  v.s. <foreign xml:lang=\"grc\">οἴομαι</foreign>.</form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "οἴσω",
+      "innerHTML": "\n  <form><orth>οἴσω</orth>,  v.s. <foreign xml:lang=\"grc\">φέρω</foreign>, </form> p. 499.",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ὀλεθρεύω",
+      "innerHTML": "\n  <form><orth>ὀλεθρεύω</orth>,  v.s. <foreign xml:lang=\"grc\">ὀλοθρεύω</foreign>.</form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ὄλεθρος",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">4</note>\n  <form><orth>ὄλεθρος</orth>,  <foreign xml:lang=\"grc\">-ον</foreign></form>\n<etym>\n  <seg type=\"derivation\">(&lt; <foreign xml:lang=\"grc\">ὄλλυμι</foreign>,  <emph>to destroy</emph>), </seg>\n  <seg type=\"septuagint\">[in LXX for <foreign xml:lang=\"heb\" n=\"H7701\">שֹׁד</foreign>,  <foreign xml:lang=\"heb\" n=\"H7703\">שָׁדַד</foreign>,  etc.;]</seg>\n</etym>\n  <sense><gloss>ruin</gloss>,  <gloss>destruction</gloss>,  <gloss>death</gloss>: <ref osisRef=\"1Thess.5.3\">I Th 5:3</ref>,  <ref osisRef=\"1Tim.6.9\">I Ti 6:9</ref>; <foreign xml:lang=\"grc\">αἰώνιος</foreign>,  <ref osisRef=\"2Thess.1.9\">II Th 1:9</ref> (L,  txt.,  <foreign xml:lang=\"grc\">ὀλέθριος</foreign>,  q.v.); <foreign xml:lang=\"grc\">εἰς ὄ. τῆς σαρκός</foreign>,  for physical discipline,  to destroy carnal lusts,  <ref osisRef=\"1Cor.5.5\">I Co 5:5</ref>.†</sense>\n",
+      "occurrences": "4",
+      "strongs": []
+    },
+    {
+      "word": "ὀλιγοπιστία",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>*† <orth>ὀλιγοπιστία</orth>,  <foreign xml:lang=\"grc\">-ας,  ἡ</foreign>, </form>\n    <sense><gloss>little faith</gloss> or <gloss>trust</gloss>: <ref osisRef=\"Matt.17.20\">Mt 17:20</ref>.†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "ὀλίγως",
+      "innerHTML": "\n  <form><orth>ὀλίγως</orth>,  <gramGrp><pos>adv.</pos></gramGrp></form>\n  <etym>\n  <seg type=\"derivation\">(&lt; <foreign xml:lang=\"grc\">ὀλίγος</foreign>), </seg>\n  <seg type=\"septuagint\">[in Aq.: <ref osisRef=\"Isa.10.7\">Is 10:7</ref>*;]</seg>\n  </etym>\n  <sense><gloss>a little</gloss>,  <gloss>almost</gloss>,  <gloss>all but</gloss>: <ref osisRef=\"2Pet.2.18\">II Pe 2:18</ref>.†</sense>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ὀμείρομαι",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>† <orth>ὀμείρομαι</orth></form>\n<etym>\n  <seg type=\"derivation\">(Rec. <foreign xml:lang=\"grc\">ὁμ-</foreign>,  v. WH,  <emph>App.</emph>,  151),  = cl. <foreign xml:lang=\"grc\">ἱμείρομαι</foreign> (but prob. with different derivation,  v. Bl.,  § 6,  4; Zorell,  s.v.), </seg>\n  <seg type=\"septuagint\">[in LXX: <ref osisRef=\"Job.3.21\">Jb 3:21</ref> (<foreign xml:lang=\"heb\" n=\"H2442\">חכה</foreign>)*;]</seg>\n</etym>\n  <sense><gloss>to desire earnestly</gloss>,  <gloss>yearn after</gloss>: <ref osisRef=\"1Thess.2.3\">I Th 2:3</ref>.†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "ὁμίχλη",
+      "innerHTML": "\n\t<form><orth>ὁμίχλη</orth>,  <foreign xml:lang=\"grc\">-ης,  ἡ</foreign>, </form>\n  <seg type=\"septuagint\">[in LXX for <foreign xml:lang=\"heb\" n=\"H6205\">עֲרָפֶל</foreign>,  etc.;] </seg>\n  <sense><gloss>a mist</gloss>: <ref osisRef=\"2Pet.2.17\">II Pe 2:17</ref>.†</sense>\n  <re><emph>SYN.</emph>: <foreign xml:lang=\"grc\">νέφος</foreign>,  <foreign xml:lang=\"grc\">νεφέλη</foreign>,  both thicker than <foreign xml:lang=\"grc\">ὁ</foreign>.</re>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ὀμόω",
+      "innerHTML": "\n  <form><orth>ὀμόω</orth>,  v.s. <foreign xml:lang=\"grc\">ὀμνύω</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ὄπτω",
+      "innerHTML": "\n  <form><orth>ὄπτω</orth>,  v.s. <foreign xml:lang=\"grc\">ὁράω</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ὀρινός",
+      "innerHTML": "\n  <form><orth>ὀρινός</orth>,  v.s. <foreign xml:lang=\"grc\">ὀρεινός</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ὄρνιξ",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>*† <orth>ὄρνιξ</orth></form>\n<etym>\n  <seg type=\"derivation\">(cf. Doric gen.,  <foreign xml:lang=\"grc\">ὄρνιχος</foreign>,  and MGr.,  <foreign xml:lang=\"grc\">ὀρνίχ</foreign>; v. M,  <emph>Pr.</emph>,  45), </seg>\n</etym>\n <sense>= <foreign xml:lang=\"grc\">ὄρνις</foreign>: <ref osisRef=\"Luke.13.34\">Lk 13:34</ref> (T; WH,  <foreign xml:lang=\"grc\">ὄρνις</foreign>).†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "ὅσγε",
+      "innerHTML": "\n  <form><orth>ὅσγε</orth> = <foreign xml:lang=\"grc\">ὅς γε</foreign>,  v.s. <foreign xml:lang=\"grc\">γέ</foreign>.</form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ὅσον",
+      "innerHTML": "\n  <form><orth>ὅσον</orth>,  v.s. <foreign xml:lang=\"grc\">ὅσος</foreign>.</form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ὅτου",
+      "innerHTML": "\n  <form><orth>ὅτου</orth>,  v.s. <foreign xml:lang=\"grc\">ὅστις</foreign> </form>.\n<note type=\"transcriber\">Although this entry is out of order alphabetically,  it is in this place in Abbott-Smith.</note>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "οὐθείς",
+      "innerHTML": "\n  <form><orth>οὐθείς</orth>,  v.s. <foreign xml:lang=\"grc\">οὐδείς</foreign>.</form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "οὐχ",
+      "innerHTML": "\n  <form><orth>οὐχ</orth>,  v.s. <foreign xml:lang=\"grc\">οὐ</foreign>.</form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ὀχετός",
+      "innerHTML": "\n  <form><orth>ὀχετός</orth>,  <foreign xml:lang=\"grc\">-οῦ,  ὁ</foreign></form>\n  <seg type=\"derivation\">(&lt; <foreign xml:lang=\"grc\">ὀχέω</foreign>,  <emph>to carry</emph>), </seg>\n  <seg type=\"septuagint\">in Sm.: <ref osisRef=\"Job.22.24\">Jb 22:24</ref>,  <ref osisRef=\"Ps.65.10\">Ps 64 (65):10</ref>,  al;]</seg>\n  <sense n=\"1\"><gloss>a water-pipe</gloss>,  <gloss>channel</gloss>.</sense>\n  <sense n=\"2\"><gloss>the intestinal canal</gloss>: <ref osisRef=\"Mark.7.19\">Mk 7:19</ref>,  WH,  mg. (for <foreign xml:lang=\"grc\">ἀφεδρών</foreign>).†</sense>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ὀψία",
+      "innerHTML": "\n  <form>** <orth>ὀψία</orth>,  <foreign xml:lang=\"grc\">-ας,  ἡ</foreign>,  v.s. <foreign xml:lang=\"grc\">ὄψιος</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Π",
+      "innerHTML": "\n  <form><orth>Π</orth>,  <foreign xml:lang=\"grc\">π</foreign>,  <foreign xml:lang=\"grc\">πῖ</foreign>, </form>\n  <sense><gloss>pi</gloss>,  <gloss>p</gloss>,  the sixteenth letter. As a numeral,  <foreign xml:lang=\"grc\">πʹ</foreign> = 80,  <foreign xml:lang=\"grc\">π͵</foreign> = 80, 000.</sense>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Πάγος",
+      "innerHTML": "\n  <form><orth>Πάγος</orth>,  v.s. <foreign xml:lang=\"grc\">Ἄρειος</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "παιδία",
+      "innerHTML": "\n  <form><orth>παιδία</orth>,  v.s. <foreign xml:lang=\"grc\">παιδεία</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "παλιγγενεσία",
+      "innerHTML": "\n  <form><orth>παλιγγενεσία</orth>,  v.s. <foreign xml:lang=\"grc\">παλινγενεσία</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "παμπληθεί",
+      "innerHTML": "\n  <form><orth>παμπληθεί</orth>,  v.s. <foreign xml:lang=\"grc\">πανπληθεί</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "πανδοκεύς",
+      "innerHTML": "\n  <form><orth>πανδοκεύς</orth>,  v.s. <foreign xml:lang=\"grc\">πανδοχεύς</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "πανδοκίον",
+      "innerHTML": "\n  <form><orth>πανδοκίον</orth>,  v.s. <foreign xml:lang=\"grc\">πανδοχεῖον</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "πανταχῇ",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form><orth>πανταχῇ </orth> (Rec. <foreign xml:lang=\"grc\">-χῆ</foreign>), </form>\n    <gramGrp><pos>adv.</pos>, </gramGrp>\n    <etym>\n      <seg type=\"septuagint\">[in LXX: <ref osisRef=\"Isa.24.11\">Is 24:11</ref> (<foreign xml:lang=\"heb\" n=\"H2351\">בַּחוּצוֹת</foreign>),  <ref osisRef=\"Wis.2.9\">Wi 2:9</ref>,  <ref osisRef=\"2Macc.8.7\">II Mac 8:7</ref>*;]</seg>\n    </etym>\n    <sense><gloss>everywhere</gloss>: <ref osisRef=\"Acts.21.28\">Ac 21:28</ref>.†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "παραβουλεύομαι",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>*† <orth>παρα-βουλεύομαι</orth>, </form>\n    <sense><gloss>to consult amiss</gloss>,  or perh. (v. LS,  s.v.),  a vulg. form of <foreign xml:lang=\"grc\">παρα-βολ-</foreign> (q.v.): <ref osisRef=\"Phil.2.30\">Phl 2:30</ref>,  Rec.†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "παρακαθέζομαι",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>*† <orth>παρα-καθέζομαι</orth>, </form>\n    <sense><gloss>to sit down beside</gloss>: seq. <foreign xml:lang=\"grc\">πρός</foreign>,  <ref osisRef=\"Luke.10.39\">Lk 10:39</ref> (Plut.).†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "παρεδρεύω",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n\t<form><orth>παρ-εδρεύω</orth>, </form>\n\t<etym>[in LXX: <ref osisRef=\"Prov.1.21\">Pr 1:21</ref> <ref osisRef=\"Prov.8.3\">8:3</ref>*;]</etym>\n  <sense><gloss>to sit constantly beside</gloss>,  <gloss>attend constantly</gloss> (cf. MM,  xix): <foreign xml:lang=\"grc\">τ. θυσιαστηρίῳ</foreign>,  <ref osisRef=\"1Cor.9.13\">I Co 9:13</ref>.†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "παρεμβάλλω",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n\t<form><orth>παρ-εμ-βάλλω</orth>, </form>\n\t<etym>[in LXX freq. and chiefly for <foreign xml:lang=\"heb\" n=\"H2583\">חנה</foreign>;]</etym>\n      <sense n=\"1.\"><gloss>to put in beside</gloss> or <gloss>between</gloss>,  <gloss>interpose</gloss>.</sense>\n\t\t<sense n=\"2.\">In late writers (Polyb.,  al.,  LXX) as technical military term; \n\t\t\t<sense n=\"(a)\">of soldiers,  <gloss>to draw up in line</gloss> (freq. in <ref osisRef=\"1Macc.2.32\">I Mac 2:32</ref>,  al.);</sense>\n\t\t\t<sense n=\"(b)\">of siege works,  <gloss>to cast up</gloss>: c. acc. et dat.,  <foreign xml:lang=\"grc\">χάρακά σοι</foreign>,  <ref osisRef=\"Luke.19.43\">Lk 19:43</ref>.†</sense>\n      </sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "παριστάνω",
+      "innerHTML": "\n  <form><orth>παρ-ιστάνω</orth>,  v.s. <foreign xml:lang=\"grc\">παρίστημι</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "πατρολῴας",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>* <orth>πατρολῴας</orth> (<foreign xml:lang=\"grc\">-αλῴας</foreign>,  Rec.; in cl. <foreign xml:lang=\"grc\">-αλοίας</foreign>,  v. Bl.,  § 3,  3; 6,  2,  and cf. <foreign xml:lang=\"grc\">μητρολῴας</foreign>),  <foreign xml:lang=\"grc\">-ου,  ὁ</foreign></form>\n<etym>\n  <seg type=\"derivation\">(&lt; <foreign xml:lang=\"grc\">πατήρ</foreign> + <foreign xml:lang=\"grc\">ἀλοιάω</foreign>,  <emph>to smite</emph>), </seg>\n</etym>\n    <sense n=\"(a)\"><gloss>a parricide</gloss>: <ref osisRef=\"1Tim.1.9\">I Ti 1:9</ref> (AV,  R,  txt.);</sense>\n    <sense n=\"(b)\"><gloss>a smiter of his father</gloss>: <ref osisRef=\"1Tim.1.9\">I Ti 1:9</ref> (R,  mg.).†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "πεζῇ",
+      "innerHTML": "\n  <form><orth>πεζῇ</orth>,  v.s. <foreign xml:lang=\"grc\">πεζός</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Πειθώ",
+      "innerHTML": "\n\t<note type=\"occurrencesNT\">1</note>\n<form>* <orth>Πειθώ</orth>,  <foreign xml:lang=\"grc\">-οῦς,  ἡ</foreign>, </form>\n  <sense n=\"1.\"><gloss>Peitho</gloss>,  <gloss>Persuasion</gloss> (as a goddess).</sense>\n    <sense n=\"2.\"><gloss>persuasion</gloss>: <foreign xml:lang=\"grc\">ἐν πειθοῖ</foreign> (so Orig.,  Eus. and some cursives in <ref osisRef=\"1Cor.2.4\">I Co 2:4</ref> for <foreign xml:lang=\"grc\">πειθός</foreign>,  q.v.).†</sense>\n    ",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "πεῖν",
+      "innerHTML": "\n  <form><orth>πεῖν</orth> = <foreign xml:lang=\"grc\">πιεῖν</foreign>,  v.s. <foreign xml:lang=\"grc\">πίνω</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "πεντηκοστή",
+      "innerHTML": "\n  <form><orth>πεντηκοστή</orth>,  <foreign xml:lang=\"grc\">-ῆς,  ἡ</foreign>,  v.s. <foreign xml:lang=\"grc\">πεντηκοστός</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "περαιτέρω",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>* <orth>περαιτέρω</orth></form>\n<etym>\n  <seg type=\"derivation\">(&lt; <foreign xml:lang=\"grc\">πέρα</foreign>,  <emph>beyond</emph>), </seg>\n</etym>\n  <gramGrp><pos>compar. adv.</pos>, </gramGrp>\n    <sense><gloss>beyond</gloss>: <ref osisRef=\"Acts.19.39\">Ac 19:39</ref>,  L,  Tr.,  WH (T,  Rec.,  R,  <foreign xml:lang=\"grc\">περὶ ἑτέρων</foreign>).†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "περιάπτω",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>** <orth>περι-άπτω</orth>, </form>\n<etym>\n  <seg type=\"septuagint\">[in LXX: <ref osisRef=\"3Macc.3.7\">III Mac 3:7</ref>*;]</seg>\n</etym>\n    <sense n=\"1.\"><gloss>to tie about</gloss>,  <gloss>attach</gloss>.</sense>\n    <sense n=\"2.\">In late writers,  <gloss>to light a fire around</gloss>,  <gloss>kindle</gloss>: <foreign xml:lang=\"grc\">πῦρ</foreign>,  <ref osisRef=\"Luke.22.55\">Lk 22:55</ref>.†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "περικρύβω",
+      "innerHTML": "\n  <form>*† <orth>περι-κρύβω</orth>,  v.s. <foreign xml:lang=\"grc\">περικρύπτω</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "περιραίνω",
+      "innerHTML": "\n  <form><orth>περι-ραίνω</orth> (<foreign xml:lang=\"grc\">-ρραίνω</foreign>,  Rec.,  v. WH,  <emph>App.</emph>,  139 f.), </form>\n  <seg type=\"septuagint\">[in LXX for <foreign xml:lang=\"heb\" n=\"H5137\">נזה</foreign> hi.;]</seg>\n  <sense><gloss>to sprinkle around</gloss>: <ref osisRef=\"Rev.19.13\">Re 19:13</ref> T (<foreign xml:lang=\"grc\">ῤεραβτυσνένον</foreign>,  WH; <foreign xml:lang=\"grc\">ῤε-</foreign>,  R,  txt.; <foreign xml:lang=\"grc\">βεβαμμένον</foreign>,  Rec.,  R,  mg.).†</sense>\n  ",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "πετάομαι",
+      "innerHTML": "\n  <form><orth>πετάομαι</orth>, </form>\n  <seg type=\"septuagint\">[in LXX: <ref osisRef=\"Deut.4.17\">De 4:17</ref>*;]</seg>\n  <etym>\n    <seg type=\"derivation\">false form of <foreign xml:lang=\"grc\">ποτάομαι</foreign>,  poët.,  frequentat. of <foreign xml:lang=\"grc\">πέτομαι</foreign> (Aristoph.,  al.),  Rec. for <foreign xml:lang=\"grc\">πέτομαι</foreign> (q.v.,  cf. Veitch,  s.v.).</seg>\n  </etym>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "πιθός",
+      "innerHTML": "\n  <form><orth>πιθός</orth>,  v.s. <foreign xml:lang=\"grc\">πειθός</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Πιλάτος",
+      "innerHTML": "\n  <form><orth>Πιλάτος</orth>,  v.s. <foreign xml:lang=\"grc\">Πειλᾶτος</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "πινακίς",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>** <orth>πινακίς</orth>,  <foreign xml:lang=\"grc\">-ίδος,  ἡ</foreign>, </form>\n<etym>\n  <seg type=\"septuagint\">[in Sm.: <ref osisRef=\"Ezek.9.11\">Ez 9:11</ref>*;]</seg>\n</etym>\n    <sense>= <foreign xml:lang=\"grc\">πινάκιον</foreign>,  <gloss>a tablet</gloss>: <ref osisRef=\"Luke.1.63\">Lk 1:63</ref>,  Tr.,  mg. (v.s. <foreign xml:lang=\"grc\">πινακίδιον</foreign>).†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "Πισίδιος",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>† <orth>Πισίδιος</orth>,  <foreign xml:lang=\"grc\">-α,  -ον</foreign>,  = <foreign xml:lang=\"grc\">Πισιδικός</foreign>, </form>\n    <sense><gloss>of Pisidia</gloss>: <ref osisRef=\"Acts.13.14\">Ac 13:14</ref>.†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "πλάνης",
+      "innerHTML": "\n  <form>* <orth>πλάνης</orth>,  <foreign xml:lang=\"grc\">-ητος,  ὁ</foreign>,  v.s. <foreign xml:lang=\"grc\" n=\"G4107\">πλανήτης</foreign>.</form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "πλησίον",
+      "innerHTML": "\n  <form><orth>πλησίον</orth>,  v.s. <foreign xml:lang=\"grc\">πλησίος</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ποία",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form><orth>ποία</orth>,  <foreign xml:lang=\"grc\">-ας,  ἡ</foreign></form>\n    <etym>Dor. for <foreign xml:lang=\"grc\">πόα</foreign>,  \n      <seg type=\"septuagint\">[in LXX (with v.l. <foreign xml:lang=\"grc\">πόα</foreign>): <ref osisRef=\"Prov.27.25\">Pr 27:25</ref> (<foreign xml:lang=\"heb\" n=\"H1877\">דֶּשֶׁא</foreign>) and of a kind of <emph>soap</emph> (Soph.,  <emph>Lex.</emph>,  s.v.). <ref osisRef=\"Mal.3.2\">Ma 3:2</ref>,  <ref osisRef=\"Jer.2.22\">Je 2:22</ref> (<foreign xml:lang=\"heb\" n=\"????\">בּוֹרִית</foreign>)*;]</seg>\n</etym>\n  <sense><gloss>grass</gloss>: <ref osisRef=\"Jas.4.14\">Ja 4:14</ref> (where,  however,  it is usually taken to be fem. of <foreign xml:lang=\"grc\">ποῖος</foreign> ; but v. MM,  xx).</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "πολυεύσπλαγχνος",
+      "innerHTML": "\n  <form><orth>πολυ-εύσπλαγχνος</orth>,  v.s. <foreign xml:lang=\"grc\">πολύσπλαγχνος</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "πραγματεία",
+      "innerHTML": "\n  <form><orth>πραγματεία</orth>,  v.s. <foreign xml:lang=\"grc\">πραγματία</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "πραϋπαθία",
+      "innerHTML": "\n    <note type=\"occurrencesNT\">1</note>\n\t<form>*† <orth>πραϋπαθία</orth> (Rec. <foreign xml:lang=\"grc\">-πάθεια</foreign>),  <foreign xml:lang=\"grc\">-ας,  ἡ</foreign></form>\n  <etym>(&lt; <foreign xml:lang=\"grc\">πραΰς</foreign>,  <foreign xml:lang=\"grc\">πάσχω</foreign>),  = <foreign xml:lang=\"grc\">πραΰτης</foreign>, </etym>\n  <sense><gloss>meekness</gloss>,  <gloss>gentleness</gloss>: <ref osisRef=\"1Tim.6.11\">I Ti 6:11</ref> (Philo.).†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "πρεσβευτής",
+      "innerHTML": "\n  <form><orth>πρεσβευτής</orth>,  v.s. <foreign xml:lang=\"grc\">πρεσβύτης</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "πρεσβύτερος",
+      "innerHTML": "\n  <form><orth>πρεσβύτερος</orth>,  v.s. <foreign xml:lang=\"grc\">πρέσβυς</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "πρίω",
+      "innerHTML": "\n  <form><orth>πρίω</orth>,  v.s. <foreign xml:lang=\"grc\">πρίζω</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "προβάτιον",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">2</note>\n  <form>* <orth>προβάτιον</orth>,  <foreign xml:lang=\"grc\">-ου,  τό</foreign>, </form>\n  <seg type=\"derivation\">dimin. of <foreign xml:lang=\"grc\">πρόβατον</foreign> (used as a term of endearment,  v. Bl.,  § 27,  4), </seg>\n  <sense><gloss>a little sheep</gloss>: <ref osisRef=\"John.21.16\">Jo 21:16</ref>,  <ref osisRef=\"John.21.17\">17</ref> (<foreign xml:lang=\"grc\">πρόβατα</foreign>,  WH,  mg.).†</sense>\n",
+      "occurrences": "2",
+      "strongs": []
+    },
+    {
+      "word": "προείρηκα",
+      "innerHTML": "\n  <form><orth>προ-είρηκα</orth>,  <foreign xml:lang=\"grc\">-είρημαι</foreign>,  v.s. <foreign xml:lang=\"grc\">προεῖπον</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "προερέω",
+      "innerHTML": "\n  <form><orth>προ-ερέω</orth>,  <foreign xml:lang=\"grc\">-ῶ</foreign>,  v.s. <foreign xml:lang=\"grc\">προεῖπον</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "πρόϊμος",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form><orth>πρόϊμος</orth> (Rec. <foreign xml:lang=\"grc\">πρώ-</foreign>,  of which <foreign xml:lang=\"grc\">προ-</foreign> is a late form; v. Bl.,  § 6,  4; WH,  <emph>App.</emph>,  152),  <foreign xml:lang=\"grc\">-ον</foreign>, </form>\n<etym>\n  <seg type=\"septuagint\">[in LXX: <ref osisRef=\"Deut.11.14\">De 11:14</ref> (<foreign xml:lang=\"heb\" n=\"H3138\">יוֹרֶה</foreign>),  etc.;]</seg>\n  <seg type=\"derivation\">= the more common <foreign xml:lang=\"grc\">πρώιος</foreign> (q.v.), </seg></etym>\n    <sense><gloss>early</gloss>: of rain (as most freq. in LXX),  <ref osisRef=\"Jas.5.7\">Ja 5:7</ref>.†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "προπάτωρ",
+      "innerHTML": "\n    <note type=\"occurrencesNT\">1</note>\n\t<form>** <orth>προ-πάτωρ</orth>,  <foreign xml:lang=\"grc\">-ορος,  ὁ</foreign></form>\n\t<etym>\n      <seg type=\"derivation\">(&lt; <foreign xml:lang=\"grc\">πατήρ</foreign>), </seg>\n      <seg type=\"septuagint\">[in LXX: <ref osisRef=\"3Macc.2.21\">III Mac 2:21</ref> A*;]</seg>\n</etym>\n\t<sense><gloss>a forefather</gloss>: <ref osisRef=\"Rom.4.1\">Ro 4:1</ref>.†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "προσαίτης",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">2</note>\n  <form>*† <orth>προσαίτης</orth>,  <foreign xml:lang=\"grc\">-ου,  ὁ</foreign>, </form>\n    <sense><gloss>a beggar</gloss>: <ref osisRef=\"Mark.10.46\">Mk 10:46</ref>,  <ref osisRef=\"John.9.8\">Jo 9:8</ref>.†</sense>\n",
+      "occurrences": "2",
+      "strongs": []
+    },
+    {
+      "word": "προσανέχω",
+      "innerHTML": "\n  <form>* <orth>προσ-αν-έχω</orth>, </form>\n  <sense><gloss>to approach</gloss>: v.l. for <foreign xml:lang=\"grc\">προσαχέω</foreign>,  <ref osisRef=\"Acts.27.27\">Ac 27:27</ref> L.+</sense>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "προσαχέω",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>*† <orth>προσ-αχέω</orth>,  <foreign xml:lang=\"grc\">-ῶ</foreign>, </form>\n    <seg type=\"derivation\">Doric for <foreign xml:lang=\"grc\">προσηχέω</foreign>, </seg>\n    <sense><gloss>to resound</gloss>: of land perceived by the roar of the surf,  <ref osisRef=\"Acts.27.27\">Ac 27:27</ref> (WH,  mg.,  cf. <foreign xml:lang=\"grc\">προσάγω</foreign>).†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "πρόσκλησις",
+      "innerHTML": "\n  <form><orth>πρόσ-κλησις</orth>,  <foreign xml:lang=\"grc\">-εως,  ἡ</foreign>, </form>\n    <sense>LTr.,  mg.,  for <foreign xml:lang=\"grc\">πρόσκλισις</foreign>,  q.v.</sense>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "προσκολλάω",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">2</note>\n  <form><orth>προσ-κολλάω</orth>,  <foreign xml:lang=\"grc\">-ῶ</foreign>, </form>\n<etym>\n  <seg type=\"septuagint\">[in LXX chiefly for <foreign xml:lang=\"heb\" n=\"H1692\">דּבק</foreign>;]</seg>\n</etym>\n    <sense><gloss>to glue to</gloss>; pass.,  reflexive,  <gloss>to stick to</gloss>,  <gloss>cleave to</gloss> (Plat.): metaph. (c. dat.,  <ref osisRef=\"Josh.23.8\">Jos 23:8</ref>,  <ref osisRef=\"Sir.6.34\">Si 6:34</ref> al.),  seq. <foreign xml:lang=\"grc\">πρός</foreign>,  <ref osisRef=\"Mark.10.7\">Mk 10:7</ref> (R,  txt.),  <ref osisRef=\"Eph.5.31\">Eph 5:31</ref><hi rend=\"superscript\">(LXX)</hi>.†</sense>\n",
+      "occurrences": "2",
+      "strongs": []
+    },
+    {
+      "word": "προσπαίω",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form><orth>προσ-παίω</orth> = <foreign xml:lang=\"grc\">προσπίπτω</foreign>, </form>\n  <sense><ref osisRef=\"Matt.7.25\">Mt 7:25</ref> L (v.s. <foreign xml:lang=\"grc\">προσπίπτω</foreign>).†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "πρώιος",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">2</note>\n  <form><orth>πρώιος</orth> (Rec. <foreign xml:lang=\"grc\">-ϊος</foreign>),  <foreign xml:lang=\"grc\">-α,  -ον</foreign></form>\n<etym>\n  <seg type=\"derivation\">(&lt; <foreign xml:lang=\"grc\">πρωί</foreign>), </seg>\n  <seg type=\"septuagint\">[in LXX for <foreign xml:lang=\"heb\" n=\"H1242\">בֹּקֶר</foreign>,  <foreign xml:lang=\"heb\">לַּ׳</foreign>,  <foreign xml:lang=\"heb\" n=\"H1242\">בַּ׳</foreign>;]</seg>\n</etym>\n  <sense><gloss>at early morn</gloss>,  <gloss>early</gloss>; as subst.,  <foreign xml:lang=\"grc\">ἡ π.</foreign> (sc. <foreign xml:lang=\"grc\">ὥρα</foreign>,  cf. <foreign xml:lang=\"grc\">ἡ ὥ. ἡ π.</foreign>,  <ref osisRef=\"3Macc.5.24\">III Mac 5:24</ref>),  <gloss>early morning</gloss>: <ref osisRef=\"Matt.27.1\">Mt 27:1</ref>,  <ref osisRef=\"John.21.4\">Jo 21:4</ref>.†</sense>\n",
+      "occurrences": "2",
+      "strongs": []
+    },
+    {
+      "word": "πρῶτον",
+      "innerHTML": "\n  <form><orth>πρῶτον</orth>,  <foreign xml:lang=\"grc\">πρῶτος</foreign>,  v.s. <foreign xml:lang=\"grc\">πρότερος</foreign>.</form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "πρώτως",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n\t<form>* <orth>πρώτως</orth>, </form>\n\t<gramGrp><pos>adv.</pos>, </gramGrp>\n\t<sense><gloss>first</gloss>: <ref osisRef=\"Acts.11.26\">Ac 11:26</ref>.†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "Πυρρός",
+      "innerHTML": "\n  <form><orth>Πύρρος</orth>,  <foreign xml:lang=\"grc\">-ου,  ὁ</foreign>, </form>\n    <sense><gloss>Pyrrhus</gloss>: <ref osisRef=\"Acts.20.4\">Ac 20:4</ref>.†</sense>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "πως",
+      "innerHTML": "\n  <form><orth>πως</orth>, </form>\n  <gramGrp><pos>enclit. part.</pos>, </gramGrp>\n  <sense><gloss>at all</gloss>; v.s. <foreign xml:lang=\"grc\">εἴπως</foreign>,  <foreign xml:lang=\"grc\">μήπως</foreign>.</sense>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Ρ",
+      "innerHTML": "\n  <form><orth>Ρ</orth>,  <foreign xml:lang=\"grc\">ρ</foreign>,  <foreign xml:lang=\"grc\">ῥω</foreign>,  <foreign xml:lang=\"grc\">τό</foreign>,  indecl., </form>\n  <sense><gloss>rho</gloss>,  <gloss>r</gloss>,  as initial always <foreign xml:lang=\"grc\">ῥ</foreign> (on the use of the breathing and the reduplication of <foreign xml:lang=\"grc\">ρ</foreign>,  v. WH,  <emph>App.</emph>,  163; Tdf.,  <emph>Prol.</emph>,  105 f.; Veitch,  s.v.<foreign xml:lang=\"grc\">ῥάπτω</foreign>,  etc.),  the seventeenth letter. As a numeral,  <foreign xml:lang=\"grc\">ρʹ</foreign> = 100,  <foreign xml:lang=\"grc\">ρ͵</foreign> = 100, 000.</sense>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ῥαχά",
+      "innerHTML": "\n  <form><orth>ῥαχά</orth>,  v.s. <foreign xml:lang=\"grc\">ῥακά</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ῥήσσω",
+      "innerHTML": "\n  <form><orth>ῥήσσω</orth>,  v.s. <foreign xml:lang=\"grc\">ῥήγνυμι</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Ῥομφά",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form><orth>Ῥομφά</orth> (<foreign xml:lang=\"grc\">-άν</foreign>,  T; <foreign xml:lang=\"grc\">Ῥεφάν</foreign>,  LTr.; <foreign xml:lang=\"grc\">Ῥεμφάν</foreign>,  Rec.; v. WH,  <emph>App.</emph>,  92),  </form>\n<etym>\n  <seg type=\"septuagint\">[in LXX: <ref osisRef=\"Amos.5.26\">Am 5:26</ref> (<foreign xml:lang=\"grc\">Ῥαιμφάν</foreign> or <foreign xml:lang=\"grc\">Ῥεφάν</foreign>,  <emph>Heb.</emph> <foreign xml:lang=\"heb\" n=\"H3594\">כִּיּוּן</foreign>)* ;]</seg>\n</etym>\n  <sense><gloss>Rompha,  Rephan</gloss> (RV),  one of the names of <emph>Seb</emph>,  the Egyptian Saturn: <ref osisRef=\"Acts.7.43\">Ac 7:43</ref> <hi rend=\"superscript\">(LXX)</hi>.†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "ῥοπή",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form><orth>ῥοπή</orth>,  <foreign xml:lang=\"grc\">-ῆς,  ἡ</foreign> </form>\n<etym>\n  <seg type=\"derivation\">(&lt; <foreign xml:lang=\"grc\">ῥέπω</foreign>,  <emph>to incline</emph>) </seg>\n  <seg type=\"septuagint\">[in LXX: <ref osisRef=\"Isa.40.15\">Is 40:15</ref> (<foreign xml:lang=\"heb\" n=\"H7834\">שַׁחַק</foreign>),  etc. ;]</seg>\n</etym>\n  <sense><gloss>inclination downwards</gloss>,  as the turn of the scale: L,  mg.,  for <foreign xml:lang=\"grc\">ῥιπή</foreign>,  q.v.,  <ref osisRef=\"1Cor.15.52\">I Co 15:52</ref> (v. Tdf.,  in l.).†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "ῥυπαίνω",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>* <orth>ῥυπαίνω</orth> </form>\n<etym>\n  <seg type=\"derivation\">(&lt; <ref><foreign xml:lang=\"grc\">ῥύπος</foreign></ref>),  </seg>\n</etym>\n  <sense>in Arist.,  Xen.,  and later writers,  <gloss>to make filthy,  defile</gloss>: pass.,  in ethical sense (on the tense,  v. Swete,  in l.),  <ref osisRef=\"Rev.22.11\">Re 22:11</ref> LT,  Tr.,  WH,  txt.† </sense>\n    ",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "ῥυπαρεύομαι",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>*† <orth>ῥυπαρεύομαι</orth> </form>\n    <sense>= <foreign xml:lang=\"grc\">ῥυπαίνομαι</foreign>,  q.v.: <ref osisRef=\"Rev.22.11\">Re 22:11</ref>,  WH,  mg. (nowhere else).†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "Σ",
+      "innerHTML": "\n  <form><orth>Σ</orth>,  <foreign xml:lang=\"grc\">σ,  final ς,  σίγμα,  τό</foreign>,   indecl.,  </form>\n    <sense><gloss>sigma</gloss>,  the eighteenth letter. As a numeral,  <foreign xml:lang=\"grc\">σʹ</foreign> = 200,  <foreign xml:lang=\"grc\">σ͵</foreign> = 200, 000.</sense>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Σαλωμών",
+      "innerHTML": "\n  <form><orth>Σαλωμών</orth>,  v.s. <foreign xml:lang=\"grc\">Σολομών</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Σαμάρεια",
+      "innerHTML": "\n  <form><orth>Σαμάρεια</orth>,  v.s. <foreign xml:lang=\"grc\">Σαμαρία</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Σαρούχ",
+      "innerHTML": "\n  <form><orth>Σαρούχ</orth>,  v.s. <foreign xml:lang=\"grc\">Σερούχ</foreign>. </form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "σειρός",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>* <orth>σειρός</orth> </form>\n<etym>\n  <seg type=\"derivation\">(<foreign xml:lang=\"grc\">σιρός</foreign>,  T),  <foreign xml:lang=\"grc\">-οῦ,  ὁ</foreign> </seg>\n  <seg type=\"derivation\">(Rec.,  R,  mg.,  <foreign xml:lang=\"grc\">σειρά</foreign>,  q.v.),  = cl. <foreign xml:lang=\"grc\">σιρός</foreign>,  </seg></etym>\n  <sense><gloss>a pit</gloss> for the storage of grain: <foreign xml:lang=\"grc\">σειροὶ ζόφου</foreign>,  <ref osisRef=\"2Pet.2.4\">II Pe 2:4</ref>,  WH,  R.,  txt. (but v. Mayor,  in l.; Field,  <emph>Notes</emph>,  241).†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "σηρικός",
+      "innerHTML": "\n  <form><orth>σηρικός</orth>,  v.s. <foreign xml:lang=\"grc\">σιρικός</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "σιρός",
+      "innerHTML": "\n  <form><orth>σιρός</orth>,  v.s. <foreign xml:lang=\"grc\">σειρός</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "σιτίον",
+      "innerHTML": "\n    <note type=\"occurrencesNT\">1</note>\n\t<form><orth>σιτίον</orth>,  <foreign xml:lang=\"grc\">-ου,  τό</foreign> </form>\n\t<etym>(dimin. of <foreign xml:lang=\"grc\">σῖτος</foreign>),  [in LXX: <ref osisRef=\"Prov.30.22\">Pr 24:57 (30:22)</ref> <foreign xml:lang=\"heb\" n=\"H3899\">(לֶחֶם)</foreign> *;] </etym>\n\t<sense>\n\t\t<sense n=\"1.\"><gloss>corn,  grain</gloss>: <ref osisRef=\"Acts.7.12\">Ac 7:12</ref> (but v. Bl.,  §9,  1). </sense>\n\t\t<sense n=\"2.\">Mostly in pl.,  <foreign xml:lang=\"grc\">σιτία</foreign>,  <gloss>bread,  food,  provisions</gloss> (LXX,  l.c.,  Hdt.,  al.).†</sense></sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "Σιχάρ",
+      "innerHTML": "\n  <form><orth>Σιχάρ</orth>,  v.s. <foreign xml:lang=\"grc\">Συχάρ</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "σκότος_2",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">31</note>\n  <form><orth>σκότος</orth>,  <foreign xml:lang=\"grc\">-ους</foreign>,  <foreign xml:lang=\"grc\">τό</foreign>,  a form rare in cl. (cf. <foreign xml:lang=\"grc\">ὁ σ.</foreign>) but freq. in LXX,  </form>\n<etym>\n  <seg type=\"septuagint\">[chiefly for <foreign xml:lang=\"heb\" n=\"H2822\">חֹשֶׁךְ</foreign> ;] </seg>\n</etym>\n  <sense><gloss>darkness</gloss>: <ref osisRef=\"Matt.27.45\">Mt 27:45</ref>,  <ref osisRef=\"Mark.15.33\">Mk 15:33</ref>,  <ref osisRef=\"Luke.22.53\">Lk 22:53</ref> <ref osisRef=\"Luke.23.44\">23:44</ref>,  <ref osisRef=\"Acts.2.20\">Ac 2:20</ref>,  <ref osisRef=\"2Cor.4.6\">II Co 4:6</ref>; <foreign xml:lang=\"grc\">τὰ κρυπτὰ τοῦ σ.</foreign>,  <ref osisRef=\"1Cor.4.5\">I Co 4:5</ref>; of blindness,  <ref osisRef=\"Matt.6.23\">Mt 6:23</ref>,  <ref osisRef=\"Acts.13.11\">Ac 13:11</ref>; by meton.,  of a dark place,  <ref osisRef=\"Matt.8.12\">Mt 8:12</ref> <ref osisRef=\"Matt.22.13\">22:13</ref> <ref osisRef=\"Matt.25.30\">25:30</ref>,  <ref osisRef=\"2Pet.2.17\">II Pe 2:17</ref>,  <ref osisRef=\"Jude.1.13\">Ju 13</ref>. Metaph.,  of moral and spiritual darkness: <ref osisRef=\"Luke.11.35\">Lk 11:35</ref>,  <ref osisRef=\"John.3.19\">Jo 3:19</ref>,  <ref osisRef=\"Acts.26.18\">Ac 26:18</ref>,  <ref osisRef=\"2Cor.6.14\">II Co 6:14</ref>,  <ref osisRef=\"Eph.6.12\">Eph 6:12</ref>,  <ref osisRef=\"Col.1.13\">Col 1:13</ref>,  <ref osisRef=\"1Pet.2.9\">I Pe 2:9</ref>; by meton.,  of those who are in spiritual darkness,  <ref osisRef=\"Eph.5.8\">Eph 5:8</ref>; <foreign xml:lang=\"grc\">τ. ἔργα τοῦ σ.</foreign>,  <ref osisRef=\"Rom.13.12\">Ro 13:12</ref>,  <ref osisRef=\"Eph.5.11\">Eph 5:11</ref>; <foreign xml:lang=\"grc\">οκότους εἶναι</foreign>,  <ref osisRef=\"1Thess.5.5\">I Th 5:5</ref>; <foreign xml:lang=\"grc\">ἐν σ. εἶναι</foreign>,  <ref osisRef=\"1Thess.5.4\">ib. 4</ref>; <foreign xml:lang=\"grc\">οἱ ἐν σ.</foreign>,  <ref osisRef=\"Luke.1.79\">Lk 1:79</ref>,  <ref osisRef=\"Rom.2.19\">Ro 2:19</ref>; <foreign xml:lang=\"grc\">ὁ λαὸς ὁ καθήμενος ἐν σ.</foreign>,  <ref osisRef=\"Matt.4.16\">Mt 4:16</ref> <hi rend=\"superscript\">(LXX)</hi> (WH. <foreign xml:lang=\"grc\">σκοτίᾳ</foreign>); <foreign xml:lang=\"grc\">ἐν σ. περιπατεῖν</foreign>,  <ref osisRef=\"1John.1.6\">I Jn 1:6</ref>.†</sense>\n",
+      "occurrences": "31",
+      "strongs": []
+    },
+    {
+      "word": "σπυρίς",
+      "innerHTML": "\n  <form><orth>σπυρίς</orth>,  v.s. <foreign xml:lang=\"grc\">σφυρίς</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "στιβάς",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>** <orth>στιβάς</orth>,  <foreign xml:lang=\"grc\">-άδος,  ἡ, </foreign> </form>\n<etym>\n  <seg type=\"septuagint\">[in Aq.: <ref osisRef=\"Ezek.46.23\">Ez 46:23</ref> (<foreign xml:lang=\"heb\" n=\"H2918\">טִירוֺת</foreign>) * ;]</seg>\n</etym>\n  <sense><gloss>a litter of leaves</gloss> or <gloss>rushes</gloss>: pl.,  <ref osisRef=\"Mark.11.8\">Mk 11:8</ref> (Rec. <foreign xml:lang=\"grc\">στοιβ-</foreign>).†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "Στοϊκός",
+      "innerHTML": "\n  <form><orth>Στοϊκός</orth>,  v.s. <foreign xml:lang=\"grc\">Στωικός</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "συγγενής",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">11</note>\n  <form><orth>σνγγενής</orth>,  <foreign xml:lang=\"grc\">-ές</foreign>  (dat. pl.,  <foreign xml:lang=\"grc\">-εῦσιν</foreign>,  <ref osisRef=\"Mark.6.4\">Mk 6:4</ref>,  <ref osisRef=\"Luke.2.44\">Lk 2:44</ref>,  as though from <foreign xml:lang=\"grc\">-εύς</foreign>,  v. Swete,  <emph>Mk.</emph>,  l.c.; Bl.,  § 8,  6; cf. <ref osisRef=\"1Macc.10.89\">I Mac 10:89</ref> A<foreign xml:lang=\"heb\">א</foreign><hi rend=\"superscript\">2</hi> *;) </form>\n<etym>\n  <seg type=\"derivation\">(&lt; <ref><foreign xml:lang=\"grc\">σύν</foreign></ref>,  <ref><foreign xml:lang=\"grc\">γένος</foreign></ref>),  </seg>\n  <seg type=\"septuagint\">[in LXX for <foreign xml:lang=\"heb\" n=\"H1730\">דּוֹד</foreign>,  <foreign xml:lang=\"heb\" n=\"H1733\">דּוֹדָה</foreign>,  <foreign xml:lang=\"heb\" n=\"H4940\">מִשְׁפָּחָה</foreign> ;]</seg>\n</etym>\n<sense>\n  <sense n=\"1.\"><gloss>congenital,  natural,  innate</gloss>. </sense>\n  <sense n=\"2.\"><gloss>akin to</gloss>; as subst.,  <gloss>a kinsman</gloss>: <ref osisRef=\"Mark.6.4\">Mk 6:4</ref>,  <ref osisRef=\"Luke.1.58\">Lk 1:58</ref> <ref osisRef=\"Luke.2.44\">2:44</ref> <ref osisRef=\"Luke.14.12\">14:12</ref> <ref osisRef=\"Luke.21.16\">21:16</ref>,  <ref osisRef=\"John.18.26\">Jo 18:26</ref>,  <ref osisRef=\"Acts.10.24\">Ac 10:24</ref>; of tribal kinship,  <ref osisRef=\"Rom.9.3\">Ro 9:3</ref> <ref osisRef=\"Rom.16.7\">16:7</ref>,  <ref osisRef=\"Rom.16.11\">11</ref>,  <ref osisRef=\"Rom.16.21\">21</ref>.†</sense>\n</sense>\n  <re><emph>SYN.</emph>: <ref><foreign xml:lang=\"grc\" n=\"G2398\">ἴδιος</foreign></ref>,  <ref><foreign xml:lang=\"grc\" n=\"G3609\">οἰκεῖος</foreign></ref> (q.v.)</re>\n",
+      "occurrences": "11",
+      "strongs": []
+    },
+    {
+      "word": "συγγενίς",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>*† <orth>συγγενίς</orth>,  <foreign xml:lang=\"grc\">-ίδος,  ἡ</foreign>,  </form>\n    <sense>late fem. form of <foreign xml:lang=\"grc\">σνγγενής</foreign>,  q.v.,  </sense>\n  <sense><gloss>a kinswoman</gloss>: <ref osisRef=\"Luke.1.36\">Lk 1:36</ref>.†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "συγγνώμη",
+      "innerHTML": "\n  <form><orth>συγγνώμη</orth>,  v.s. <foreign xml:lang=\"grc\">συνγνώμη</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "συγκ-",
+      "innerHTML": "\n  <form><orth>συγκ-</orth>,  v. passim <foreign xml:lang=\"grc\">συνκ-</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "συγχ-",
+      "innerHTML": "\n  <form><orth>συγχ-</orth>,  v. passim <foreign xml:lang=\"grc\">συνχ-</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "συζ-",
+      "innerHTML": "\n  <form><orth>συζ-</orth>,  v. passim <foreign xml:lang=\"grc\">συνζ-</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "συλλ-",
+      "innerHTML": "\n  <form><orth>συλλ-</orth>,  v. passim <foreign xml:lang=\"grc\">συνλ-</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "συμβ-",
+      "innerHTML": "\n  <form><orth>συμβ-</orth>,  v. passim <foreign xml:lang=\"grc\">συνβ-</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "συμμ-",
+      "innerHTML": "\n  <form><orth>συμμ-</orth>,  v. passim <foreign xml:lang=\"grc\">συνμ-</foreign>.</form>\n  ",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "συμμορφίζω",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>*† <orth>συμ-μορφίζω</orth> (T,  <foreign xml:lang=\"grc\">συν-</foreign>),  </form>\n<etym>\n  <seg type=\"derivation\">(&lt; <ref><foreign xml:lang=\"grc\">σύμμορφος</foreign></ref>),  </seg>\n</etym>\n  <sense><gloss>to conform to</gloss>: pass. ptcp.,  <ref osisRef=\"Phil.3.10\">Phl 3:10</ref> (v. Lft.,  <emph>Phl.</emph>,  128).†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "συμπ-",
+      "innerHTML": "\n  <form><orth>συμπ-</orth>,  v. passim <foreign xml:lang=\"grc\">συνπ-</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "συμφ-",
+      "innerHTML": "\n  <form><orth>συμφ-</orth> v. passim <foreign xml:lang=\"grc\">συνφ-</foreign>.</form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "σύμφορος",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">2</note>\n  <form>** <orth>σύμ-φορος</orth>,  <foreign xml:lang=\"grc\">-ον</foreign> </form>\n<etym>\n  <seg type=\"derivation\">(&lt; <ref><foreign xml:lang=\"grc\">συμφέρω</foreign></ref>),  </seg>\n  <seg type=\"septuagint\">[in LXX: <ref osisRef=\"2Macc.4.5\">II Mac 4:5</ref> * ;] </seg>\n</etym>\n  <sense><gloss>profitable,  useful,  expedient</gloss>. As subst.,  <foreign xml:lang=\"grc\">τὸ σ.</foreign> (in cl. usually pl.,  <foreign xml:lang=\"grc\">τὰ σ.</foreign>),  <gloss>advantage,  profit</gloss>: c. gen. pers.,  <ref osisRef=\"1Cor.7.35\">I Co 7:35</ref> <ref osisRef=\"1Cor.10.33\">10:33</ref>.†</sense>\n",
+      "occurrences": "2",
+      "strongs": []
+    },
+    {
+      "word": "συμψ-",
+      "innerHTML": "\n  <form><orth>συμψ-</orth>,  v. passim <foreign xml:lang=\"grc\">συνψ-</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "συναλλάσσω",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>* <orth>συν-αλλάσσω</orth>,   </form>\n    <sense>to reconcile: impf. (conative,  v. M,  <emph>Pr.</emph>,  129),  <ref osisRef=\"Acts.7.26\">Ac 7:26</ref>.†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "συνβασιλεύω",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">2</note>\n  <form>**† <orth>συν-βασιλεύω</orth> </form>\n<etym>\n  <seg type=\"derivation\">(Rec. <foreign xml:lang=\"grc\">συμ-</foreign>),  </seg>\n  <seg type=\"septuagint\">[in LXX: <ref osisRef=\"1Esd.8.26\">I Es 8:26</ref> A * ;]</seg>\n</etym>\n  <sense><gloss>to reign together</gloss> or <gloss>with</gloss>: metaph.,  of sharing the glories of the Kingdom of God,  <ref osisRef=\"1Cor.4.8\">I Co 4:8</ref>,  <ref osisRef=\"2Tim.2.12\">II Ti 2:12</ref>.†</sense>\n",
+      "occurrences": "2",
+      "strongs": []
+    },
+    {
+      "word": "συνεπιτίθημι",
+      "innerHTML": "\n\t<note type=\"occurrencesNT\">1</note>\n\t<form><orth>συν-επι-τίθημι</orth>,  </form>\n\t<etym>[in LXX for <foreign xml:lang=\"heb\" n=\"H7896\">שִׁית</foreign> etc. ;] </etym>\n\t<sense><gloss>to help in putting on</gloss>. Mid.,  <gloss>to join in attacking</gloss> (Thuc.): <ref osisRef=\"Acts.24.9\">Ac 24:9</ref> (RV,  <emph>joined in the charge</emph>).†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "συνιστάνω",
+      "innerHTML": "\n  <form><orth>συνιστάνω</orth> and <foreign xml:lang=\"grc\">συνιστάω</foreign>,  v.s. <foreign xml:lang=\"grc\">συνίστημι</foreign>.</form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "συνκαθίζω׀συγκαθίζω",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">2</note>\n  <form><orth>συν-καθίζω</orth> </form>\n<etym>\n  <seg type=\"derivation\">(Rec. <foreign xml:lang=\"grc\">συγκ-</foreign>),  </seg>\n  <seg type=\"septuagint\">[in LXX for <foreign xml:lang=\"heb\" n=\"H3427\">ישׁב</foreign>,  <foreign xml:lang=\"heb\" n=\"H7257\">רבץ</foreign> ;] </seg>\n</etym>\n  <sense>\n    <sense n=\"1.\">trans.,  <gloss>to make to sit together</gloss>: c. acc. pers.,  seq. <foreign xml:lang=\"grc\">ἐν</foreign>,  <ref osisRef=\"Eph.2.6\">Eph 2:6</ref>. </sense>\n    <sense n=\"2.\">Intrans. = mid.,  <gloss>to sit together</gloss>: <ref osisRef=\"Luke.22.55\">Lk 22:55</ref>.†</sense>\n  </sense>\n",
+      "occurrences": "2",
+      "strongs": []
+    },
+    {
+      "word": "συνκατανεύω",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>*† <orth>συν-κατα-νεύω</orth></form>\n\t<sense><gloss>to agree,  consent to</gloss>: <ref osisRef=\"Acts.18.27\">Ac 18:27</ref>,  WH,  mg. (Polyb.).†</sense>\n  ",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "συνμορφίζω",
+      "innerHTML": "\n  <form><orth>συν-μορφίζω</orth>,  v.s. <foreign xml:lang=\"grc\">συμμορφίζω</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "σύνοιδα",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">2</note>\n  <form><foreign xml:lang=\"grc\">σύν-οιδα</foreign>,  pf. with Pres. meaning (v.s. <foreign xml:lang=\"grc\">οἶδα</foreign>),  </form>\n<etym>\n  <seg type=\"septuagint\">[in LXX: <ref osisRef=\"Lev.5.1\">Le 5:1</ref> (<foreign xml:lang=\"heb\" n=\"H3045\">ידע</foreign>),  <ref osisRef=\"Job.27.6\">Jb 27:6</ref>; ptcp.,  <ref osisRef=\"1Macc.4.21\">I Mac 4:21</ref> A,  <ref osisRef=\"2Macc.4.41\">II Mac 4:41</ref> A,  <ref osisRef=\"3Macc.2.8\">III Mac 2:8</ref> R * ;]</seg>\n</etym>\n  <sense n=\"1.\"><gloss>to share the knowledge of,  be privy to</gloss> (Hdt.,  Thuc.,  al.): ptcp.,  <ref osisRef=\"Acts.5.2\">Ac 5:2</ref>. </sense>\n  <sense n=\"2.\">C. pron. reflex.,  <gloss>to be conscious of</gloss> (Eur.,  Plat.,  al.),  esp. of guilty consciousness: <foreign xml:lang=\"grc\">οὐδὲν γὰρ ἐμαυτῷ σ.</foreign>,  <gloss>for I know nothing against myself</gloss>,  <ref osisRef=\"1Cor.4.4\">I Co 4:4</ref>.†</sense>\n",
+      "occurrences": "2",
+      "strongs": []
+    },
+    {
+      "word": "συνοράω",
+      "innerHTML": "\n  <form><orth>συν-οράω</orth>,  v.s. <foreign xml:lang=\"grc\">συνεῖδον</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "συνπίνω",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form><orth>συν-πίνω</orth> </form>\n<etym>\n  <seg type=\"derivation\">(Rec. <foreign xml:lang=\"grc\">συμπ-</foreign>),  </seg>\n  <seg type=\"septuagint\">[in LXX: <ref osisRef=\"Ezra.7.1\">Es 7:1</ref> (<foreign xml:lang=\"heb\" n=\"H5973\">עִם</foreign> <foreign xml:lang=\"heb\" n=\"H8354\">שָׁתָה</foreign>) ;]</seg>\n</etym>\n  <sense><gloss>to drink with</gloss> c. dat. pers.,  <ref osisRef=\"Acts.10.41\">Ac 10:41</ref>.†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "συνπίπτω",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form><orth>συν-πίπτω</orth> </form>\n  <etym>\n  <seg type=\"derivation\">(Rec. <foreign xml:lang=\"grc\">συμπ-</foreign>),  </seg>\n  <seg type=\"septuagint\">[in LXX for <foreign xml:lang=\"heb\" n=\"H5307\">נפל</foreign>,  etc. ;]</seg>\n</etym>\n\t<sense><gloss>to fall together,  fall in</gloss>,  etc.: of a house (cf. MM,  xxiv),  <ref osisRef=\"Luke.6.49\">Lk 6:49</ref>.†</sense>\n  ",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "συνσ-",
+      "innerHTML": "\n  <form><orth>συνσ-</orth>,  v. passim <foreign xml:lang=\"grc\">συσσ-</foreign>.</form>\n  ",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "συνχύννω",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">5</note>\n  <form>*† <orth>συν-χύννω</orth>  (Rec. <foreign xml:lang=\"grc\">συγ-</foreign>; and in <ref osisRef=\"Acts.9.22\">Ac 9:22</ref> with LTr.,  as in late writers generally,  <foreign xml:lang=\"grc\">-χύνω</foreign>) </form>\n    <sense>Hellenistic form of <foreign xml:lang=\"grc\">-χέω</foreign> (q.v.): <ref osisRef=\"Acts.2.6\">Ac 2:6</ref> <ref osisRef=\"Acts.9.22\">9:22</ref> <ref osisRef=\"Acts.19.32\">19:32</ref> <ref osisRef=\"Acts.21.31\">21:31</ref>.†</sense>\n",
+      "occurrences": "5",
+      "strongs": []
+    },
+    {
+      "word": "συστασιαστής",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>*† <orth>συ-στασιαστής</orth>,  <foreign xml:lang=\"grc\">-οῦ,  ὁ, </foreign> </form>\n  <sense><gloss>a fellow-rioter</gloss>: <ref osisRef=\"Mark.15.7\">Mk 15:7</ref>,  Rec.†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "σφυρόν",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form><orth>σφυρόν</orth>,  <foreign xml:lang=\"grc\">-οῦ,  τό</foreign>,  </form>\n<etym>\n  <seg type=\"septuagint\">[in LXX: <ref osisRef=\"Job.41.21\">Jb 41:20(21)</ref> (<foreign xml:lang=\"heb\" n=\"H8455\">תּוֺתָח</foreign>) * ;]</seg>\n</etym>\n  <sense><gloss>the ankle</gloss>: <ref osisRef=\"Acts.3.7\">Ac 3:7</ref>,  Rec. (T,  WH,  <foreign xml:lang=\"grc\">σφυδρόν</foreign>; v. Bl.,  § 6,  8).†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "σωτήριον",
+      "innerHTML": "\n  <form><orth>σωτήριον</orth>,  v.s. <foreign xml:lang=\"grc\">σωτήριος</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Τ",
+      "innerHTML": "\n  <form><orth>Τ</orth>,  <foreign xml:lang=\"grc\">τ,  ταῦ,  τό</foreign>,   indecl.,  </form>\n    <sense><gloss>tau,  t</gloss>,  the nineteenth letter. As a numeral,  <foreign xml:lang=\"grc\">τʹ</foreign> = 300,  <foreign xml:lang=\"grc\">τ͵</foreign> = 300, 000.</sense>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Ταβιθά",
+      "innerHTML": "\n  <form><orth>Ταβιθά</orth>,  v.s. <foreign xml:lang=\"grc\">Ταβειθά</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ταπεινόφρων",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>† <orth>ταπεινόφρων</orth>,  <foreign xml:lang=\"grc\">-ον</foreign> </form>\n<etym>\n  <seg type=\"derivation\">(&lt; <foreign xml:lang=\"grc\">ταπεινός</foreign>,  <foreign xml:lang=\"grc\">φρήν</foreign>),  </seg>\n  <seg type=\"septuagint\">[in LXX: <ref osisRef=\"Prov.29.23\">Pr 29:23</ref> (<foreign xml:lang=\"heb\" n=\"H7307\">רוּחַ</foreign> <foreign xml:lang=\"heb\" n=\"H8217\">שָׁפָל</foreign>)* ;] </seg>\n</etym>\n  <sense><gloss>humble-minded</gloss>: <ref osisRef=\"1Pet.3.8\">I Pe 3:8</ref> (in bad sense,  Plut.,  2,  336 E,  cf. Deiss.,  <emph>LAE</emph>,  72<hi rend=\"subscript\">3</hi>).†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "τετρακόσιοι",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">4</note>\n  <form><orth>τετρακόσιοι</orth>,  <foreign xml:lang=\"grc\">-αι,  -α</foreign>,  </form>\n    <sense><gloss>four hundred</gloss>: <ref osisRef=\"Acts.5.36\">Ac 5:36</ref> <ref osisRef=\"Acts.7.6\">7:6</ref> <hi rend=\"superscript\">(LXX)</hi> <ref osisRef=\"Acts.13.20\">13:20</ref>,  <ref osisRef=\"Gal.3.17\">Ga 3:17</ref>.†</sense>\n",
+      "occurrences": "4",
+      "strongs": []
+    },
+    {
+      "word": "τετραρχέω",
+      "innerHTML": "\n  <form><orth>τετραρχέω -αρχής</orth>,  v.s. <foreign xml:lang=\"grc\">τετρααρχέω,  -αρχής</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "τεύχω",
+      "innerHTML": "\n  <form><orth>τεύχω</orth>,  v.s. <foreign xml:lang=\"grc\">τυγχάνω</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Τίτιος",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form><orth>Τίτιος</orth>,  <foreign xml:lang=\"grc\">-ου,  ὁ</foreign>,  </form>\n  <sense><gloss>Titius</gloss>,  surnamed Justus: <ref osisRef=\"Acts.18.7\">Ac 18:7</ref>,  T,  WH (RV.,  <foreign xml:lang=\"grc\">Τίτος</foreign>).†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "Τρεῖς_Ταβέρναι",
+      "innerHTML": "\n    <sense><foreign xml:lang=\"grc\">Τρεῖς Ταβέρναι</foreign> </sense>\n<etym>\n  <seg type=\"derivation\">(v.s. <foreign xml:lang=\"grc\">ταβέρνη</foreign>),  </seg>\n</etym> \n<sense>Three Taverns (Lat. <foreign xml:lang=\"lat\">Tres Tabernae</foreign>) a halting place on the Appian Way: <ref osisRef=\"Acts.28.15\">Ac 28:15</ref> (v. <emph>DB</emph>,  iv,  690).†</sense>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "τρῆμα",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">2</note>\n  <form>* <orth>τρῆμα</orth>,  <foreign xml:lang=\"grc\">-τος,  τό</foreign>,  </form>\n  <sense><gloss>a perforation,  hole</gloss>: <foreign xml:lang=\"grc\">ῥαφίδος</foreign>,  <ref osisRef=\"Matt.19.24\">Mt 19:24</ref>,  WH,  txt. <foreign xml:lang=\"grc\">βελόνης</foreign>,  <ref osisRef=\"Luke.18.25\">Lk 18:25</ref> (Aristoph.,  Plat.,  al.).†</sense>\n  <re><emph>SYN.</emph>: <foreign xml:lang=\"grc\" n=\"G5168\">τρυμαλιά</foreign>,  <foreign xml:lang=\"grc\" n=\"G5169\">τρύπημα</foreign> </re>\n",
+      "occurrences": "2",
+      "strongs": []
+    },
+    {
+      "word": "τροφοφορέω",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>† <orth>τροφο-φορέω</orth>,  <foreign xml:lang=\"grc\">-ῶ, </foreign> </form>\n<etym>\n  <seg type=\"septuagint\">[in LXX: <ref osisRef=\"Deut.1.31\">De 1:31</ref> (<foreign xml:lang=\"heb\" n=\"H5375\">נָשָׂא</foreign>),  <ref osisRef=\"2Macc.7.27\">II Mac 7:27</ref> * ;]</seg>\n</etym>\n  <sense><gloss>to nourish</gloss> (Hesych.),  <gloss>bear like a nurse</gloss> (R,  mg.,  <emph>bare he them as a nursing-father</emph>): c. acc pers.,  <ref osisRef=\"Acts.13.18\">Ac 13:18</ref>,  T,  Tr.,  R,  mg. (WH,  R,  txt.,  <foreign xml:lang=\"grc\">τροποφορέω</foreign>,  q.v.).†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "τυπικῶς",
+      "innerHTML": "\n  \t<note type=\"occurrencesNT\">1</note>\n\t<form>*† <orth>τυπικῶς</orth>,  </form>\n\t<gramGrp><pos>adv.</pos>,  </gramGrp>\n\t<etym>(&lt; <foreign xml:lang=\"grc\">τύπος</foreign>),  </etym>\n\t<sense>\n\t\t<sense n=\"(a)\"><gloss>typically</gloss> (Greg. Naz.) , ̓ </sense>\n\t\t<sense n=\"(b)\"><gloss>by way of example</gloss>: <ref osisRef=\"1Cor.10.11\">I Co 10:11</ref>.†</sense></sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "τυχόν",
+      "innerHTML": "\n<note type=\"occurrencesNT\">0</note>\n  <form><orth>τυχόν</orth>,  <gramGrp><pos>adv.</pos></gramGrp>,  v.s. <foreign xml:lang=\"grc\">τυγχάνω</foreign></form>\n",
+      "occurrences": "0",
+      "strongs": []
+    },
+    {
+      "word": "Υ",
+      "innerHTML": "\n  <form><orth>Υ</orth>,  <foreign xml:lang=\"grc\">υ,  ὖψιλόν,  τό</foreign>,   indecl.,  </form>\n<sense><gloss>υpsilon,  υ, </gloss>,  the twentieth letter. As a numeral,  \n<foreign xml:lang=\"grc\">υʹ</foreign> = 400,  \n<foreign xml:lang=\"grc\">υ͵</foreign> = 400, 000. \nAt the beginning of a word,  <foreign xml:lang=\"grc\">υ</foreign> is always aspirated.\n</sense>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ὑπερεκπερισσοῦ",
+      "innerHTML": "\n\t<note type=\"occurrencesNT\">3</note>\n  <form>*† <orth>ὑπερ-εκ-περισσοῦ</orth>,  </form>\n\t<gramGrp><pos>comp. adv.</pos> (v. supr.),  </gramGrp>\n\t<sense><gloss>superabundantly,  exceeding abundantly</gloss>: <ref osisRef=\"1Thess.3.10\">I Th 3:10</ref> <ref osisRef=\"1Thess.5.13\">5:13</ref>; seq <foreign xml:lang=\"grc\">ὑπέρ</foreign>,  <ref osisRef=\"Eph.3.20\">Eph 3:20</ref> (not elsewhere).†</sense>\n",
+      "occurrences": "3",
+      "strongs": []
+    },
+    {
+      "word": "ὑπερεκπερισσῶς",
+      "innerHTML": "\n\t<note type=\"occurrencesNT\">?</note>\n  <form>*† <orth>ὑπερ-εκ-περισσῶς</orth>,  </form>\n\t<gramGrp><pos>comp. adv.</pos> (v. supr.),  </gramGrp>\n\t<sense><gloss>beyond measure,  exceedingly</gloss>: <ref osisRef=\"1Thess.5.13\">I Th 5:13</ref>,  WH,  mg. (cf.<foreign xml:lang=\"grc\"> ἐκπερισσῶς </foreign>).†</sense>\n",
+      "occurrences": "?",
+      "strongs": []
+    },
+    {
+      "word": "ὑπερλίαν",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">2</note>\n  <form>*† <orth>ὑπερλίαν</orth>  (Rec. <foreign xml:lang=\"grc\">ὑπὲρ λίαν</foreign>,  v. WM,  § 50,  7<hi rend=\"subscript\">n</hi>; B1.,  § 4,  1),  </form>\n    <gramGrp><pos>adv.</pos>,  </gramGrp>\n  <sense><gloss>exceedingly,  pre-eminently</gloss>: <ref osisRef=\"2Cor.11.5\">II Co 11:5</ref> <ref osisRef=\"2Cor.12.11\">12:11</ref>.†</sense>\n",
+      "occurrences": "2",
+      "strongs": []
+    },
+    {
+      "word": "ὑπεροράω",
+      "innerHTML": "\n  <form><orth>ὑπερ-οράω</orth>,  v.s. <foreign xml:lang=\"grc\">ὑπερεῖδον</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ὑπολαμπάς",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>† <orth>ὑπολαμπάς</orth>,  <foreign xml:lang=\"grc\">-άδος,  ἡ, </foreign> </form>\n    <sense>a window: <ref osisRef=\"Acts.20.8\">Ac 20:8</ref> D (for <foreign xml:lang=\"grc\">λαμπάς</foreign>; v. MM,  xxv).†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "ὑπόλειμμα",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form><orth>ὑπό-λειμμα</orth> </form>\n<etym>\n  <seg type=\"derivation\">(WH,  <foreign xml:lang=\"grc\">-λιμμα</foreign>,  v. their <emph>App.</emph>,  154),  <foreign xml:lang=\"grc\">-τος,  τό</foreign>,  </seg>\n  <seg type=\"septuagint\">[in LXX chiefly for <foreign xml:lang=\"heb\" n=\"H7604\">שְׁאֵרִית</foreign> ;] </seg>\n</etym>\n  <sense><gloss>a remnant</gloss>: <ref osisRef=\"Rom.9.27\">Ro 9:27</ref> (Arist.,  al.; cf. <foreign xml:lang=\"grc\">κατάλειμμα</foreign>).†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "ὑπόλιμμα",
+      "innerHTML": "\n  <form><orth>ὑπό-λιμμα</orth>,  v.s. <foreign xml:lang=\"grc\">ὑπόλειμμα</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ὑσσός",
+      "innerHTML": "\n  <form>*† <orth>ὑσσός</orth>,  <foreign xml:lang=\"grc\">-ο,  ό</foreign>,  <gloss>a javelin</gloss> (v. ref. s.v,  <foreign xml:lang=\"grc\">ὕσσωπος)</foreign> </form>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ὑφαίνω",
+      "innerHTML": "\n <form><orth>ὑφαίνω</orth>,  </form>\n<etym>\n  <seg type=\"septuagint\">[in LXX for <foreign xml:lang=\"heb\" n=\"H707\">אָרַג</foreign>,  etc. ;] </seg>\n</etym>\n  <sense><gloss>to weave</gloss>: <ref osisRef=\"Luke.12.27\">Lk 12:27</ref>,  T,  WH,  mg.†</sense>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Φ",
+      "innerHTML": "\n  <form><orth>Φ,  φ</orth>,  <foreign xml:lang=\"grc\">φῖ,  τό</foreign>,   indecl.,  </form>\n<sense><gloss>phi,  ph, </gloss>,  the twenty-first letter. As a numeral,  \n<foreign xml:lang=\"grc\">φʹ</foreign> = 500,  \n<foreign xml:lang=\"grc\">φ͵</foreign> = 500, 000. \n</sense>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "φαιλόνης",
+      "innerHTML": "\n  <form><orth>φαιλόνης</orth>,  v.s. <foreign xml:lang=\"grc\">φελόνης</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "φαρμακεῖα",
+      "innerHTML": "\n  <form><orth>φαρμακεῖα</orth>,  v.s. <foreign xml:lang=\"grc\">φαρμακία</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "φάρμακον",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form><orth>φάρμακον</orth>,  <foreign xml:lang=\"grc\">-ου,  τό</foreign>,  </form>\n    <etym>\n      <seg type=\"septuagint\">[in LXX for <foreign xml:lang=\"heb\" n=\"H3785\">כֶּשֶׁף</foreign> ;] </seg>\n    </etym>\n    <sense>\n      <sense n=\"(a)\"><gloss>a drug</gloss>; </sense>\n      <sense n=\"(b)\"><gloss>an in­cantation,  enchantment</gloss>: <ref osisRef=\"Rev.9.21\">Re 9:21</ref>,  Tr.,  mg.,  WH,  txt. (RV,  <gloss>sorceries</gloss>).†</sense>\n     </sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "φημίζω",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">1</note>\n  <form>* <orth>φημίζω</orth> </form>\n<etym>\n  <seg type=\"derivation\">(&lt; <foreign xml:lang=\"grc\">φήμη</foreign>),  </seg>\n</etym>\n  <sense><gloss>to spread a report</gloss>: <ref osisRef=\"Matt.28.15\">Mt 28:15</ref>,  T,  WH,  mg. (v. <foreign xml:lang=\"grc\">δια-φ.</foreign>).†</sense>\n",
+      "occurrences": "1",
+      "strongs": []
+    },
+    {
+      "word": "φίλη",
+      "innerHTML": "\n  <form><orth>φίλη</orth>,  <foreign xml:lang=\"grc\">ἡ</foreign>,  v.s. <ref><foreign xml:lang=\"grc\">φίλος</foreign></ref>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "φοινίκισσα",
+      "innerHTML": "\n\t<note type=\"occurrencesNT\">0</note>\n<form><orth>φοινίκισσα</orth>,  (on the ending,  v. Bl.,  § 27,  4,  and cf. <foreign xml:lang=\"grc\">Φοῖνιξ</foreign>)</form>\n  <sense><gloss>a Phœnician woman</gloss> <foreign xml:lang=\"grc\">Σύρα Φ</foreign>.,  <ref osisRef=\"Mark.7.26\">Mk 7:26</ref> WH,  mg.,  for <foreign xml:lang=\"grc\">Συροφοινίκισσα</foreign>,  q.v.† </sense>\n",
+      "occurrences": "0",
+      "strongs": []
+    },
+    {
+      "word": "Χ",
+      "innerHTML": "\n  <form><orth>Χ,  χ</orth>,  <foreign xml:lang=\"grc\">χῖ,  τό</foreign>,   indecl.,  </form>\n<sense><gloss>chi,  ch, </gloss>,  the twenty-second letter. As a numeral,  \n<foreign xml:lang=\"grc\">χʹ</foreign> = 600,  \n<foreign xml:lang=\"grc\">χ͵</foreign> = 600, 000 ; but in Inscr.,  Χ = 1000. \n</sense>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "χέω",
+      "innerHTML": "\n  <form><orth>χέω</orth>,  v.s. <foreign xml:lang=\"grc\">χύνω</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "χθές",
+      "innerHTML": "\n  <form><orth>χθές</orth>,  v.s. <foreign xml:lang=\"grc\">ἐχθές</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "χόος",
+      "innerHTML": "\n  <form><orth>χόος</orth>,  v.s. <foreign xml:lang=\"grc\">χοῦς</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "χρυσοῦς",
+      "innerHTML": "\n  <form><orth>χρυσοῦς</orth>,  v.s. <foreign xml:lang=\"grc\">χρύσεος</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Χωραζίν",
+      "innerHTML": "\n  <form><orth>Χωραζίν</orth>,  v.s. <foreign xml:lang=\"grc\">Χοραζείν</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "Ψ",
+      "innerHTML": "\n  <form><orth>Ψ,  ψ</orth>,  <foreign xml:lang=\"grc\">ψῖ,  τό</foreign>,   indecl.,  </form>\n<sense><gloss>psi,  ps, </gloss>,  the twenty-third letter. As a numeral,  \n<foreign xml:lang=\"grc\">ψʹ</foreign> = 700,  \n<foreign xml:lang=\"grc\">ψ͵</foreign> = 700, 000. \n</sense>\n",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ψεύδομαι",
+      "innerHTML": "\n  <form><orth>ψεύδομαι</orth>,  v.s. <foreign xml:lang=\"grc\">ψεύδω</foreign>.</form>",
+      "occurrences": null,
+      "strongs": []
+    },
+    {
+      "word": "ὠτίον",
+      "innerHTML": "\n  <note type=\"occurrencesNT\">3</note>\n  <form>† <orth>ὠτίον</orth>,  <foreign xml:lang=\"grc\">-ου,  τό, </foreign> dimin. of <foreign xml:lang=\"grc\">οὖς</foreign>,  </form>\n<etym>\n  <seg type=\"septuagint\">[in LXX for <foreign xml:lang=\"heb\" n=\"H241\">אֹזֶן</foreign> ;] </seg>\n</etym>\n  <sense>an ear: <ref osisRef=\"Matt.26.51\">Mt 26:51</ref>,  <ref osisRef=\"Luke.22.51\">Lk 22:51</ref>,  <ref osisRef=\"John.18.26\">Jo 18:26</ref>.†</sense>\n",
+      "occurrences": "3",
+      "strongs": []
+    }
+  ]
+}
