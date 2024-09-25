@@ -272,7 +272,12 @@
             let results = [];
 
             if (searchTerm.length > 1) {
-                results = BibleInfo.getNTBooks().filter((elem, ind, arr) => elem.toLowerCase().startsWith(searchTerm.toLowerCase())).map(v => v + " 1:1");
+                let matchingBooks = BibleInfo.getNTBooks().filter((elem, ind, arr) => elem.toLowerCase().startsWith(searchTerm.toLowerCase()));
+                matchingBooks.forEach(book => {
+                    for (let chapter = 1; chapter <= BibleInfo.getChapterCount(book); chapter++) {
+                        results.push(book + " " + chapter + ":1");
+                    }
+                });
             }
 
             results = results.concat(lexicon.getSimilar(searchTerm));
