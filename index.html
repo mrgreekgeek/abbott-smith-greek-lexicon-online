@@ -395,6 +395,7 @@
 
         if (normalizedSearchTerm === null) {
             domResultContent.innerHTML = "This search provided no results.";
+            return;
         }
 
         // Update the URL with the search term
