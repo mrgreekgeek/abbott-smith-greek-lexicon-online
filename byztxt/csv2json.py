@@ -28,7 +28,7 @@ book_list = {
     "MAT": "Matthew",
     "PHM": "Philemon",
     "PHP": "Philippians",
-    "REV": "Revelations",
+    "REV": "Revelation",
     "ROM": "Romans",
     "TIT": "Titus",
 }
@@ -37,7 +37,6 @@ book_list = {
 acc_folder_path = "accented"
 unacc_folder_path = "unaccented"
 merged_folder_path = "merged"
-output_file = os.path.join(merged_folder_path, "ByzantineText.json")
 
 accented_data = {}
 unaccented_data = {}
@@ -98,11 +97,11 @@ for book in book_list.keys():
 
     u_data = unaccented_data[book]
     a_data = accented_data[book]
+    standardized_name = book_list[book]
 
     # Merge the dictionaries
     for key in u_data:
         if key in a_data:
-            standardized_name = book_list[book]
             u_data[key].update(a_data[key])
             merged_data[standardized_name] = u_data
             if len(u_data[key]["words"]) != len(a_data[key]["words"]):
@@ -110,5 +109,6 @@ for book in book_list.keys():
         else:
             print("%s (chapter-verse) is in %s but not in %s" % (key, ufile_path, afile_path))
 
-with open(output_file, 'w', encoding='utf-8') as f_out:
-    json.dump(merged_data, f_out, ensure_ascii=False, indent=2)
+    output_file = os.path.join(merged_folder_path, "{}.json".format(standardized_name))
+    with open(output_file, 'w', encoding='utf-8') as f_out:
+        json.dump(merged_data[standardized_name], f_out, ensure_ascii=False, indent=1)

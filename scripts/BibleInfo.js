@@ -56,8 +56,24 @@ var BibleInfo = new function() {
 		
 		return bookinfo.length - 1;
 		};
-	
-	
+
+
+	/*
+	Returns an array of the New Testament books in order.
+	 */
+	this.getNTBooks = function () {
+		let matthewIndex = this.getBookIndex("matthew");
+		return this.bookNames.slice(matthewIndex);
+	}
+
+	/*
+	Returns an array of the Old Testament books in order.
+	 */
+	this.getOTBooks = function () {
+		let malachiIndex = this.getBookIndex("malachi");
+		return this.bookNames.slice(0, malachiIndex + 1);
+	}
+
 	this.getVersesInChapter = function (book, chapter) {
 		/*
 		This returns the verses for the $chapter in $book.
@@ -149,6 +165,32 @@ var BibleInfo = new function() {
 			Array("Jude", 25),
 			Array("Revelation", 20, 29, 22, 11, 14, 17, 17, 13, 21, 11, 19, 17, 18, 20, 8, 21, 18, 24, 21, 15, 27, 21));
 		};
+
+
+	/*
+	True if bookName is an OT book. False, otherwise.
+	 */
+	this.isOTBook = function (bookName) {
+		let index = this.getBookIndex(bookName);
+
+		if (index >= this.getBookIndex("genesis") && index <= this.getBookIndex("malachi"))
+			return true;
+
+		return false;
+	}
+
+
+	/*
+	True if bookName is an NT book. False, otherwise.
+	 */
+	this.isNTBook = function (bookName) {
+		let index = this.getBookIndex(bookName);
+
+		if (index >= this.getBookIndex("matthew") && index <= this.getBookIndex("revelation"))
+			return true;
+
+		return false;
+	}
 
 
 		/*
