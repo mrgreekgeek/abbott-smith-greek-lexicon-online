@@ -67,11 +67,18 @@
         });
 
         //search for any provided terms
-        let urlSearchTerm = getURLParameter('search');
-        if (urlSearchTerm) {
-            domSearchInput.value = urlSearchTerm;
-            search(urlSearchTerm);
+        function searchUrlTerm (isBackOrForward) {
+            let urlSearchTerm = getURLParameter('search');
+            let currentTerm = domSearchInput.value;
+            if (urlSearchTerm !== currentTerm) {
+                domSearchInput.value = urlSearchTerm || "";
+                search(domSearchInput.value, isBackOrForward);
+            }
         }
+
+        searchUrlTerm();
+
+        window.addEventListener("popstate", () => searchUrlTerm(true));
     };
 
     function highlightstrongs(strongstohighlight) {
@@ -352,7 +359,7 @@
         });
     }
 
-    function search(searchTerm) {
+    function search(searchTerm, noMutateState) {
         let entry = lexicon.search(searchTerm);
         let normalizedSearchTerm = null;
         let suggestions = document.getElementById('suggestions');
@@ -399,6 +406,7 @@
         }
 
         if (normalizedSearchTerm === null) {
+            document.title = "Abbott-Smith, A Manual Greek Lexicon of the New Testament Online";
             domResultContent.innerHTML = "This search provided no results.";
             return;
         }
@@ -408,7 +416,9 @@
         domSearchInput.value = normalizedSearchTerm;
 
         let newUrl = updateURLParameter('search', normalizedSearchTerm);
-        history.pushState({}, '', newUrl);
+        
+        if (noMutateState !== true)
+            history.pushState({}, '', newUrl);
 
         if (localStorage !== undefined) {
             let recentHistory = JSON.parse(localStorage.getItem("recentHistory")) ?? [];
